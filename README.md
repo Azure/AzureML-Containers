@@ -18,7 +18,7 @@ This repository contains Docker containers used in [Azure Machine Learning](http
 <a name="introduction"></a>
 ### Introduction
 
-These Docker images are used for training runs submitted via Azure ML. While submitting a training run on AmlCompute or any other target with Docker enabled, Azure ML runs your job in a conda environment within a Docker container with several dependencies installed.  You can also specify any extra dependencies to be installed using `pip_packages`, `pip_requirements_file_path`, `conda_dependencies_file` and `conda_packages` parameters. The extra dependencies are installed on top of the dependencies in the Docker image. If you are using the estimators specific for [DNN training](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.dnn?view=azure-ml-py), the DNN framework related dependencies are also installed. You can control the version of the DNN installed using the framework_version parameter. If no version is specified, default version will be used.
+These Docker images are used for training runs submitted via Azure ML. While submitting a training run on AmlCompute or any other target with Docker enabled, Azure ML runs your job in a conda environment within a Docker container with several dependencies installed.  You can also specify any extra dependencies to be installed using `pip_packages`, `pip_requirements_file_path`, `conda_dependencies_file` and `conda_packages` parameters. The extra dependencies are installed on top of the dependencies in the Docker image. If you are using the estimators specific for [DNN training](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.dnn?view=azure-ml-py), the DNN framework related dependencies are also installed. You can control the version of the DNN installed using the `framework_version` parameter. If no version is specified, default version will be used.
 
 <a name="howThingsWork"></a>
 ### How AzureML prepares an image for training
@@ -26,7 +26,7 @@ For example, if you are using the [PyTorch Estimator](https://docs.microsoft.com
 1. If no custom_docker_image was specified, Azure ML decides between [CPU base images](./base/cpu) and [GPU base images](./base/gpu) based on the `use_gpu` flag.
 2. Based on the `framework_version` Azure ML selects the list of framework based dependencies to be added. If not specified, the default framework version will be used.
 3. For the PyTorch estimator the framework specific dependencies are torch==1.0, torchvision==0.2.1 and horovod==0.15.2
-4. The training happens on a Docker image built with all these dependencies. A new Docker image is built if this is the first time a combination of dependencies are used in a workspace. If not, a cached Docker image is used. The Docker image built for the training jobs are stored in an [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli) that is attached to your workspace. You can get the name of this ACR using `workspace.get_details`. If there was a image build step, you can take a look at the logs to understand the steps involved to build the final Docker image.
+4. The training happens on a Docker image built with all these dependencies. A new Docker image is built if this is the first time a combination of dependencies are used in a workspace. If not, a cached Docker image is used. The Docker image built for the training jobs are stored in an [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli) that is attached to your workspace. You can get the name of this ACR using `workspace.get_details()`. If there was a image build step, you can take a look at the logs to understand the steps involved to build the final Docker image.
 
 <a name="dependencies"></a>
 ### Dependencies
@@ -40,7 +40,7 @@ Currently Azure ML supports both cuda9 and cuda10 base images. The major depende
 | cudnn | - | - | 7.4/7.5 | 7.4/7.5 |
 | nccl | - | - | 2.4 | 2.4 |
 
-The CPU images are built from ubuntu16.04. The GPU images for cuda9 are built from nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04. The GPUimages for cuda10 are built from nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04.
+The CPU images are built from ubuntu16.04. The GPU images for cuda9 are built from nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04. The GPU images for cuda10 are built from nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04.
 
 <a name="getdocker"></a>
 ### How to get Azure ML Docker Containers
@@ -55,7 +55,7 @@ If you observe the naming convention, image name and image tag information can b
 
 GPU images pulled from MCR can only be used with Azure Services. Take a look at LICENSE.txt file inside the docker container for more information.
 
-Currently Azure ML is using [IntelMPI CPU](./base/cpu/base_images/docker/public/base/intelmpi2018.3-ubuntu16.04) as the default base image for training on a CPU compute target and [IntelMPI GPU](./base/gpu/base_images/docker/public/base/intelmpi2018.3-ubuntu16.04) as the default base image for training on a GPU compute target. If you want to override the default image with another image from MCR or any publicly available image, you can do so by specifying an image in `custom_docker_image` parameter in the [Azure ML Estimators](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.estimator?view=azure-ml-py). You can specify a `custom_docker_image` parameter in both Generic Estimators and any DNN Estimators provided by Azure ML.
+Currently Azure ML is using [IntelMPI CPU](./base/cpu/intelmpi2018.3-ubuntu16.04) as the default base image for training on a CPU compute target and [IntelMPI GPU](./base/gpu/intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04) as the default base image for training on a GPU compute target. If you want to override the default image with another image from MCR or any publicly available image, you can do so by specifying an image in `custom_docker_image` parameter in the [Azure ML Estimators](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.estimator?view=azure-ml-py). You can specify a `custom_docker_image` parameter in both Generic Estimators and any DNN Estimators provided by Azure ML.
 
 <a name="tags"></a>
 ### Featured Tags
@@ -69,7 +69,7 @@ Each image is associated with one or more tags. Below is the list of images and 
 - [IntelMPI GPU - cuda9](./base/gpu/intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04)
     * base-gpu:intelmpi2018.3-ubuntu16.04
     * base-gpu:latest
-- [OpenMPI GPU - cuda9](../base/gpu/openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04)
+- [OpenMPI GPU - cuda9](./base/gpu/openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04)
     * base-gpu:openmpi3.1.2-ubuntu16.04
 - [IntelMPI GPU - cuda10](./base/gpu/intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04)
     * base-gpu:intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
@@ -101,13 +101,13 @@ Use `docker run` to test the image locally
 
 <a name="push"></a>
 #### Push Docker image
-You can use images from [docker hub](https://docs.docker.com/engine/reference/commandline/push/) and [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli) in Azure ML. Push your image to the repository of your choice.
+You can use images from [Docker Hub](https://hub.docker.com/) and [Azure Container Registry](https://hub.docker.com/) in Azure ML. Push your image to the repository of your choice.
 
 If needed by one of the training jobs you submitted in Azure ML, an Azure Container Registry is created on your behalf and attached to your [Azure ML workspace](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-azure-machine-learning-architecture#workspace). You can get this information using `workspace.get_details()`. If it was created, you can also get credentials of this ACR from Azure portal and reuse the same ACR to push your images.
 
 <a name="submit"></a>
 #### Submit a training job
-Use `image_registry_details` and `custom_docker_image` parameters in Azure ML Estimators to use your own Docker file.
+Use `image_registry_details` and `custom_docker_image` parameters in Azure ML Estimators to use your own Dockerfile.
 If your image is in a public repository, [here](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/training-with-deep-learning/distributed-cntk-with-custom-docker/distributed-cntk-with-custom-docker.ipynb) is an example on how to use the image for training. If your image is in a private repository use `image_registry_details` parameter to specify the credentials for your repository.
 
 ## Projects using Azure Machine Learning
