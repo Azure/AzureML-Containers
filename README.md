@@ -101,7 +101,7 @@ Use `docker run` to test the image locally
 
 <a name="push"></a>
 #### Push Docker image
-You can use images from [Docker Hub](https://hub.docker.com/) and [Azure Container Registry](https://hub.docker.com/) in Azure ML. Push your image to the repository of your choice.
+You can use images from [Docker Hub](https://hub.docker.com/) and [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli) in Azure ML. Push your image to the repository of your choice.
 
 If needed by one of the training jobs you submitted in Azure ML, an Azure Container Registry is created on your behalf and attached to your [Azure ML workspace](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-azure-machine-learning-architecture#workspace). You can get this information using `workspace.get_details()`. If it was created, you can also get credentials of this ACR from Azure portal and reuse the same ACR to push your images.
 
