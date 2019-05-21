@@ -53,7 +53,7 @@ You can pull these images from MCR using the following command.
 
 If you observe the naming convention, image name and image tag information can be identified from the folder names in this repository.
 
-GPU images pulled from MCR can only be used with Azure Services. Take a look at LICENSE.txt file inside the docker container for more information.
+GPU images pulled from MCR can only be used with Azure Services. Take a look at LICENSE.txt file inside the docker container for more information. GPU images are built from nvidia images. For NVIDIA CUDA and CUDNN take a look at the ThirdPartyNotices.txt file inside the docker container for more information about NVIDIA’s license terms
 
 Currently Azure ML is using [IntelMPI CPU](./base/cpu/intelmpi2018.3-ubuntu16.04) as the default base image for training on a CPU compute target and [IntelMPI GPU](./base/gpu/intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04) as the default base image for training on a GPU compute target. If you want to override the default image with another image from MCR or any publicly available image, you can do so by specifying an image in `custom_docker_image` parameter in the [Azure ML Estimators](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.estimator?view=azure-ml-py). You can specify a `custom_docker_image` parameter in both Generic Estimators and any DNN Estimators provided by Azure ML.
 
