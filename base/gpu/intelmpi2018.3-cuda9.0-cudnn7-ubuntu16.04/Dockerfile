@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation. All rights reserved.
+# Licensed under the MIT License.
+
 # Tag: cuda:9.0-cudnn7-devel-ubuntu16.04
 # Env: CUDA_VERSION=9.0.176
 # Env: NCCL_VERSION=2.4.2
