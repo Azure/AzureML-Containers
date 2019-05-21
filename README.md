@@ -68,11 +68,11 @@ Each image is associated with one or more tags. Below is the list of images and 
     * base:openmpi3.1.2-ubuntu16.04
 - [IntelMPI GPU - cuda9](./base/gpu/intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04)
     * base-gpu:intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04
-    * base-gpu:latest
 - [OpenMPI GPU - cuda9](./base/gpu/openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04)
     * base-gpu:openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04
 - [IntelMPI GPU - cuda10](./base/gpu/intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04)
     * base-gpu:intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
+    * base-gpu:latest
 - [OpenMPI GPU - cuda10](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04)
     * base-gpu:openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04
 
