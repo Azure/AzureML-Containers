@@ -34,6 +34,7 @@ RUN apt-get update && \
     apt-get install -y \
     build-essential \
     bzip2 \
+    git=1:2.7.4-0ubuntu1.6 \
     wget \
     cpio && \
     apt-get clean -y && \
@@ -61,4 +62,3 @@ RUN mkdir /tmp/openmpi && \
     make install && \
     ldconfig && \
     rm -rf /tmp/openmpi
-
