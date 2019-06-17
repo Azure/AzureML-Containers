@@ -3,7 +3,7 @@ This repository contains Docker containers used in [Azure Machine Learning](http
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [How AzureML prepares an image for training](#howThingsWork)
+- [How Azure ML prepares an image for training](#howThingsWork)
 - [Dependencies](#dependencies)
 - [How to get Azure ML Docker Containers](#getdocker)
 - [Featured Tags](#tags)
@@ -21,7 +21,7 @@ This repository contains Docker containers used in [Azure Machine Learning](http
 These Docker images are used for training runs submitted via Azure ML. While submitting a training run on AmlCompute or any other target with Docker enabled, Azure ML runs your job in a conda environment within a Docker container with several dependencies installed.  You can also specify any extra dependencies to be installed using `pip_packages`, `pip_requirements_file_path`, `conda_dependencies_file` and `conda_packages` parameters. The extra dependencies are installed on top of the dependencies in the Docker image. If you are using the estimators specific for [DNN training](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.dnn?view=azure-ml-py), the DNN framework related dependencies are also installed. You can control the version of the DNN installed using the `framework_version` parameter. If no version is specified, default version will be used.
 
 <a name="howThingsWork"></a>
-### How AzureML prepares an image for training
+### How Azure ML prepares an image for training
 For example, if you are using the [PyTorch Estimator](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.dnn.pytorch?view=azure-ml-py), these are steps in the background.
 1. If no custom_docker_image was specified, Azure ML decides between [CPU base images](./base/cpu) and [GPU base images](./base/gpu) based on the `use_gpu` flag.
 2. Based on the `framework_version` Azure ML selects the list of framework based dependencies to be added. If not specified, the default framework version will be used.
@@ -46,7 +46,7 @@ The CPU images are built from ubuntu16.04. The GPU images for cuda9 are built fr
 <a name="getdocker"></a>
 ### How to get Azure ML Docker Containers
 
-All images in this repository are published to [Microsoft Container Registry(MCR)](https://azure.microsoft.com/en-us/blog/microsoft-syndicates-container-catalog/). The images will also be published to Docker Hub.
+All images in this repository are published to [Microsoft Container Registry(MCR)](https://azure.microsoft.com/en-us/blog/microsoft-syndicates-container-catalog/). Information about these images are also published to [Docker Hub](https://hub.docker.com/_/microsoft-azureml).
 
 You can pull these images from MCR using the following command.
 - cpu image example: `docker pull mcr.microsoft.com\azureml\base:intelmpi2018.3-ubuntu16.04`
