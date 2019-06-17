@@ -46,7 +46,7 @@ The CPU images are built from ubuntu16.04. The GPU images for cuda9 are built fr
 <a name="getdocker"></a>
 ### How to get Azure ML Docker Containers
 
-All images in this repository are published to [Microsoft Container Registry(MCR)](https://azure.microsoft.com/en-us/blog/microsoft-syndicates-container-catalog/). The images are also published to [Docker Hub](https://hub.docker.com/_/microsoft-azureml).
+All images in this repository are published to [Microsoft Container Registry(MCR)](https://azure.microsoft.com/en-us/blog/microsoft-syndicates-container-catalog/). Information about these images are also published to [Docker Hub](https://hub.docker.com/_/microsoft-azureml).
 
 You can pull these images from MCR using the following command.
 - cpu image example: `docker pull mcr.microsoft.com\azureml\base:intelmpi2018.3-ubuntu16.04`
