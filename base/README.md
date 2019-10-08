@@ -1,5 +1,5 @@
-# Azure Machine Learning service containers
-This repository contains Docker containers used in [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning-service/) Python SDK.
+# Azure Machine Learning Python containers
+This folder contains Docker containers used in [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning-service/) Python SDK.
 
 ## Table of Contents
 - [Introduction](#introduction)

@@ -1,5 +1,5 @@
-# Azure Machine Learning service containers
-This repository contains Docker containers used in [Azure Machine Learning SDK for R](https://github.com/Azure/azureml-sdk-for-r) SDK.
+# Azure Machine Learning R Containers
+This folder contains Docker containers used in [Azure Machine Learning SDK for R](https://github.com/Azure/azureml-sdk-for-r) SDK.
 
 ## Table of Contents
 - [Introduction](#introduction)
