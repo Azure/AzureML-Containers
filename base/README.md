@@ -1,5 +1,5 @@
 # Azure Machine Learning Python containers
-This folder contains Docker containers used in [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning-service/) Python SDK.
+This folder contains Docker containers used in [Azure Machine Learning SDK for Python](https://azure.microsoft.com/en-us/services/machine-learning-service/).
 
 ## Table of Contents
 - [Introduction](#introduction)
