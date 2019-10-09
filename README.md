@@ -65,8 +65,10 @@ Each image is associated with one or more tags. Below is the list of images and 
 - [IntelMPI CPU](./base/cpu/intelmpi2018.3-ubuntu16.04)
     * base:intelmpi2018.3-ubuntu16.04
     * base:latest
-- [OpenMPI CPU](./base/cpu/openmpi3.1.2-ubuntu16.04)
+- [OpenMPI CPU - Ubuntu 16.04](./base/cpu/openmpi3.1.2-ubuntu16.04)
     * base:openmpi3.1.2-ubuntu16.04
+- [OpenMPI CPU - Ubuntu 18.04](./base/cpu/openmpi3.1.2-ubuntu18.04)
+    * base:openmpi3.1.2-ubuntu18.04
 - [IntelMPI GPU - cuda9](./base/gpu/intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04)
     * base-gpu:intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04
 - [OpenMPI GPU - cuda9](./base/gpu/openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04)
@@ -74,8 +76,10 @@ Each image is associated with one or more tags. Below is the list of images and 
 - [IntelMPI GPU - cuda10](./base/gpu/intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04)
     * base-gpu:intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
     * base-gpu:latest
-- [OpenMPI GPU - cuda10](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04)
+- [OpenMPI GPU - cuda10 - Ubuntu 16.04](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04)
     * base-gpu:openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04
+- [OpenMPI GPU - cuda10 - Ubuntu 18.04](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04)
+    * base-gpu:openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04
 
 <a name="howtorun"></a>
 ###  How to run an Azure ML experiment using your own Dockerfile
