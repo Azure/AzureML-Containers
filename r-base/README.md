@@ -30,7 +30,7 @@ The major dependencies installed in the base images are:
 
 | Dependencies |   |
 | --- | --- |
-| r-devtools | 2.1.0 |
+| r-devtools | 2.0.1 |
 | r-essentials | 3.6.0 |
 | rpy2 | 3.0.5 |
 | openssl | 1.1.1c |
