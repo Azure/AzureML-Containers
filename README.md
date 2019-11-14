@@ -36,7 +36,7 @@ Currently Azure ML supports both cuda9 and cuda10 base images. The major depende
 | --- | --- | --- | --- | --- |
 | miniconda | ==4.5.11 | ==4.5.11 | ==4.5.11 | ==4.5.11 |
 | mpi | intelmpi==2018.3.222 |openmpi==3.1.2 |intelmpi==2018.3.222| openmpi==3.1.2 |
-| cuda | - | - | 9.0/10.0 | 9.0/10.0 |
+| cuda | - | - | 9.0/10.0 | 9.0/10.0/10.1 |
 | cudnn | - | - | 7.4/7.5 | 7.4/7.5 |
 | nccl | - | - | 2.4 | 2.4 |
 | git | 2.7.4 | 2.7.4 | 2.7.4 | 2.7.4 |
@@ -76,10 +76,12 @@ Each image is associated with one or more tags. Below is the list of images and 
 - [IntelMPI GPU - cuda10 - Ubuntu 16.04](./base/gpu/intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04)
     * base-gpu:intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
     * base-gpu:latest
-- [OpenMPI GPU - cuda10 - Ubuntu 16.04](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04)
+- [OpenMPI GPU - cuda10.0 - Ubuntu 16.04](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04)
     * base-gpu:openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04
-- [OpenMPI GPU - cuda10 - Ubuntu 18.04](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04)
+- [OpenMPI GPU - cuda10.0 - Ubuntu 18.04](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04)
     * base-gpu:openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04
+- [OpenMPI GPU - cuda10.1 - Ubuntu 18.04](./base/gpu/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04)
+    * base-gpu:openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04
 
 <a name="howtorun"></a>
 ###  How to run an Azure ML experiment using your own Dockerfile
