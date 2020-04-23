@@ -39,7 +39,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Conda Environment
-ENV MINICONDA_VERSION 4.5.11
+ENV MINICONDA_VERSION 4.8.3
 ENV PATH /opt/miniconda/bin:$PATH
 RUN wget -qO /tmp/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
