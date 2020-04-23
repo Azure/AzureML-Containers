@@ -31,7 +31,7 @@ RUN apt-get update && \
     build-essential \
     bzip2=1.0.6-8.1ubuntu0.2 \
     libbz2-1.0=1.0.6-8.1ubuntu0.2 \
-    git=1:2.17.1-1ubuntu0.4 \
+    git=1:2.17.1-1ubuntu0.7 \
     wget \
     cpio \
     libsm6 \
