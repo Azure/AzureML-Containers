@@ -1,6 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:20ba3085141845301907d7ce6e9ee8388a0e43074f56c262d6de7efebf2ba98f AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:c27baec2ee25a627a71c5147031d47b47d54090201f6acd839606e84492c93a3 AS inferencing-assets
 
 FROM ubuntu:18.04
 
@@ -8,9 +8,6 @@ USER root:root
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
-
-# Inference
-COPY --from=inferencing-assets /artifacts /var/
 
 # Install Common Dependencies
 RUN apt-get update && \
@@ -31,7 +28,7 @@ RUN apt-get update && \
     build-essential \
     bzip2=1.0.6-8.1ubuntu0.2 \
     libbz2-1.0=1.0.6-8.1ubuntu0.2 \
-    git=1:2.17.1-1ubuntu0.4 \
+    git=1:2.17.1-1ubuntu0.6 \
     wget \
     cpio \
     libsm6 \
@@ -54,7 +51,7 @@ ENV WORKER_TIMEOUT=300
 EXPOSE 5001 8883 8888
 
 # Conda Environment
-ENV MINICONDA_VERSION 4.5.11
+ENV MINICONDA_VERSION 4.7.12.1
 ENV PATH /opt/miniconda/bin:$PATH
 RUN wget -qO /tmp/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \

@@ -1,5 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:c27baec2ee25a627a71c5147031d47b47d54090201f6acd839606e84492c93a3 AS inferencing-assets
 
 FROM ubuntu:16.04
 
@@ -25,15 +26,32 @@ RUN apt-get update && \
     # Others
     apt-get install -y \
     build-essential \
-    bzip2 \
-    git=1:2.7.4-0ubuntu1.6 \
+    bzip2=1.0.6-8ubuntu0.2 \
+    libbz2-1.0=1.0.6-8ubuntu0.2 \
+    git=1:2.7.4-0ubuntu1.8 \
     wget \
-    cpio && \
+    cpio \
+    libsm6 \
+    libxext6 \
+    libxrender-dev \
+    fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
 
+# Inference
+# Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
+COPY --from=inferencing-assets /artifacts /var/
+RUN /var/requirements/install_system_requirements.sh && \
+    cp /var/configuration/rsyslog.conf /etc/rsyslog.conf && \
+    cp /var/configuration/nginx.conf /etc/nginx/sites-available/app && \
+    ln -s /etc/nginx/sites-available/app /etc/nginx/sites-enabled/app && \
+    rm -f /etc/nginx/sites-enabled/default
+ENV SVDIR=/var/runit
+ENV WORKER_TIMEOUT=300
+EXPOSE 5001 8883 8888
+
 # Conda Environment
-ENV MINICONDA_VERSION 4.5.11
+ENV MINICONDA_VERSION 4.7.12.1
 ENV PATH /opt/miniconda/bin:$PATH
 RUN wget -qO /tmp/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
