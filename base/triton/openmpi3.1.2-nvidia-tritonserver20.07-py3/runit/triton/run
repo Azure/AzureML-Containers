@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "`date -uIns` - triton/run $@"
+MODEL_DIR=/var/azureml-app/${AZUREML_MODEL_DIR}
+MODEL_PKG=$(ls ${MODEL_DIR})
+exec /opt/tritonserver/nvidia_entrypoint.sh tritonserver --model-repository=${MODEL_DIR}/${MODEL_PKG}/triton --model-control-mode=none # explicitly disable polling

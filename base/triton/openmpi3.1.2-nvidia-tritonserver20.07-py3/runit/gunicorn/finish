@@ -1,0 +1,10 @@
+#!/bin/bash
+
+exit_code="$1" # The exit code from gunicorn
+signal="$2"    # The signal which caused gunicorn to exit (or 0)
+
+echo "`date -uIns` - gunicorn/finish $@"
+echo "`date -uIns` - Exit code $exit_code is not normal. Killing image."
+
+killall -SIGHUP runsvdir
+
