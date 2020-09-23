@@ -41,7 +41,7 @@ Currently Azure ML supports both cuda9 and cuda10 base images. The major depende
 | miniconda | ==4.5.11 | ==4.5.11 | ==4.5.11 | ==4.5.11 |
 | mpi | intelmpi==2018.3.222 |openmpi==3.1.2 |intelmpi==2018.3.222| openmpi==3.1.2 |
 | cuda | - | - | 9.0/10.0 | 9.0/10.0/10.1 |
-| cudnn | - | - | 7.4/7.5 | 7.4/7.5 |
+| cudnn | - | - | 7.4/7.5 | 7.4/7.5 |                intel
 | nccl | - | - | 2.4 | 2.4 |
 | git | 2.7.4 | 2.7.4 | 2.7.4 | 2.7.4 |
 
