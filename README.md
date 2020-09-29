@@ -45,7 +45,7 @@ The CPU images are built from ubuntu16.04/ubuntu18.04. The GPU images for cuda9 
 <a name="getdocker"></a>
 ## How to get the Azure ML images
 
-All images in this repository are published to [Microsoft Container Registry(MCR)](https://azure.microsoft.com/en-us/blog/microsoft-syndicates-container-catalog/).
+All images in this repository are published to [Microsoft Container Registry (MCR)](https://azure.microsoft.com/en-us/blog/microsoft-syndicates-container-catalog/).
 
 You can pull these images from MCR using the following command:
 - CPU image example: `docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04`
@@ -133,7 +133,7 @@ from azureml.core import Environment
 env = Environment(name='my-env')
 ```
 
-Then, set the base image you would like to use. For example, here we will specify the openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04 image:
+Then, for both of the above cases, set the base image you would like to use. For example, here we will specify the openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04 image:
 ```python
 env.docker.enabled = True
 env.docker.base_image = 'mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04'
