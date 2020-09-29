@@ -10,8 +10,9 @@ This repository contains Dockerfiles for the base images used in [Azure Machine 
   * [Prerequisites](#prerequisites)
   * [Create Azure ML Environment](#createenv)
   * [Configure and submit training job](#submitjob)
-  * [What happens during job execution](#jobexec)
+  * [What happens during job execution](#jobexe)
 - [Using your own custom Docker image or Dockerfile for training](#customdocker)
+- [Resources](#resources)
 
 <a name="introduction"></a>
 ## Introduction
