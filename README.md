@@ -3,7 +3,6 @@ This repository contains Dockerfiles for the base images used in [Azure Machine 
 
 ### Table of Contents
 - [Introduction](#introduction)
-- [How Azure ML prepares an image for training](#howThingsWork)
 - [Base image dependencies](#dependencies)
 - [How to get Azure ML images](#getdocker)
   * [Featured tags](#tags)
