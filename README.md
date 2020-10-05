@@ -86,7 +86,7 @@ Below is the list of tags:
 
 In some cases, the Azure ML base images will be used by default:
 
-* By default, if no base image is explicitly set by the user for a training run, Azure ML will use the image corresponding to `azureml.core.runconfig.DEFAULT_CPU_IMAGE`.
+* By default, if no base image is explicitly set by the user for a training run, Azure ML will use the image corresponding to `azureml.core.environment.DEFAULT_CPU_IMAGE`.
 
 * If you are using an [Azure ML curated environment](https://docs.microsoft.com/azure/machine-learning/how-to-use-environments#use-a-curated-environment), those are already configured with one of the Azure ML base images. To see which base image is used by a specific curated environment, you can run the following:
      ```python
