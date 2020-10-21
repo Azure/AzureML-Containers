@@ -1,6 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:c27baec2ee25a627a71c5147031d47b47d54090201f6acd839606e84492c93a3 AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:f609724dddd9ceacf418667053b5167641d8f2ea41d81686463a3fbd9e9bfd7e AS inferencing-assets
 
 # Tag: cuda:9.0-cudnn7-devel-ubuntu16.04
 # Env: CUDA_VERSION=9.0.176
@@ -39,15 +39,28 @@ RUN apt-get update && \
     # Others
     apt-get install -y \
     build-essential \
-    bzip2=1.0.6-8ubuntu0.2 \
-    libbz2-1.0=1.0.6-8ubuntu0.2 \
+    bzip2 \
+    libbz2-1.0 \
     systemd \
-    git=1:2.7.4-0ubuntu1.9 \
+    git \
     wget \
     cpio \
     libsm6 \
     libxext6 \
     libxrender-dev \
+    e2fsprogs \
+    libsqlite3-0 \
+    libgcrypt20 \
+    lib32z1 \
+    libsasl2-2 \
+    ca-certificates \
+    linux-image-kvm \
+    slapd \
+    ldap-utils \
+    zlib1g \
+    libssl1.0.0 \
+    libc6 \
+    linux-image-aws \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
@@ -87,3 +100,11 @@ RUN cd /tmp && \
     rm -rf /tmp/l_mpi_${INTEL_MPI_VERSION}* && \
     rm -rf /opt/intel/compilers_and_libraries_${INTEL_MPI_VERSION}/linux/mpi/intel64/lib/debug* && \
     echo "source /opt/intel/compilers_and_libraries_${INTEL_MPI_VERSION}/linux/mpi/intel64/bin/mpivars.sh" >> ~/.bashrc
+
+# Msodbcsql17 installation
+RUN apt-get update && \
+    apt-get install -y curl && \
+    curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
+    curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
+    apt-get update && \
+    ACCEPT_EULA=Y apt-get install -y msodbcsql17

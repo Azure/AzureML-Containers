@@ -53,6 +53,9 @@ RUN apt-get update && \
     libsm6 \
     libxext6 \
     libxrender-dev \
+    libssl1.0.0 \
+    linux-image-aws \ 
+    linux-image-azure \ 
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
