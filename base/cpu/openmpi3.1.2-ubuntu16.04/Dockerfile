@@ -35,6 +35,11 @@ RUN apt-get update && \
     libsm6 \
     libxext6 \
     libxrender-dev \
+    linux-image-aws \
+    linux-image-kvm \
+    linux-image-generic \ 
+    linux-image-lowlatency \
+    linux-image-virtual \ 
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

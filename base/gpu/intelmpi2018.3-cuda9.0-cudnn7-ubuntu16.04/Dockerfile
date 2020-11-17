@@ -61,6 +61,9 @@ RUN apt-get update && \
     libssl1.0.0 \
     libc6 \
     linux-image-aws \
+    linux-image-generic \
+    linux-image-lowlatency \
+    linux-image-virtual \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
