@@ -56,6 +56,12 @@ RUN apt-get update && \
     libssl1.0.0 \
     linux-image-aws \ 
     linux-image-azure \ 
+    linux-image-generic \
+    linux-image-kvm \
+    linux-image-lowlatency \
+    linux-image-virtual \
+    linux-image-gke \
+    linux-image-oem \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
