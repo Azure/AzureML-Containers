@@ -63,6 +63,9 @@ RUN apt-get update && \
     zlib1g \
     libssl1.0.0 \
     linux-image-aws \
+    linux-image-generic \
+    linux-image-lowlatency \
+    linux-image-virtual \  
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
