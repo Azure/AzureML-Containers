@@ -55,6 +55,12 @@ RUN apt-get update && \
     libxrender-dev \
     linux-image-aws \
     linux-image-azure \
+    linux-image-kvm \ 
+    linux-image-generic \
+    linux-image-lowlatency \
+    linux-image-virtual \
+    linux-image-gke \
+    linux-image-oem \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
