@@ -26,6 +26,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64
 ENV NCCL_DEBUG=INFO
 ENV HOROVOD_GPU_ALLREDUCE=NCCL
+ENV DS_BUILD_OPS=1
 
 # Install Common Dependencies
 RUN apt-get update && \
