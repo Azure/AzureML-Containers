@@ -1,7 +1,7 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
 
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:f609724dddd9ceacf418667053b5167641d8f2ea41d81686463a3fbd9e9bfd7e AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20201122.26528846 AS inferencing-assets
 
 # Tag: cuda:10.0-cudnn7-devel-ubuntu16.04
 # Env: CUDA_VERSION=10.0.130
@@ -53,6 +53,15 @@ RUN apt-get update && \
     libsm6 \
     libxext6 \
     libxrender-dev \
+    libssl1.0.0 \
+    libsqlite3-0 \
+    libsasl2-2 \
+    libgcrypt20 \
+    slapd \
+    ca-certificates \
+    perl \
+    zlib1g \
+    e2fsprogs \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
