@@ -1,7 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:f609724dddd9ceacf418667053b5167641d8f2ea41d81686463a3fbd9e9bfd7e AS inferencing-assets
-
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20201122.26528846 AS inferencing-assets
 FROM ubuntu:16.04
 
 USER root:root
@@ -39,7 +38,7 @@ RUN apt-get update && \
     linux-image-kvm \
     linux-image-generic \ 
     linux-image-lowlatency \
-    linux-image-virtual \ 
+    linux-image-virtual \  
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
