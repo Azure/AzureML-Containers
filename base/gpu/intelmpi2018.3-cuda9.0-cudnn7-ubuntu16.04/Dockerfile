@@ -1,6 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:f609724dddd9ceacf418667053b5167641d8f2ea41d81686463a3fbd9e9bfd7e AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20201216.27974728 AS inferencing-assets
 
 # Tag: cuda:9.0-cudnn7-devel-ubuntu16.04
 # Env: CUDA_VERSION=9.0.176
@@ -14,7 +14,7 @@ FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:f609724dddd9ceacf4
 # Label: com.nvidia.cudnn.version=7.6.3.30
 # Label: com.nvidia.volumes.needed=nvidia_driver
 # Ubuntu 16.04
-FROM nvidia/cuda@sha256:5b4a2ecdf7e7594e8f6fc41c0ed0e6a716bfb6ddc0e4852a3dde58eae4692d73
+FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
 
 USER root:root
 
@@ -61,6 +61,10 @@ RUN apt-get update && \
     libssl1.0.0 \
     libc6 \
     linux-image-aws \
+    linux-image-generic \
+    linux-image-lowlatency \
+    linux-image-virtual \
+    perl \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

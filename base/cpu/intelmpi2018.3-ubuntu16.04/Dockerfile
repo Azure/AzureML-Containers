@@ -1,6 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:f609724dddd9ceacf418667053b5167641d8f2ea41d81686463a3fbd9e9bfd7e AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20201216.27974728 AS inferencing-assets
 
 FROM ubuntu:16.04
 

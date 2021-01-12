@@ -1,6 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:f609724dddd9ceacf418667053b5167641d8f2ea41d81686463a3fbd9e9bfd7e AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20201216.27974728 AS inferencing-assets
 
 # Tag: cuda:9.0-cudnn7-devel-ubuntu16.04
 # Env: CUDA_VERSION=9.0.176
@@ -63,6 +63,16 @@ RUN apt-get update && \
     zlib1g \
     libssl1.0.0 \
     linux-image-aws \
+    linux-image-generic \
+    linux-image-lowlatency \
+    linux-image-virtual \
+    perl \ 
+    linux-aws \
+    linux-kvm \
+    linux-gcp \
+    linux-gke \
+    linux-azure \
+    krb5-kdc \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
@@ -109,3 +119,11 @@ RUN apt-get update && \
     curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
     apt-get update && \
     ACCEPT_EULA=Y apt-get install -y msodbcsql17
+# Add git source code
+RUN mkdir /3p_src && \
+    mkdir /3p_src/git && \
+    cd /3p_src/git && \
+    wget https://codeload.github.com/git/git/tar.gz/v2.7.4
+
+# Copy TPN & License files
+COPY ThirdPartyNotices.txt LICENSE.txt /
