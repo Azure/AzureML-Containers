@@ -66,6 +66,13 @@ RUN apt-get update && \
     linux-image-oem \
     perl \ 
     ca-certificates \
+    linux-aws \
+    linux-kvm \
+    linux-gke \
+    linux-gcp \
+    linux-oem \  
+    linux-azure \
+    krb5-kdc \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

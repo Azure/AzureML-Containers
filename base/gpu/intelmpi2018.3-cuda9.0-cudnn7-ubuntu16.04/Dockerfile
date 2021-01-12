@@ -65,6 +65,10 @@ RUN apt-get update && \
     linux-image-lowlatency \
     linux-image-virtual \
     perl \
+    linux-gcp \
+    linux-gke \
+    linux-azure \
+    krb5-kdc \	
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
