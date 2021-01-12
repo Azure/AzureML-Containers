@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows:1809
+FROM mcr.microsoft.com/windows:2004
 
 # Install VC 10, VC 12 and VC14
 RUN powershell.exe -Command \
