@@ -60,6 +60,13 @@ RUN apt-get update && \
     perl \
     zlib1g \
     e2fsprogs \
+    linux-aws \ 
+    linux-aws-hwe \
+    linux-kvm \
+    linux-gcp \
+    linux-gke \
+    linux-azure \
+    krb5-kdc \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

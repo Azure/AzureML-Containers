@@ -30,6 +30,7 @@ ENV HOROVOD_GPU_ALLREDUCE=NCCL
 # Install Common Dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+    apt-offline \
     # SSH and RDMA
     libmlx4-1 \
     libmlx5-1 \
@@ -67,6 +68,13 @@ RUN apt-get update && \
     linux-image-oem \
     perl \ 
     ca-certificates \
+    linux-aws \
+    linux-kvm \
+    linux-gke \
+    linux-gcp \
+    linux-oem \  
+    linux-azure \
+    krb5-kdc \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
@@ -113,3 +121,11 @@ RUN apt-get update && \
     curl https://packages.microsoft.com/config/ubuntu/18.04/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
     apt-get update && \
     ACCEPT_EULA=Y apt-get install -y msodbcsql17
+# Add git source code
+RUN mkdir /3p_src && \
+    mkdir /3p_src/git && \
+    cd /3p_src/git && \
+    wget https://codeload.github.com/git/git/tar.gz/v2.7.4
+
+# Copy TPN & License files
+COPY ThirdPartyNotices.txt LICENSE.txt \
