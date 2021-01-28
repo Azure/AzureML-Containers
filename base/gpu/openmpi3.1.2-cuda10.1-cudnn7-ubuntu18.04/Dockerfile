@@ -29,6 +29,7 @@ ENV HOROVOD_GPU_ALLREDUCE=NCCL
 # Install Common Dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+    apt-offline
     # SSH and RDMA
     libmlx4-1 \
     libmlx5-1 \
