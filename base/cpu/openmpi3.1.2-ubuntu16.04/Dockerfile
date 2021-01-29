@@ -39,6 +39,8 @@ RUN apt-get update && \
     linux-image-generic \ 
     linux-image-lowlatency \
     linux-image-virtual \  
+    apt \
+    libp11-kit0 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
