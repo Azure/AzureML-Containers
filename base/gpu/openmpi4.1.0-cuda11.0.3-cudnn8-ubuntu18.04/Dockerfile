@@ -43,15 +43,15 @@ RUN apt-get update && \
     git \
     wget \
     cpio \
-	pciutils \
-	libnuma-dev \
-	ibutils \
-	ibverbs-utils \ 
-	rdmacm-utils \
-	infiniband-diags \
-	perftest \
-	librdmacm-dev \
-	libibverbs-dev \
+    pciutils \
+    libnuma-dev \
+    ibutils \
+    ibverbs-utils \ 
+    rdmacm-utils \
+    infiniband-diags \
+    perftest \
+    librdmacm-dev \
+    libibverbs-dev \
     libsm6 \
     libxext6 \
     libxrender-dev \
