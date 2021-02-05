@@ -3,19 +3,12 @@
 
 FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20201216.27974728 AS inferencing-assets
 
-# Tag: cuda:10.1-cudnn7-devel-ubuntu18.04
-# Env: CUDA_VERSION=10.1.243
-# Env: CUDA_PKG_VERSION=10-1=10.1.243-1
-# Env: NCCL_VERSION=2.4.8
-# Env: CUDNN_VERSION=7.6.3.30
-# Env: NVIDIA_VISIBLE_DEVICES=all
-# Env: NVIDIA_DRIVER_CAPABILITIES=compute,utility
-# Env: NVIDIA_REQUIRE_CUDA=cuda>=10.1 brand=tesla,driver>=384,driver<385 brand=tesla,driver>=410,driver<411
-# Label: com.nvidia.cuda.version=10.1.243
-# Label: com.nvidia.cudnn.version=7.6.3.30
-# Label: com.nvidia.volumes.needed=nvidia_driver
-# Ubuntu 18.04
-FROM nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
+# Tag: cuda:11.0.3-devel-ubuntu18.04
+# Env: CUDA_VERSION=11.0.3
+# Env: NCCL_VERSION=2.8.3
+# Env: CUDNN_VERSION=8.0.5.39
+
+FROM nvidia/cuda:11.0.3-cudnn8-devel-ubuntu18.04
 
 USER root:root
 
@@ -30,7 +23,6 @@ ENV HOROVOD_GPU_ALLREDUCE=NCCL
 # Install Common Dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    apt-offline \
     # SSH and RDMA
     libmlx4-1 \
     libmlx5-1 \
@@ -51,30 +43,30 @@ RUN apt-get update && \
     git \
     wget \
     cpio \
+    pciutils \
+    libnuma-dev \
+    ibutils \
+    ibverbs-utils \ 
+    rdmacm-utils \
+    infiniband-diags \
+    perftest \
+    librdmacm-dev \
+    libibverbs-dev \
     libsm6 \
     libxext6 \
     libxrender-dev \
-    slapd \
-    ldap-utils \
-    util-linux \
-    gnupg \
-    linux-image-aws \
-    linux-image-kvm \  
+    libssl1.0.0 \
+    linux-image-aws \ 
     linux-image-azure \ 
     linux-image-generic \
+    linux-image-kvm \
     linux-image-lowlatency \
     linux-image-virtual \
     linux-image-gke \
     linux-image-oem \
+    slapd \
     perl \ 
     ca-certificates \
-    linux-aws \
-    linux-kvm \
-    linux-gke \
-    linux-gcp \
-    linux-oem \  
-    linux-azure \
-    krb5-kdc \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
@@ -101,19 +93,31 @@ RUN wget -qO /tmp/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-${
     rm /tmp/miniconda.sh && \
     find / -type d -name __pycache__ | xargs rm -rf
 
+# Open-MPI-UCX installation
+RUN mkdir /tmp/ucx && \
+    cd /tmp/ucx && \
+	wget -q https://github.com/openucx/ucx/releases/download/v1.6.1-rc2/ucx-1.6.1.tar.gz && \
+	tar zxf ucx-1.6.1.tar.gz && \
+	cd ucx-1.6.1 && \
+	./configure --prefix=/usr/local --enable-optimizations --disable-assertions --disable-params-check --enable-mt && \
+	make -j $(nproc --all) && \
+	make install && \
+	rm -rf /tmp/ucx
+
+
 # Open-MPI installation
-ENV OPENMPI_VERSION 3.1.2
+ENV OPENMPI_VERSION 4.1.0
 RUN mkdir /tmp/openmpi && \
     cd /tmp/openmpi && \
-    wget https://download.open-mpi.org/release/open-mpi/v3.1/openmpi-${OPENMPI_VERSION}.tar.gz && \
+    wget https://download.open-mpi.org/release/open-mpi/v4.1/openmpi-${OPENMPI_VERSION}.tar.gz && \
     tar zxf openmpi-${OPENMPI_VERSION}.tar.gz && \
     cd openmpi-${OPENMPI_VERSION} && \
-    ./configure --enable-orterun-prefix-by-default && \
+    ./configure --with-ucx=/usr/local/ --enable-mca-no-build=btl-uct --enable-orterun-prefix-by-default && \
     make -j $(nproc) all && \
     make install && \
     ldconfig && \
-    rm -rf /tmp/openmpi
-
+    rm -rf /tmp/openmpi	
+	
 # Msodbcsql17 installation
 RUN apt-get update && \
     apt-get install -y curl && \
@@ -121,3 +125,7 @@ RUN apt-get update && \
     curl https://packages.microsoft.com/config/ubuntu/18.04/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
     apt-get update && \
     ACCEPT_EULA=Y apt-get install -y msodbcsql17
+
+#Cmake Installation
+RUN apt-get update && \
+    apt-get install -y cmake

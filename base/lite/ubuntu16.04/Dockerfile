@@ -10,7 +10,7 @@ ENV MINICONDA_VERSION 4.7.12.1
 ENV PATH /opt/miniconda/bin:$PATH
 RUN apt-get update -y && \
     apt-get install -y \
-        bzip2=1.0.6-8ubuntu0.2 \
+        bzip2 \
         wget \
         && \
     wget -qO /tmp/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \

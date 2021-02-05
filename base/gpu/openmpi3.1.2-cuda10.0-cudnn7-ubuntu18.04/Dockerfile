@@ -1,5 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
+
 FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20201216.27974728 AS inferencing-assets
 
 # Tag: cuda:10.0-cudnn7-devel-ubuntu18.04
@@ -71,8 +72,8 @@ RUN apt-get update && \
     linux-gcp \
     linux-gke \
     linux-azure \
-    linux-oem \
-    linux-oracle \
+	linux-oem \
+	linux-oracle \
     krb5-kdc \
     fuse && \
     apt-get clean -y && \
