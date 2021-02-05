@@ -1,5 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
+
 FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20201216.27974728 AS inferencing-assets
 
 # Tag: cuda:10.1-cudnn7-devel-ubuntu18.04
@@ -29,7 +30,7 @@ ENV HOROVOD_GPU_ALLREDUCE=NCCL
 # Install Common Dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    apt-offline
+    apt-offline \
     # SSH and RDMA
     libmlx4-1 \
     libmlx5-1 \
