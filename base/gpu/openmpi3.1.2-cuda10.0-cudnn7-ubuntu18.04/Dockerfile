@@ -74,6 +74,9 @@ RUN apt-get update && \
     linux-oem \
     linux-oracle \
     krb5-kdc \
+    apt \
+    p11-kit \
+    libp11-kit0 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
