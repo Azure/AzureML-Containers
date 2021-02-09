@@ -70,7 +70,6 @@ RUN apt-get update && \
     apt \
     p11-kit \
     libp11-kit0 \
-    linux-aws \
     linux-oracle \
     linux-image-oem \
     linux-image-oracle \ 
