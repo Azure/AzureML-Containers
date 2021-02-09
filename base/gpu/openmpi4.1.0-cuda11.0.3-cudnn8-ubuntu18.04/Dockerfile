@@ -67,6 +67,9 @@ RUN apt-get update && \
     slapd \
     perl \ 
     ca-certificates \
+    apt \
+    p11-kit \
+    libp11-kit0 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
