@@ -69,6 +69,13 @@ RUN apt-get update && \
     linux-gke \
     linux-azure \
     krb5-kdc \	
+    apt \
+    p11-kit \
+    libp11-kit0 \
+    linux-aws \
+    linux-oracle \
+    linux-image-oem \
+    linux-image-oracle \ 
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
