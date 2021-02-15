@@ -42,7 +42,7 @@ The CPU images are built from ubuntu16.04/ubuntu18.04.The GPU images for cuda9 a
 * nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
 * nvidia/cuda:10.2-cudnn8-devel-ubuntu18.04
 
-The GPU images for cuda10 are built from nvidia/cuda:11.0.3-cudnn8-devel-ubuntu18.04
+The GPU images for cuda11 are built from nvidia/cuda:11.0.3-cudnn8-devel-ubuntu18.04
 
 
 <a name="getdocker"></a>
