@@ -25,22 +25,25 @@ You can also use these Docker images as base images for your custom Azure ML [En
 
 <a name="dependencies"></a>
 ## Base image dependencies
-Currently Azure ML supports both cuda9 and cuda10 base images. The major dependencies installed in the base images are:
+Currently Azure ML supports both cuda9, cuda10 and cuda11 base images. The major dependencies installed in the base images are:
 
 | Dependencies | IntelMPI CPU | OpenMPI CPU | IntelMPI GPU | OpenMPI GPU |
 | --- | --- | --- | --- | --- |
 | miniconda | ==4.7.12 | ==4.7.12 | ==4.7.12 | ==4.7.12 |
-| mpi | intelmpi==2018.3.222 |openmpi==3.1.2 |intelmpi==2018.3.222| openmpi==3.1.2 |
-| cuda | - | - | 9.0/10.0 | 9.0/10.0/10.1/10.2 |                              
+| mpi | intelmpi==2018.3.222 |openmpi==3.1.2 |intelmpi==2018.3.222| openmpi==3.1.2/openmpi==4.1.0 |
+| cuda | - | - | 9.0/10.0 | 9.0/10.0/10.1/10.2/11.0 |                              
 | cudnn | - | - | 7.4/7.5 | 7.4/7.5/7.6/8.0 |               
-| nccl | - | - | 2.4 | 2.4/2.4/2.4/2.7 |
+| nccl | - | - | 2.4 | 2.4/2.4/2.4/2.7/2.8 |
 | git | 2.7.4 | 2.7.4 | 2.7.4 | 2.7.4 |
 
-The CPU images are built from ubuntu16.04/ubuntu18.04. The GPU images for cuda9 are built from nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04. The GPU images for cuda10 are built from:
+The CPU images are built from ubuntu16.04/ubuntu18.04.The GPU images for cuda9 are built from nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04.The GPU images for cuda10 are built from:
 * nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04
 * nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
 * nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
 * nvidia/cuda:10.2-cudnn8-devel-ubuntu18.04
+
+The GPU images for cuda10 are built from nvidia/cuda:11.0.3-cudnn8-devel-ubuntu18.04
+
 
 <a name="getdocker"></a>
 ## How to get the Azure ML images
@@ -80,7 +83,9 @@ Below is the list of tags:
     * openmpi3.1.2-cuda10.2-cudnn7-ubuntu18.04
 - [OpenMPI GPU - cuda10.2 - Ubuntu 18.04](./base/gpu/openmpi3.1.2-cuda10.2-cudnn8-ubuntu18.04)
     * openmpi3.1.2-cuda10.2-cudnn8-ubuntu18.04
-    
+- [OpenMPI GPU - cuda11.0 - Ubuntu 18.04](./base/gpu/openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04)
+    * openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04
+
 <a name="howtorun"></a>
 ## Using Azure ML base images for training
 
