@@ -36,7 +36,9 @@ Currently Azure ML supports cuda9, cuda10 and cuda11 base images. The major depe
 | nccl | - | - | 2.4 | 2.4/2.4/2.4/2.7/2.8 |
 | git | 2.7.4 | 2.7.4 | 2.7.4 | 2.7.4 |
 
-The CPU images are built from ubuntu16.04/ubuntu18.04.The GPU images for cuda9 are built from nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04.The GPU images for cuda10 are built from:
+The CPU images are built from ubuntu16.04/ubuntu18.04.
+The GPU images for cuda9 are built from nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04.
+The GPU images for cuda10 are built from:
 * nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04
 * nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
 * nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
