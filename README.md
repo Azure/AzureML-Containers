@@ -25,7 +25,7 @@ You can also use these Docker images as base images for your custom Azure ML [En
 
 <a name="dependencies"></a>
 ## Base image dependencies
-Currently Azure ML supports both cuda9, cuda10 and cuda11 base images. The major dependencies installed in the base images are:
+Currently Azure ML supports cuda9, cuda10 and cuda11 base images. The major dependencies installed in the base images are:
 
 | Dependencies | IntelMPI CPU | OpenMPI CPU | IntelMPI GPU | OpenMPI GPU |
 | --- | --- | --- | --- | --- |
