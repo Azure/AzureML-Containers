@@ -1,7 +1,7 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
 
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20201216.27974728 AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210210.31228572 AS inferencing-assets
 
 # Tag: cuda:10.0-cudnn7-devel-ubuntu16.04
 # Env: CUDA_VERSION=10.0.130
@@ -73,6 +73,7 @@ RUN apt-get update && \
     linux-oracle \
     linux-image-oem \
     linux-image-oracle \ 
+    tar \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
