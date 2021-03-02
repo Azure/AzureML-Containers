@@ -1,7 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20201216.27974728 AS inferencing-assets
-
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210210.31228572 AS inferencing-assets
 # Tag: cuda:9.0-cudnn7-devel-ubuntu16.04
 # Env: CUDA_VERSION=9.0.176
 # Env: CUDA_PKG_VERSION=9-0=9.0.176-1
@@ -76,6 +75,7 @@ RUN apt-get update && \
     linux-oracle \
     linux-image-oem \
     linux-image-oracle \ 
+    tar \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
@@ -93,7 +93,7 @@ ENV WORKER_TIMEOUT=300
 EXPOSE 5001 8883 8888
 
 # Conda Environment
-ENV MINICONDA_VERSION 4.7.12.1
+ENV MINICONDA_VERSION py37_4.9.2
 ENV PATH /opt/miniconda/bin:$PATH
 RUN wget -qO /tmp/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
