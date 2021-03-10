@@ -13,8 +13,8 @@ Public base and base-gpu images
 
 -   **Improvements**
 
-    - upgraded new minicinda version -- 4.9.2
-   - upgraded required python version -- 3.7.0
+    - upgraded new minicinda version -- 4.9.2.
+    - upgraded required python version -- 3.7.0.
 
 : 2021-02-26-v1
 -------------------
@@ -23,7 +23,7 @@ Public base and base-gpu images
 
 -   **Dependency**
 
-    - added computer software utility package -- tar.
+    - added latest computer software utility package -- tar.
 
 
 
