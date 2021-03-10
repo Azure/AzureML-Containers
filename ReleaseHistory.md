@@ -6,13 +6,19 @@ Public base and base-gpu images
 
 -   \[Short description on base and base-gpu image changes.\]
 
-2.25.1 (2020-12-16)
+: 2021-02-27-v1
 -------------------
 
-**Bugfixes**
+**below fix is added in cuda11 docker file to mitigate vulnerabilities**
 
-- Requests now treats `application/json` as `utf8` by default. Resolving
-  inconsistencies between `r.text` and `r.json` output. (#5673)
+**Improvements**
+
+- upgraded new minicinda version -- 4.9.2
+- upgraded required python version -- 3.7.0
+
+: 2021-02-27-v1
+-------------------
+- 
 
 **Dependencies**
 
