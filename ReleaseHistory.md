@@ -1,10 +1,10 @@
 Release History
 ===============
 
-dev
+Public base and base-gpu images
 ---
 
--   \[Short description of non-trivial change.\]
+-   \[Short description on base and base-gpu image changes.\]
 
 2.25.1 (2020-12-16)
 -------------------
