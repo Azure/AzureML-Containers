@@ -22,18 +22,24 @@ Public base and base-gpu images
     - openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04
     - openmpi3.1.2-ubuntu16.04
     - openmpi3.1.2-ubuntu18.04
+   
+  -   **Improvements**
+ 
+    - Upgraded minicinda version -- 4.9.2.
+    - Upgraded required python version -- 3.7.9.
     
  : 20210204.v1
 -------------------
 
--   **fix is added in cuda11 docker file to mitigate vulnerabilities**
+-   **New cuda11 image is added with Open MPI version to 4.1 with UCX support**
 
 -   **Image Name**: openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04"
 
 -   **Improvements**
 
-    - upgraded new minicinda version -- 4.9.2.
-    - upgraded required python version -- 3.7.0.
+    - minicinda version -- 4.9.2.
+    - Added required python version -- 3.7.9.
+    - Open Mpi 4.1.0 support with UCX.
 
 
 
