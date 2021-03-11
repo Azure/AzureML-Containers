@@ -11,9 +11,7 @@ Public base and base-gpu images
 
 -   **Addressed vulnerabilities for below images**
 
--   **Dependency**
-
--  added latest computer software utility package -- tar.
+-   **Dependency** : added latest computer software utility package -- tar.
 
     - intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
     - intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04
@@ -30,7 +28,7 @@ Public base and base-gpu images
 
 -   **fix is added in cuda11 docker file to mitigate vulnerabilities**
 
--   Image Name: openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04"
+-   **Image Name**: openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04"
 
 -   **Improvements**
 
