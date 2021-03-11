@@ -25,7 +25,7 @@ Public base and base-gpu images
     - openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04 : **(PR # 527306)**
     - openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04 : **(PR # 527090**
     - openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04 :  **(PR # 527307)**
-    - openmpi3.1.2-ubuntu16.04 :                **(PR # 53014)**
+    - openmpi3.1.2-ubuntu16.04 :                **(PR # 530141)**
     - openmpi3.1.2-ubuntu18.04 :                **(PR # 530166)**
     - openmpi3.1.2-cuda10.2-cudnn7-ubuntu18.04 : **(PR # 530167)**
     - openmpi3.1.2-cuda10.2-cudnn8-ubuntu18.04 : **(PR # 530167)**
