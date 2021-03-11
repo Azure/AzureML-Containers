@@ -14,9 +14,9 @@ Public base and base-gpu images
 -   **Dependency** : added latest computer software utility package -- tar.
 
 -   **Improvements**
- 
-**  **  - Upgraded minicinda version -- 4.9.2.
-        - Upgraded required python version -- 3.7.9.**
+
+        - Upgraded minicinda version -- 4.9.2.
+        - Upgraded required python version -- 3.7.9.
 
     - intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
     - intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04
