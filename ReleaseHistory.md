@@ -25,8 +25,8 @@ Public base and base-gpu images
    
   -   **Improvements**
  
-    - Upgraded minicinda version -- 4.9.2.
-    - Upgraded required python version -- 3.7.9.
+        - Upgraded minicinda version -- 4.9.2.
+        - Upgraded required python version -- 3.7.9.
     
  : 20210204.v1
 -------------------
