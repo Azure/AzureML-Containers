@@ -13,7 +13,7 @@ Public base and base-gpu images
 
 -   **Dependency**
 
-    - added latest computer software utility package -- tar.
+-  added latest computer software utility package -- tar.
 
     - intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
     - intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04
