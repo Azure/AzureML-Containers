@@ -9,9 +9,14 @@ Public base and base-gpu images
 : 20210301.v1
 -------------------
 
--   **Addressed vulnerabilities for below images**
+-   **Addressed vulnerabilities and updated Miniconda & Python Version for below images**
 
 -   **Dependency** : added latest computer software utility package -- tar.
+
+-   **Improvements**
+ 
+        - Upgraded minicinda version -- 4.9.2.
+        - Upgraded required python version -- 3.7.9.
 
     - intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
     - intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04
@@ -23,10 +28,7 @@ Public base and base-gpu images
     - openmpi3.1.2-ubuntu16.04
     - openmpi3.1.2-ubuntu18.04
    
-  -   **Improvements**
- 
-        - Upgraded minicinda version -- 4.9.2.
-        - Upgraded required python version -- 3.7.9.
+
     
  : 20210204.v1
 -------------------
