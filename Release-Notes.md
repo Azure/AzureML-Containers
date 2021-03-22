@@ -19,8 +19,8 @@ Public base and base-gpu images
  
  -   **Dependency** : 
   
-    -   added latest computer software utility package -- tar.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9
+    -   added all latest packages in dockerfile to mitigate vulnerabilities.
+    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 
 : 20210301.v1
@@ -34,10 +34,11 @@ Public base and base-gpu images
 -   [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
 -   [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
 
--   **Dependency** : 
- 
-    -   added latest computer software utility package -- tar.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9
+ -   **Dependency** : 
+  
+    -   added all latest packages in dockerfile to mitigate vulnerabilities.
+    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+   
 
 : 20210301.v1
 -------------------
@@ -47,6 +48,8 @@ Public base and base-gpu images
 -   **Addressed vulnerabilities**
 
 -       None
+     
+-   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.  
 
 
 : 20210301.v1
@@ -59,10 +62,10 @@ Public base and base-gpu images
 -    [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
 -    [CVE-2020-27350](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-December/005802.html)
 
--   **Dependency** : 
- 
-    -   added latest computer software utility package -- tar.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9
+ -   **Dependency** : 
+  
+    -   added all latest packages in dockerfile to mitigate vulnerabilities.
+    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
@@ -77,10 +80,10 @@ Public base and base-gpu images
 -   [CVE-2020-14351](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-December/005793.html)
 -   [CVE-2020-27350](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-December/005802.html)
 
--   **Dependency** : 
- 
-    -   added latest computer software utility package -- tar.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9
+ -   **Dependency** : 
+  
+    -   added all latest packages in dockerfile to mitigate vulnerabilities.
+    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
@@ -94,10 +97,10 @@ Public base and base-gpu images
 -   [CVE-2020-29361](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005819.html)
 -   [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
 
--   **Dependency** : 
- 
-    -   added latest computer software utility package -- tar.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9
+ -   **Dependency** : 
+  
+    -   added all latest packages in dockerfile to mitigate vulnerabilities.
+    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
@@ -136,10 +139,10 @@ Public base and base-gpu images
 -   [CVE-2020-8428](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-April/005381.html)
 -   [CVE-2020-29361](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005819.html)
 
--   **Dependency** : 
- 
-    -   added latest computer software utility package -- tar.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9
+ -   **Dependency** : 
+  
+    -   added all latest packages in dockerfile to mitigate vulnerabilities.
+    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
@@ -158,7 +161,9 @@ Public base and base-gpu images
 
 -   **Addressed vulnerabilities**
 
--   None
+-   None.
+-   
+-   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
@@ -170,6 +175,11 @@ Public base and base-gpu images
 -   [CVE-2020-29361](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005819.html)
 -   [CVE-2019-19770](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005822.html)
 
+ -   **Dependency** : 
+  
+    -   added all latest packages in dockerfile to mitigate vulnerabilities.
+    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+
 
 : 20210301.v1
 -------------------
@@ -178,6 +188,7 @@ Public base and base-gpu images
 
 -   **Addressed vulnerabilities**
 -   None
+-   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
@@ -191,7 +202,8 @@ Public base and base-gpu images
 -   [CVE-2020-27350](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-December/005802.html)
 -   [CVE-2020-29361](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005819.html)
 
--   **Dependency** : 
- 
-    -   added latest computer software utility package -- tar.
+ -   **Dependency** : 
+  
+    -   added all latest packages in dockerfile to mitigate vulnerabilities.
     -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+ 
