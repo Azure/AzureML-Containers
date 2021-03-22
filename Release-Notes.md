@@ -164,7 +164,7 @@ Public base and base-gpu images
 -   **Addressed vulnerabilities**
 
 -   None.
--   
+ 
     -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
