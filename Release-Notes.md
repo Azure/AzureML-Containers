@@ -19,8 +19,8 @@ Public base and base-gpu images
  
  -   **Dependency** : 
   
-    -   added all latest packages in dockerfile to mitigate vulnerabilities.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+     -   added all latest packages in dockerfile to mitigate vulnerabilities.
+     -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 
 : 20210301.v1
@@ -36,8 +36,8 @@ Public base and base-gpu images
 
  -   **Dependency** : 
   
-    -   added all latest packages in dockerfile to mitigate vulnerabilities.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+     -   added all latest packages in dockerfile to mitigate vulnerabilities.
+     -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
    
 
 : 20210301.v1
@@ -49,7 +49,7 @@ Public base and base-gpu images
 
 -   None
      
--   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.  
+    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.  
 
 
 : 20210301.v1
@@ -64,8 +64,8 @@ Public base and base-gpu images
 
  -   **Dependency** : 
   
-    -   added all latest packages in dockerfile to mitigate vulnerabilities.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+     -   added all latest packages in dockerfile to mitigate vulnerabilities.
+     -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
@@ -82,8 +82,8 @@ Public base and base-gpu images
 
  -   **Dependency** : 
   
-    -   added all latest packages in dockerfile to mitigate vulnerabilities.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+     -   added all latest packages in dockerfile to mitigate vulnerabilities.
+     -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
@@ -99,15 +99,15 @@ Public base and base-gpu images
 
  -   **Dependency** : 
   
-    -   added all latest packages in dockerfile to mitigate vulnerabilities.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+     -   added all latest packages in dockerfile to mitigate vulnerabilities.
+     -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04 : 
 
--   **Addressed vulnerabilities **
+-   **Addressed vulnerabilities**
 -   [CVE-2018-20856](https://lists.ubuntu.com/archives/ubuntu-security-announce/2019-September/005094.html)
 -   [CVE-2019-5094](https://lists.ubuntu.com/archives/ubuntu-security-announce/2019-September/005134.html)
 -   [CVE-2016-10905](https://lists.ubuntu.com/archives/ubuntu-security-announce/2019-October/005138.html)
@@ -141,8 +141,8 @@ Public base and base-gpu images
 
  -   **Dependency** : 
   
-    -   added all latest packages in dockerfile to mitigate vulnerabilities.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+     -   added all latest packages in dockerfile to mitigate vulnerabilities.
+     -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
@@ -153,7 +153,7 @@ Public base and base-gpu images
 
 -   None.
 
--   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 
 : 20210301.v1
@@ -165,7 +165,7 @@ Public base and base-gpu images
 
 -   None.
 -   
--   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
@@ -179,8 +179,8 @@ Public base and base-gpu images
 
  -   **Dependency** : 
   
-     -   added all latest packages in dockerfile to mitigate vulnerabilities.
-     -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+      -   added all latest packages in dockerfile to mitigate vulnerabilities.
+      -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 
 : 20210301.v1
@@ -192,7 +192,7 @@ Public base and base-gpu images
 
 -   None
 
--   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+   -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
 -------------------
