@@ -12,36 +12,44 @@ Public base and base-gpu images
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04 :
 
 -   **Addressed vulnerabilities**
+-   
                 [CVE-2020-27350](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-December/005802.html)
+                [CVE-2020-29361](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005819.html)
+                [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
+                [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
                 
 
--   **Dependency** : added latest computer software utility package -- tar.
+-   **Dependency** : 
+-   
+    added latest computer software utility package -- tar.
+    Upgraded miniconda version to 4.9.2. Default python version is 3.7.9
 
--   **Improvements**
-
-        - Upgraded minicinda version -- 4.9.2.
-        - Upgraded required python version -- 3.7.9.
 
 : 20210301.v1
 -------------------
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04 : 
 
--   **Addressed vulnerabilities and updated Miniconda & Python Version for below images**
+-   **Addressed vulnerabilities**
+    
+    
+                [CVE-2020-27350](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-December/005802.html)
+                [CVE-2020-29361](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005819.html)
+                [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
+                [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
+-   
 
--   **Dependency** : added latest computer software utility package -- tar.
-
--   **Improvements**
-
-        - Upgraded minicinda version -- 4.9.2.
-        - Upgraded required python version -- 3.7.9.
+-   **Dependency** : 
+-   
+    added latest computer software utility package -- tar.
+    Upgraded miniconda version to 4.9.2. Default python version is 3.7.9
 
 : 20210301.v1
 -------------------
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/intelmpi2018.3-ubuntu16.04 : 
 
--   **Addressed vulnerabilities and updated Miniconda & Python Version for below images**
+-   **Addressed vulnerabilities**
 
 -   **Dependency** : added latest computer software utility package -- tar.
 
@@ -55,7 +63,10 @@ Public base and base-gpu images
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04 : 
 
--   **Addressed vulnerabilities and updated Miniconda & Python Version for below images**
+-   **Addressed vulnerabilities**
+
+                [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
+                [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
 
 -   **Dependency** : added latest computer software utility package -- tar.
 
@@ -69,7 +80,10 @@ Public base and base-gpu images
 
 -  **Image Name**:  docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04 : 
 
--   **Addressed vulnerabilities and updated Miniconda & Python Version for below images**
+-   **Addressed vulnerabilities**
+-   [CVE-2019-19770](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005822.html)
+-   [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
+-   [CVE-2021-1052](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005851.html)
 
 -   **Dependency** : added latest computer software utility package -- tar.
 
@@ -83,7 +97,12 @@ Public base and base-gpu images
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04 : 
 
--   **Addressed vulnerabilities and updated Miniconda & Python Version for below images**
+-   **Addressed vulnerabilities**
+
+[CVE-2021-1052](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005851.html)
+                [CVE-2020-27350](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-December/005802.html)
+                [CVE-2020-29361](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005819.html)
+                  [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
 
 -   **Dependency** : added latest computer software utility package -- tar.
 
@@ -97,7 +116,8 @@ Public base and base-gpu images
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04 : 
 
--   **Addressed vulnerabilities and updated Miniconda & Python Version for below images**
+-   **Addressed vulnerabilities **
+-   https://lists.ubuntu.com/archives/ubuntu-security-announce/2019-September/005094.html
 
 -   **Dependency** : added latest computer software utility package -- tar.
 
