@@ -29,10 +29,10 @@ Public base and base-gpu images
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04 : 
 
 -   **Addressed vulnerabilities**
--     [CVE-2020-27350](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-December/005802.html)
--     [CVE-2020-29361](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005819.html)
--     [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
--     [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
+-   [CVE-2020-27350](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-December/005802.html)
+-   [CVE-2020-29361](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005819.html)
+-   [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
+-   [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
 
 -   **Dependency** : 
  
@@ -54,8 +54,8 @@ Public base and base-gpu images
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04 : 
 
 -   **Addressed vulnerabilities**
--       [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
--       [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
+-    [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
+-    [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
 
 -   **Dependency** : 
  
@@ -68,9 +68,9 @@ Public base and base-gpu images
 -  **Image Name**:  docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04 : 
 
 -   **Addressed vulnerabilities**
--     [CVE-2019-19770](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005822.html)
--     [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
--     [CVE-2021-1052](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005851.html)
+-   [CVE-2019-19770](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005822.html)
+-   [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
+-   [CVE-2021-1052](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005851.html)
 
 -   **Dependency** : 
  
@@ -112,7 +112,7 @@ Public base and base-gpu images
 -   [CVE-2019-14615](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-January/005296.html)
 -   [CVE-2018-16888](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-February/005316.htm)
 -   [CVE-2019-14615](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-February/005336.html)
--   []CVE-2020-2732](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-March/005359.html)
+-   [CVE-2020-2732](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-March/005359.html)
 -   [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
 -   [CVE-2020-27350](https://lists.ubuntu.com/archives/ubuntu-security-announce/2020-December/005802.html)
 -   [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
@@ -177,8 +177,8 @@ Public base and base-gpu images
 
 -   **Addressed vulnerabilities**
   
--     [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
--     [CVE-2021-1052](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005851.html)
+-   [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
+-   [CVE-2021-1052](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005851.html)
 
 -   **Dependency** : 
  
