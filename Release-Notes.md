@@ -45,6 +45,7 @@ Public base and base-gpu images
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/intelmpi2018.3-ubuntu16.04 : 
 
 -   **Addressed vulnerabilities**
+
 -       None
 
 
