@@ -47,7 +47,7 @@ Public base and base-gpu images
 
 -   **Addressed vulnerabilities**
 
--       None
+-   None
      
 -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.  
 
@@ -149,9 +149,11 @@ Public base and base-gpu images
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu16.04 : 
 
--   **Addressed vulnerabilities**
+-   **Addressed vulnerabilities** 
 
 -   None.
+
+-   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 
 : 20210301.v1
@@ -177,8 +179,8 @@ Public base and base-gpu images
 
  -   **Dependency** : 
   
-    -   added all latest packages in dockerfile to mitigate vulnerabilities.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+     -   added all latest packages in dockerfile to mitigate vulnerabilities.
+     -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 
 : 20210301.v1
@@ -187,7 +189,9 @@ Public base and base-gpu images
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.2-cudnn8-ubuntu18.04 : 
 
 -   **Addressed vulnerabilities**
+
 -   None
+
 -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
 
 : 20210301.v1
@@ -204,6 +208,6 @@ Public base and base-gpu images
 
  -   **Dependency** : 
   
-    -   added all latest packages in dockerfile to mitigate vulnerabilities.
-    -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+     -   added all latest packages in dockerfile to mitigate vulnerabilities.
+     -   Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
  
