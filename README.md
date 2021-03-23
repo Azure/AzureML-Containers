@@ -72,7 +72,7 @@ Below is the list of tags:
 - [OpenMPI CPU - Ubuntu 18.04](./base/cpu/openmpi3.1.2-ubuntu18.04)
     * openmpi3.1.2-ubuntu18.04
 - [IntelMPI GPU - cuda9 - Ubuntu 16.04](./base/gpu/intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04)
-    * base-gpu:intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04
+    * intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04
 - [OpenMPI GPU - cuda9 - Ubuntu 16.04](./base/gpu/openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04)
     * openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04
 - [IntelMPI GPU - cuda10.0 - Ubuntu 16.04](./base/gpu/intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04)
