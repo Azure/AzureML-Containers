@@ -1,4 +1,4 @@
--  **Image Name**: docker pull mcr.microsoft.com/azureml/intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04 :
+- **Image Name**: docker pull mcr.microsoft.com/azureml/intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04 :
 
 : 20210301.v1
 -------------------
