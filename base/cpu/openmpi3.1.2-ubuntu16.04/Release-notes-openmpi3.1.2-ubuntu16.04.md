@@ -7,4 +7,4 @@
 
 -   None.
 
-    -   improvement -- Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
+-   improvement -- Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
