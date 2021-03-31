@@ -5,7 +5,7 @@
 -------------------
 
 -   **Addressed vulnerabilities**
--   [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
+-   [CVE-2020-4788](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
 -   [CVE-2018-13093](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005857.html)
 
 : 20210301.v1
