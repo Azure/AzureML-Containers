@@ -10,7 +10,7 @@
 
 -   **Description** : 
   
-     -   This vulnerabilities are mitigated in last release since we are not pinned version in our dockerfiles
+     -   This vulnerabilities are mitigated in last release since we are not pinned version in our dockerfiles.
      
  
 : 20210301.v1
