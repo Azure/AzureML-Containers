@@ -5,9 +5,14 @@
 -------------------
 
 -   **Addressed vulnerabilities**
--   [CVE-2020-4788](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
+-   [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
 -   [CVE-2018-13093](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005857.html)
 
+-   **Description** : 
+  
+     -   This vulnerabilities are mitigated in last release since we are not pinned version in our dockerfiles
+     
+ 
 : 20210301.v1
 -------------------
 
