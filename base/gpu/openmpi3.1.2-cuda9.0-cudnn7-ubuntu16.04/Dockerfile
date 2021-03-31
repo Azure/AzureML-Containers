@@ -2,18 +2,6 @@
 # Licensed under the MIT License.
 FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210210.31228572 AS inferencing-assets
 
-# Tag: cuda:9.0-cudnn7-devel-ubuntu16.04
-# Env: CUDA_VERSION=9.0.176
-# Env: CUDA_PKG_VERSION=9-0=9.0.176-1
-# Env: NCCL_VERSION=2.4.8
-# Env: CUDNN_VERSION=7.6.3.30
-# Env: NVIDIA_VISIBLE_DEVICES=all
-# Env: NVIDIA_DRIVER_CAPABILITIES=compute,utility
-# Env: NVIDIA_REQUIRE_CUDA=cuda>=9.0
-# Label: com.nvidia.cuda.version=9.0.176
-# Label: com.nvidia.cudnn.version=7.6.3.30
-# Label: com.nvidia.volumes.needed=nvidia_driver
-# Ubuntu 16.04
 FROM nvidia/cuda@sha256:5b4a2ecdf7e7594e8f6fc41c0ed0e6a716bfb6ddc0e4852a3dde58eae4692d73
 
 USER root:root
