@@ -3,18 +3,6 @@
 
 FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210210.31228572 AS inferencing-assets
 
-# Tag: cuda:10.0-cudnn7-devel-ubuntu16.04
-# Env: CUDA_VERSION=10.0.130
-# Env: CUDA_PKG_VERSION=10-0=10.0.130-1
-# Env: NCCL_VERSION=2.4.8
-# Env: CUDNN_VERSION=7.6.3.30
-# Env: NVIDIA_VISIBLE_DEVICES=all
-# Env: NVIDIA_DRIVER_CAPABILITIES=compute,utility
-# Env: NVIDIA_REQUIRE_CUDA=cuda>=10.0 brand=tesla,driver>=384,driver<385 brand=tesla,driver>=410,driver<411
-# Label: com.nvidia.cuda.version=10.0.130
-# Label: com.nvidia.cudnn.version=7.6.3.30
-# Label: com.nvidia.volumes.needed=nvidia_driver
-# Ubuntu 16.04
 FROM nvidia/cuda@sha256:27f07b36cf5dbf9c148ade5795e53932c421c9526143afc83e4f9dc55fb618fd
 
 USER root:root
