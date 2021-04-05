@@ -33,6 +33,7 @@ RUN apt-get update && \
     dapl2-utils \
     openssh-client \
     openssh-server \
+    redis \
     iproute2 && \
     # Others
     apt-get install -y \
