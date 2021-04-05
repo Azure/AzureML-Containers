@@ -1,5 +1,12 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.2-cudnn7-ubuntu18.04 : 
 
+: 20210405.v1
+-------------------
+
+ -   **Dependency** : 
+  
+     -   updated redis package.
+
 : 20210301.v1
 -------------------
 
