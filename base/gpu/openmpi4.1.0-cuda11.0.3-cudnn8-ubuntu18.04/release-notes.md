@@ -5,7 +5,7 @@
 
  -   **Dependency** : 
   
-     -   updated redis package as part of this release.
+     -   updated redis package.
 
 
 : 20210301.v1
