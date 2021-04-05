@@ -3,7 +3,7 @@
 : 20210405.v1
 ---------------------
   
-      -   updated redis package as part of this release.
+    *   updated redis package as part of this release.
 
 : 20210301.v1
 -------------------
