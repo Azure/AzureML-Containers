@@ -5,7 +5,6 @@
 -------------------
 
 -   **Addressed vulnerabilities**
--   [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
 -   [CVE-2018-13093](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005857.html)
 
    
@@ -18,7 +17,7 @@
 -   [CVE-2019-0148](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005823.html)
 -   [CVE-2018-20482](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-January/005839.html)
  
- -   **Dependency** : 
+ -   **Dependencies** : 
   
      -   added all latest packages in dockerfile to mitigate vulnerabilities.
      -   improvement -- Upgraded miniconda version to 4.9.2. Default python version is 3.7.9.
