@@ -4,8 +4,8 @@
 -------------------
 
 -   **Addressed vulnerabilities**
--   None
--   Updated system dependecies.
+ -     None
+ -     Updated system dependecies.
 
 : 20210301.v1
 -------------------
