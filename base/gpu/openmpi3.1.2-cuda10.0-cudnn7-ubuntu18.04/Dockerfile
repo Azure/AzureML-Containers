@@ -66,6 +66,8 @@ RUN apt-get update && \
     p11-kit \
     libp11-kit0 \
     tar \
+    libzstd1 \
+    libssl1.1 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
