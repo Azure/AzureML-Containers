@@ -35,6 +35,7 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
     apt \
+    libp11-kit0 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
