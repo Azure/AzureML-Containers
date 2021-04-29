@@ -72,6 +72,8 @@ RUN apt-get update && \
     p11-kit \
     libp11-kit0 \
     tar \
+    libzstd1 \
+    libglib2.0-0 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
