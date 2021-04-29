@@ -37,9 +37,6 @@ RUN apt-get update && \
     libx11-dev \
     apt \
     libp11-kit0 \
-    libglib2.0-0 \
-    libzstd1 \
-    libssl1.0.0 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
