@@ -68,6 +68,7 @@ RUN apt-get update && \
     tar \
     libzstd1 \
     libssl1.1 \
+    libnettle6 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
