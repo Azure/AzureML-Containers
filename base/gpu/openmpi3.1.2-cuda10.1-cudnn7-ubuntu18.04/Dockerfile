@@ -79,6 +79,8 @@ RUN apt-get update && \
     p11-kit \
     libp11-kit0 \
     tar \
+    libzstd1 \
+    libnettle6 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
