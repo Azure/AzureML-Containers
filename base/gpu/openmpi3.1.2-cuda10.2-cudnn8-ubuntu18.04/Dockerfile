@@ -68,6 +68,7 @@ RUN apt-get update && \
     ca-certificates \
     libzstd1 \
     libglib2.0-0 \
+    libnettle6 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
