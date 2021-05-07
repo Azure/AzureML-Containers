@@ -36,6 +36,8 @@ RUN apt-get update && \
     libxrender-dev \
     apt \
     libp11-kit0 \
+    libglib2.0-0 \
+    libnettle6 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
