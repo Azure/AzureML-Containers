@@ -12,7 +12,7 @@
 
  -   **Dependencies** : 
   
-     -   added glib, libzstd1 , libssl1.1  and libnettle1 packages in dockerfile to mitigate vulnerabilities.
+     -   added glib, libzstd1 , libssl1.1  and libnettle6 packages in dockerfile to mitigate vulnerabilities.
    
 : 20210301.v1
 -------------------
