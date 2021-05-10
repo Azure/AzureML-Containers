@@ -68,6 +68,8 @@ RUN apt-get update && \
     linux-oracle \
     linux-image-oracle \
     tar \
+    libslp1 \ 
+    libnettle6 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
