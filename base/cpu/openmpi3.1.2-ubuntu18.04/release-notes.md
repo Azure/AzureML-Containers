@@ -5,7 +5,7 @@
 
  -   **Dependency** : 
   
-     -   updated new python assets tag.
+     -   updated new python_assets tag to 20210428.36856618.
 
 : 20210507.v1
 -------------------
