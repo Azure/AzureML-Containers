@@ -1,6 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210210.31228572 AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210428.36856618 AS inferencing-assets
 
 # Tag: cuda:10.2-cudnn7-devel-ubuntu18.04
 # Env: CUDA_VERSION=10.2.84
