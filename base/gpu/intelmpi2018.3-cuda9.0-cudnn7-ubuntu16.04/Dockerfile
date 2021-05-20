@@ -65,6 +65,7 @@ RUN apt-get update && \
     linux-image-oem \
     linux-image-oracle \ 
     tar \
+    libslp1 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
