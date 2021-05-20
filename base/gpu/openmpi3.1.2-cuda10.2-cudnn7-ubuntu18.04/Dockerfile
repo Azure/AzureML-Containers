@@ -76,6 +76,7 @@ RUN apt-get update && \
     libp11-kit0 \
     linux-oracle \
     linux-image-oracle \
+    libnettle6 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
