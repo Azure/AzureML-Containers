@@ -1,5 +1,16 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04 : 
 
+: 20210519.v1
+-------------------
+
+-   **Addressed vulnerabilities**
+  
+-   [CVE-2019-5544](https://ubuntu.com/security/notices/USN-4919-1 )
+
+ -   **Dependencies** : 
+  
+     -   added libslp1 package in dockerfile to mitigate vulnerabilities.
+
 : 20210331.v1
 -------------------
 
