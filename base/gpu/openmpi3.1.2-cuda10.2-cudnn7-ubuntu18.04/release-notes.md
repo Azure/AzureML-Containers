@@ -1,5 +1,12 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.2-cudnn7-ubuntu18.04 :
 
+: 20210601.v1
+-------------------
+
+ -   **Addressed vulnerabilities**
+  
+     -  Updated system dependencies.
+
 :20210519.v1
 -------------------
 
