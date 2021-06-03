@@ -34,11 +34,6 @@ RUN apt-get update && \
     libsm6 \
     libxext6 \
     libxrender-dev \
-    linux-image-aws \
-    linux-image-kvm \
-    linux-image-generic \ 
-    linux-image-lowlatency \
-    linux-image-virtual \  
     apt \
     libp11-kit0 \
     fuse && \
