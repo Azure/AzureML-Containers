@@ -42,28 +42,16 @@ RUN apt-get update && \
     lib32z1 \
     libsasl2-2 \
     ca-certificates \
-    linux-image-kvm \
     slapd \
     ldap-utils \
     zlib1g \
     libssl1.0.0 \
     libc6 \
-    linux-image-aws \
-    linux-image-generic \
-    linux-image-lowlatency \
-    linux-image-virtual \
     perl \
-    linux-gcp \
-    linux-gke \
-    linux-azure \
     krb5-kdc \	
     apt \
     p11-kit \
     libp11-kit0 \
-    linux-aws \
-    linux-oracle \
-    linux-image-oem \
-    linux-image-oracle \ 
     tar \
     libslp1 \
     fuse && \
