@@ -57,14 +57,6 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
     libssl1.0.0 \
-    linux-image-aws \ 
-    linux-image-azure \ 
-    linux-image-generic \
-    linux-image-kvm \
-    linux-image-lowlatency \
-    linux-image-virtual \
-    linux-image-gke \
-    linux-image-oem \
     slapd \
     perl \ 
     ca-certificates \
