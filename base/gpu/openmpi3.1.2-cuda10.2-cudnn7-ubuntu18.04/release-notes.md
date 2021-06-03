@@ -5,7 +5,11 @@
 
  -   **Addressed vulnerabilities**
   
-     -  Updated system dependencies.
+     -   [CVE-2021-3449](https://lists.ubuntu.com/archives/ubuntu-security-announce/2021-March/005947.html)
+
+ -   **Dependencies** : 
+  
+     -   added openssl package in dockerfile to mitigate vulnerabilities.
 
 :20210519.v1
 -------------------
