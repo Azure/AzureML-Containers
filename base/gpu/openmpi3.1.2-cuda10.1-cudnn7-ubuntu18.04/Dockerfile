@@ -58,22 +58,8 @@ RUN apt-get update && \
     ldap-utils \
     util-linux \
     gnupg \
-    linux-image-aws \
-    linux-image-kvm \  
-    linux-image-azure \ 
-    linux-image-generic \
-    linux-image-lowlatency \
-    linux-image-virtual \
-    linux-image-gke \
-    linux-image-oem \
     perl \ 
     ca-certificates \
-    linux-aws \
-    linux-kvm \
-    linux-gke \
-    linux-gcp \
-    linux-oem \  
-    linux-azure \
     krb5-kdc \
     apt \
     p11-kit \
