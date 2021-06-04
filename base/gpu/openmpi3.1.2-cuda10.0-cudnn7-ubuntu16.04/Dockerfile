@@ -50,18 +50,10 @@ RUN apt-get update && \
     perl \
     zlib1g \
     e2fsprogs \
-    linux-aws \
-    linux-kvm \
-    linux-gcp \
-    linux-gke \
-    linux-azure \
     krb5-kdc \
     apt \
     p11-kit \
     libp11-kit0 \
-    linux-oracle \
-    linux-image-oem \
-    linux-image-oracle \
     tar \
     fuse && \
     apt-get clean -y && \

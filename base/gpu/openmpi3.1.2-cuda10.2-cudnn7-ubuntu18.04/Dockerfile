@@ -53,29 +53,13 @@ RUN apt-get update && \
     libsm6 \
     libxext6 \
     libxrender-dev \
-    linux-image-aws \
-    linux-image-azure \
-    linux-image-kvm \ 
-    linux-image-generic \
-    linux-image-lowlatency \
-    linux-image-virtual \
-    linux-image-gke \
-    linux-image-oem \
     slapd \
     perl \
     ca-certificates \
-    linux-aws \
-    linux-kvm \
-    linux-gke \
-    linux-gcp \
-    linux-oem \
-    linux-azure \
     krb5-kdc \
     apt \
     p11-kit \
     libp11-kit0 \
-    linux-oracle \
-    linux-image-oracle \
     libnettle6 \
     fuse && \
     apt-get clean -y && \

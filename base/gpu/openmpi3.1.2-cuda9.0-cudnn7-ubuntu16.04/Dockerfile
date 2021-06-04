@@ -51,22 +51,11 @@ RUN apt-get update && \
     linux-image-kvm \
     zlib1g \
     libssl1.0.0 \
-    linux-image-aws \
-    linux-image-generic \
-    linux-image-lowlatency \
-    linux-image-virtual \
     perl \ 
-    linux-aws \
-    linux-kvm \
-    linux-gcp \
-    linux-gke \
-    linux-azure \
     krb5-kdc \
     apt \
     p11-kit \
     libp11-kit0 \
-    linux-oracle \
-    linux-image-oracle \
     tar \
     libslp1 \ 
     libnettle6 \
