@@ -23,6 +23,8 @@ You can also use these Docker images as base images for your custom Azure ML [En
 
 **Note that these base images do not come with Python packages, notably the Azure ML Python SDK, installed.** If you require the Azure ML SDK package for your job, make sure you also install the appropriate package.
 
+**Please note that images supporting Ubuntu 16.04 are now deprecated.** 
+
 <a name="dependencies"></a>
 ## Base image dependencies
 Currently Azure ML supports cuda9, cuda10 and cuda11 base images. The major dependencies installed in the base images are:
@@ -36,12 +38,11 @@ Currently Azure ML supports cuda9, cuda10 and cuda11 base images. The major depe
 | nccl | - | - | 2.4 | 2.4/2.4/2.4/2.7/2.8 |
 | git | 2.7.4 | 2.7.4 | 2.7.4 | 2.7.4 |
 
-The CPU images are built from ubuntu16.04/ubuntu18.04.
+The CPU images are built from ubuntu18.04.
 
 The GPU images for cuda9 are built from nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04.
 
 The GPU images for cuda10 are built from:
-* nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04
 * nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
 * nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
 * nvidia/cuda:10.2-cudnn8-devel-ubuntu18.04
@@ -65,20 +66,8 @@ GPU images pulled from MCR can only be used with Azure Services. Take a look at 
 <a name="tags"></a>
 ### Featured tags
 Below is the list of tags:
-- [IntelMPI CPU - Ubuntu 16.04](./base/cpu/intelmpi2018.3-ubuntu16.04)
-    * intelmpi2018.3-ubuntu16.04
-- [OpenMPI CPU - Ubuntu 16.04](./base/cpu/openmpi3.1.2-ubuntu16.04)
-    * openmpi3.1.2-ubuntu16.04
 - [OpenMPI CPU - Ubuntu 18.04](./base/cpu/openmpi3.1.2-ubuntu18.04)
     * openmpi3.1.2-ubuntu18.04
-- [IntelMPI GPU - cuda9 - Ubuntu 16.04](./base/gpu/intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04)
-    * intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04
-- [OpenMPI GPU - cuda9 - Ubuntu 16.04](./base/gpu/openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04)
-    * openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04
-- [IntelMPI GPU - cuda10.0 - Ubuntu 16.04](./base/gpu/intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04)
-    * intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
-- [OpenMPI GPU - cuda10.0 - Ubuntu 16.04](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04)
-    * openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04
 - [OpenMPI GPU - cuda10.0 - Ubuntu 18.04](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04)
     * openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04
 - [OpenMPI GPU - cuda10.1 - Ubuntu 18.04](./base/gpu/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04)
@@ -101,7 +90,7 @@ In some cases, the Azure ML base images will be used by default:
      ```python
      from azureml.core import Environment
      
-     curated_env_name = 'AzureML-PyTorch-1.6-GPU'
+     curated_env_name = 'AzureML-pytorch-1.7-ubuntu18.04-py37-cuda11-gpu'
      pytorch_env = Environment.get(workspace=ws, name=curated_env_name)
      print(pytorch_env.docker.base_image)
      ```
