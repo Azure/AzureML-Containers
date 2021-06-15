@@ -23,7 +23,7 @@ You can also use these Docker images as base images for your custom Azure ML [En
 
 **Note that these base images do not come with Python packages, notably the Azure ML Python SDK, installed.** If you require the Azure ML SDK package for your job, make sure you also install the appropriate package.
 
-**Please note that images supporting Ubuntu 16.04 are now deprecated.** 
+**Please note that images supporting Ubuntu 16.04 are now deprecated. We recommend using images supporting Ubuntu 18.04 for the timebeing as we transition towards providing 20.04 images.** 
 
 <a name="dependencies"></a>
 ## Base image dependencies
