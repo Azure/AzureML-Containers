@@ -1,3 +1,5 @@
+**As of 6/15/21, please note that this image is now deprecated.**
+
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda9.0-cudnn7-ubuntu16.04 : 
 
 
