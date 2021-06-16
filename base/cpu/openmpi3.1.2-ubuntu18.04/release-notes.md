@@ -1,5 +1,19 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 : 
 
+: 20210615.v1
+-------------------
+
+-   **Addressed vulnerabilities**
+  
+-   [CVE-2021-31535](https://usn.ubuntu.com/4966-1)
+-   [CVE-2021-23017](https://usn.ubuntu.com/4967-1)
+-   [CVE-2021-3520](https://usn.ubuntu.com/4968-1)
+
+ -   **Dependencies** : 
+  
+     -   added libx11-dev,  nginx and liblz4-1 packages in dockerfile to mitigate vulnerabilities.
+     -   updated new python_assets tag to 20210603.39066660.
+
 : 20210513.v1
 -------------------
 

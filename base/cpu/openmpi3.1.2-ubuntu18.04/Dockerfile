@@ -1,6 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210428.36856618 AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210603.39066660 AS inferencing-assets
 
 FROM ubuntu:18.04
 
@@ -41,6 +41,9 @@ RUN apt-get update && \
     libzstd1 \
     libssl1.0.0 \
     libnettle6 \
+    libx11-dev \
+    nginx \
+    liblz4-1 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

@@ -1,7 +1,7 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
 
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210428.36856618 AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210603.39066660 AS inferencing-assets
 
 # Tag: cuda:11.0.3-devel-ubuntu18.04
 # Env: CUDA_VERSION=11.0.3
@@ -35,6 +35,20 @@ RUN apt-get update && \
     openssh-server \
     redis \
     iproute2 && \
+    # rdma-core dependencies
+    apt-get install -y \
+    udev \
+    libudev-dev \
+    libnl-3-dev \
+    libnl-route-3-dev \
+    gcc \
+    ninja-build \
+    pkg-config \
+    valgrind \
+    cython3 \
+    python3-docutils \
+    pandoc \
+    python3-dev && \
     # Others
     apt-get install -y \
     build-essential \
@@ -67,6 +81,10 @@ RUN apt-get update && \
     libzstd1 \
     libglib2.0-0 \
     libnettle6 \
+    dh-make \
+    libx11-dev \
+    nginx \
+    liblz4-1 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
@@ -96,13 +114,14 @@ RUN wget -qO /tmp/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-${
 # Open-MPI-UCX installation
 RUN mkdir /tmp/ucx && \
     cd /tmp/ucx && \
-	wget -q https://github.com/openucx/ucx/releases/download/v1.6.1-rc2/ucx-1.6.1.tar.gz && \
-	tar zxf ucx-1.6.1.tar.gz && \
-	cd ucx-1.6.1 && \
-	./configure --prefix=/usr/local --enable-optimizations --disable-assertions --disable-params-check --enable-mt && \
-	make -j $(nproc --all) && \
-	make install && \
-	rm -rf /tmp/ucx
+        wget -q https://github.com/openucx/ucx/releases/download/v1.9.0/ucx-1.9.0.tar.gz && \
+        tar zxf ucx-1.9.0.tar.gz && \
+	cd ucx-1.9.0 && \
+        ./configure --prefix=/usr/local --enable-optimizations --disable-assertions --disable-params-check --enable-mt && \
+        make -j $(nproc --all) && \
+        make install && \
+        rm -rf /tmp/ucx
+
 
 # Open-MPI installation
 ENV OPENMPI_VERSION 4.1.0
@@ -128,3 +147,13 @@ RUN apt-get update && \
 #Cmake Installation
 RUN apt-get update && \
     apt-get install -y cmake
+
+# rdma-core v30.0 for Mlnx_ofed_5_1_2 as user space driver
+RUN mkdir /tmp/rdma-core && \
+    cd /tmp/rdma-core && \
+    git clone --branch v30.0 https://github.com/linux-rdma/rdma-core && \
+    cd /tmp/rdma-core/rdma-core && \
+    debian/rules binary && \
+    dpkg -i ../*.deb && \
+    rm -rf /tmp/rdma-core
+
