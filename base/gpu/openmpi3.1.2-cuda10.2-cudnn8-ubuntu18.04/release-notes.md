@@ -1,5 +1,12 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.2-cudnn8-ubuntu18.04 : 
 
+: 20210701.v1
+-------------------
+
+ -   **Dependencies** : 
+ 
+     -   updated new python_assets tag to 20210623.40134510.
+
 : 20210615.v1
 -------------------
 
