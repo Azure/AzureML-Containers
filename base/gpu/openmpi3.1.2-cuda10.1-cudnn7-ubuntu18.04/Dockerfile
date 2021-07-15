@@ -70,6 +70,7 @@ RUN apt-get update && \
     libx11-dev \
     nginx \
     liblz4-1 \
+    libxml2-dev \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
