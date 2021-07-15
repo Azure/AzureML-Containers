@@ -1,5 +1,16 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04 : 
 
+: 20210714.v1
+-------------------
+
+-   **Addressed vulnerabilities**
+  
+-   [CVE-2021-3516](https://usn.ubuntu.com/4991-1)
+
+ -   **Dependencies** : 
+  
+     -   added libxml2-dev package in dockerfile to mitigate vulnerabilities.
+
 : 20210701.v1
 -------------------
 
