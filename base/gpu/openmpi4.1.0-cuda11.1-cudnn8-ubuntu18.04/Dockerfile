@@ -3,12 +3,12 @@
 
 FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210623.40134510 AS inferencing-assets
 
-# Tag: cuda:11.0.3-devel-ubuntu18.04
-# Env: CUDA_VERSION=11.0.3
-# Env: NCCL_VERSION=2.8.3
+# Tag: cuda:11.1.1-devel-ubuntu18.04
+# Env: CUDA_VERSION=11.1.1
+# Env: NCCL_VERSION=2.8.4
 # Env: CUDNN_VERSION=8.0.5.39
 
-FROM nvidia/cuda:11.0.3-cudnn8-devel-ubuntu18.04
+FROM nvidia/cuda:11.1.1-cudnn8-devel-ubuntu18.04
 
 USER root:root
 
@@ -71,9 +71,6 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
     libssl1.0.0 \
-    slapd \
-    perl \ 
-    ca-certificates \
     apt \
     p11-kit \
     libp11-kit0 \
@@ -168,4 +165,3 @@ RUN cd /tmp && \
     ./configure --prefix=/usr/local/nccl-rdma-sharp-plugins --with-cuda=/usr/local/cuda --without-ucx && \
     make && \
     make install
-
