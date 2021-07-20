@@ -47,7 +47,9 @@ The GPU images for cuda10 are built from:
 * nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
 * nvidia/cuda:10.2-cudnn8-devel-ubuntu18.04
 
-The GPU images for cuda11 are built from nvidia/cuda:11.0.3-cudnn8-devel-ubuntu18.04
+The GPU images for cuda11 are built from:
+* nvidia/cuda:11.0.3-cudnn8-devel-ubuntu18.04
+* nvidia/cuda:11.1-cudnn8-devel-ubuntu18.04
 
 
 <a name="getdocker"></a>
@@ -78,6 +80,8 @@ Below is the list of tags:
     * openmpi3.1.2-cuda10.2-cudnn8-ubuntu18.04
 - [OpenMPI GPU - cuda11.0 - Ubuntu 18.04](./base/gpu/openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04)
     * openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04
+- [OpenMPI GPU - cuda11.1 - Ubuntu 18.04](./base/gpu/openmpi4.1.0-cuda11.1-cudnn8-ubuntu18.04)
+    * openmpi4.1.0-cuda11.1-cudnn8-ubuntu18.04
 
 <a name="howtorun"></a>
 ## Using Azure ML base images for training
