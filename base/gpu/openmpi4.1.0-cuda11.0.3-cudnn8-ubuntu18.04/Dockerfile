@@ -71,9 +71,6 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
     libssl1.0.0 \
-    slapd \
-    perl \ 
-    ca-certificates \
     apt \
     p11-kit \
     libp11-kit0 \
@@ -82,6 +79,7 @@ RUN apt-get update && \
     libglib2.0-0 \
     libnettle6 \
     dh-make \
+    #intel-micromode \
     libx11-dev \
     nginx \
     liblz4-1 \
@@ -156,4 +154,15 @@ RUN mkdir /tmp/rdma-core && \
     debian/rules binary && \
     dpkg -i ../*.deb && \
     rm -rf /tmp/rdma-core
+
+#Install v3 version of nccl-rdma-sharp-plugins
+RUN cd /tmp && \
+    mkdir -p /usr/local/nccl-rdma-sharp-plugins && \
+    apt install -y dh-make zlib1g-dev && \
+    git clone -b v2.0.0 https://github.com/Mellanox/nccl-rdma-sharp-plugins.git && \
+    cd nccl-rdma-sharp-plugins && \
+    ./autogen.sh && \
+    ./configure --prefix=/usr/local/nccl-rdma-sharp-plugins --with-cuda=/usr/local/cuda --without-ucx && \
+    make && \
+    make install
 
