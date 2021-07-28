@@ -3,6 +3,10 @@
 :20210727.v1
 -------------------
 
+-   **Addressed vulnerabilities**
+  
+-   [CVE-2021-33910](https://ubuntu.com/security/notices/USN-5013-2)
+
  -   **Dependencies** : 
   
      - Removed unneeded dependencies..
