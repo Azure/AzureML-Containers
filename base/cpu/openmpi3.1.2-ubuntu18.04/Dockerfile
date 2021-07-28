@@ -35,12 +35,10 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
     libx11-dev \
-    apt \
     libp11-kit0 \
     libglib2.0-0 \
     libzstd1 \
     libssl1.0.0 \
-    libnettle6 \
     libx11-dev \
     nginx \
     liblz4-1 \

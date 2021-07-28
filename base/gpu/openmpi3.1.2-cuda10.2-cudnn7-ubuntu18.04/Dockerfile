@@ -53,14 +53,7 @@ RUN apt-get update && \
     libsm6 \
     libxext6 \
     libxrender-dev \
-    slapd \
-    perl \
-    ca-certificates \
     krb5-kdc \
-    apt \
-    p11-kit \
-    libp11-kit0 \
-    libnettle6 \
     libx11-dev \
     nginx \
     liblz4-1 \

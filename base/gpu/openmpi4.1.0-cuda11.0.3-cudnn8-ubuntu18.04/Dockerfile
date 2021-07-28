@@ -71,16 +71,8 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
     libssl1.0.0 \
-    slapd \
-    perl \ 
-    ca-certificates \
-    apt \
-    p11-kit \
-    libp11-kit0 \
-    tar \
     libzstd1 \
     libglib2.0-0 \
-    libnettle6 \
     dh-make \
     #intel-micromode \
     libx11-dev \

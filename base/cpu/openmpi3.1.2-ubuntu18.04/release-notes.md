@@ -1,5 +1,16 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 : 
 
+:20210727.v1
+-------------------
+
+-   **Addressed vulnerabilities**
+  
+-   [CVE-2021-33910](https://ubuntu.com/security/notices/USN-5013-2)
+
+ -   **Dependencies** : 
+  
+     - Released the images to mitigate vulnerabilities.
+
 : 20210714.v1
 -------------------
 
