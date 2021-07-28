@@ -5,7 +5,7 @@
 
  -   **Dependencies** : 
   
-     - Released the images to mitigate vulnerabilities.
+     - Removed unneeded dependencies.
 
 : 20210714.v1
 -------------------
