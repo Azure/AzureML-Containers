@@ -55,12 +55,8 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
     libssl1.0.0 \
-    slapd \
-    perl \ 
-    ca-certificates \
     libzstd1 \
     libglib2.0-0 \
-    libnettle6 \
     libx11-dev \
     nginx \
     liblz4-1 \
