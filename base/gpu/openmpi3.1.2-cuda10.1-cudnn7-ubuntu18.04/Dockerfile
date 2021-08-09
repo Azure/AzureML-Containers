@@ -59,6 +59,7 @@ RUN apt-get update && \
     gnupg \
     krb5-kdc \
     libzstd1 \
+    libnettle6 \
     libx11-dev \
     nginx \
     liblz4-1 \

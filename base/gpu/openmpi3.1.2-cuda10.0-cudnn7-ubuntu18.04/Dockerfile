@@ -46,6 +46,7 @@ RUN apt-get update && \
     krb5-kdc \
     libzstd1 \
     libssl1.1 \
+    libnettle6 \
     libx11-dev \
     nginx \
     liblz4-1 \

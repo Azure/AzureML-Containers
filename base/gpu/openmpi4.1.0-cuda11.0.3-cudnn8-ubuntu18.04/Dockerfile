@@ -74,7 +74,7 @@ RUN apt-get update && \
     libzstd1 \
     libglib2.0-0 \
     dh-make \
-    #intel-micromode \
+    libnettle6 \
     libx11-dev \
     nginx \
     liblz4-1 \

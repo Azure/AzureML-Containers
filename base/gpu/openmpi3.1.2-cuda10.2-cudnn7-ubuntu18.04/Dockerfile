@@ -54,6 +54,7 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
     krb5-kdc \
+    libnettle6 \
     libx11-dev \
     nginx \
     liblz4-1 \
