@@ -58,6 +58,7 @@ RUN apt-get update && \
     libzstd1 \
     libglib2.0-0 \
     libx11-dev \
+    libnettle6 \ 
     nginx \
     liblz4-1 \
     libxml2-dev \
