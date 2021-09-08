@@ -71,13 +71,11 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
     libssl1.0.0 \
-    libzstd1 \
     libglib2.0-0 \
     dh-make \
     libnettle6 \
     libx11-dev \
     nginx \
-    liblz4-1 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
