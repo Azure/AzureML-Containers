@@ -1,5 +1,12 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 : 
 
+:20210906.v1
+-------------------
+
+ -   **Dependencies** : 
+  
+     - Removed unneeded packages and released the images.
+
 :20210727.v1
 -------------------
 
