@@ -55,12 +55,10 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
     libssl1.0.0 \
-    libzstd1 \
     libglib2.0-0 \
     libx11-dev \
     libnettle6 \ 
     nginx \
-    liblz4-1 \
     libxml2-dev \
     fuse && \
     apt-get clean -y && \
