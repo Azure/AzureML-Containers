@@ -58,11 +58,9 @@ RUN apt-get update && \
     util-linux \
     gnupg \
     krb5-kdc \
-    libzstd1 \
     libnettle6 \
     libx11-dev \
     nginx \
-    liblz4-1 \
     libxml2-dev \
     fuse && \
     apt-get clean -y && \

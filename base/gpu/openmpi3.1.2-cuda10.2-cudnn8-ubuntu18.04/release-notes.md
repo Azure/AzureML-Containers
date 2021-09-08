@@ -1,5 +1,12 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.2-cudnn8-ubuntu18.04 : 
 
+:20210906.v1
+-------------------
+
+ -   **Dependencies** : 
+  
+     - Removed unneeded packages and released the images.
+
 :20210806.v1
 -------------------
 
