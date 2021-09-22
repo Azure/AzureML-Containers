@@ -62,6 +62,7 @@ RUN apt-get update && \
     libx11-dev \
     nginx \
     libxml2-dev \
+    linssl1.1 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
