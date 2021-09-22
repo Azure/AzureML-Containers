@@ -1,5 +1,17 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04 : 
 
+: 20210922.v1
+-------------------
+
+-   **Addressed vulnerabilities**
+  
+-   [CVE-2021-3711](https://ubuntu.com/security/notices/USN-5051-1)
+-   [CVE-2021-3712](https://ubuntu.com/security/notices/USN-5051-1)
+
+ -   **Dependencies** : 
+  
+     -   added libssl1.1 package in dockerfile to mitigate vulnerabilities.
+
 :20210906.v1
 -------------------
 
