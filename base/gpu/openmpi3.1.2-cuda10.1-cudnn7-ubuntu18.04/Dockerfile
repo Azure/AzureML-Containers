@@ -58,10 +58,11 @@ RUN apt-get update && \
     util-linux \
     gnupg \
     krb5-kdc \
-    libnettle6 \
+    libnettle6 - 3.4.1 \
     libx11-dev \
     nginx \
     libxml2-dev \
+    linssl1.1 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

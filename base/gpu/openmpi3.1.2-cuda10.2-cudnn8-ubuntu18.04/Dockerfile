@@ -54,7 +54,7 @@ RUN apt-get update && \
     libsm6 \
     libxext6 \
     libxrender-dev \
-    libssl1.0.0 \
+    libssl1.1 \
     libglib2.0-0 \
     libx11-dev \
     libnettle6 \ 

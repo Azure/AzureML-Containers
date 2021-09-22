@@ -35,7 +35,7 @@ RUN apt-get update && \
     libxext6 \
     libxrender-dev \
     libx11-dev \
-    libssl1.0.0 \
+    libssl1.1 \
     libx11-dev \
     libxml2-dev \
     fuse && \
