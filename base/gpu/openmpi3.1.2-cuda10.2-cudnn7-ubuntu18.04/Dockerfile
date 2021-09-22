@@ -57,6 +57,7 @@ RUN apt-get update && \
     libnettle6 \
     libx11-dev \
     nginx \
+    libssl1.1 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
