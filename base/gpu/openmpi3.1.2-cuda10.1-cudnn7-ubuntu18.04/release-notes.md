@@ -1,5 +1,19 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04 : 
 
+: 20210922.v1
+-------------------
+
+-   **Addressed vulnerabilities**
+  
+-   [CVE-2021-3711](https://ubuntu.com/security/notices/USN-5051-1)
+-   [CVE-2021-3712](https://ubuntu.com/security/notices/USN-5051-1)
+-   [CVE-2018-16869](https://usn.ubuntu.com/4990-1)
+-   [CVE-2021-3580](https://usn.ubuntu.com/4990-1)
+
+ -   **Dependencies** : 
+  
+     -   added libssl1.1 and libnettle6 package in dockerfile to mitigate vulnerabilities.
+
 :20210906.v1
 -------------------
 
