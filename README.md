@@ -29,7 +29,7 @@ You can also use these Docker images as base images for your custom Azure ML [En
 ## Base image dependencies
 Currently Azure ML supports cuda9, cuda10 and cuda11 base images. The major dependencies installed in the base images are Miniconda, OpenMPI, CUDA, cuDNN, NCCL, and git. For more detailed information, please view the dockerfiles. 
 
-The CPU images are built from ubuntu18.04.
+The CPU images are built from ubuntu18.04 and ubuntu20.04.
 
 The GPU images for cuda9 are built from nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04.
 
@@ -41,6 +41,7 @@ The GPU images for cuda10 are built from:
 The GPU images for cuda11 are built from:
 * nvidia/cuda:11.0.3-cudnn8-devel-ubuntu18.04
 * nvidia/cuda:11.1-cudnn8-devel-ubuntu18.04
+* nvidia/cuda:11.1.1-cudnn8-devel-ubuntu20.04
 
 
 <a name="getdocker"></a>
@@ -61,6 +62,8 @@ GPU images pulled from MCR can only be used with Azure Services. Take a look at 
 Below is the list of tags:
 - [OpenMPI CPU - Ubuntu 18.04](./base/cpu/openmpi3.1.2-ubuntu18.04)
     * openmpi3.1.2-ubuntu18.04
+- [OpenMPI CPU - Ubuntu 20.04](./base/cpu/openmpi4.1.0-ubuntu20.04)
+    * openmpi4.1.0-ubuntu20.04
 - [OpenMPI GPU - cuda10.0 - Ubuntu 18.04](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04)
     * openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04
 - [OpenMPI GPU - cuda10.1 - Ubuntu 18.04](./base/gpu/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04)
@@ -73,6 +76,8 @@ Below is the list of tags:
     * openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04
 - [OpenMPI GPU - cuda11.1 - Ubuntu 18.04](./base/gpu/openmpi4.1.0-cuda11.1-cudnn8-ubuntu18.04)
     * openmpi4.1.0-cuda11.1-cudnn8-ubuntu18.04
+- [OpenMPI GPU - cuda11.1 - Ubuntu 20.04](./base/gpu/openmpi4.1.0-cuda11.1-cudnn8-ubuntu20.04)
+    * openmpi4.1.0-cuda11.1-cudnn8-ubuntu20.04
 
 <a name="howtorun"></a>
 ## Using Azure ML base images for training
