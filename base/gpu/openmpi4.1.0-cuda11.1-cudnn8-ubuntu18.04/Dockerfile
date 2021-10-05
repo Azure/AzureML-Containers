@@ -75,6 +75,8 @@ RUN apt-get update && \
     dh-make \
     libnettle6 \
     libx11-dev \
+    libcurl3-nss \
+    libgd3 \
     nginx \
     fuse && \
     apt-get clean -y && \
