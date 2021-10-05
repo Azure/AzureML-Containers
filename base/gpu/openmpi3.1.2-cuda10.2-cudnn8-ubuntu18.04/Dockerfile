@@ -57,7 +57,9 @@ RUN apt-get update && \
     libssl1.1 \
     libglib2.0-0 \
     libx11-dev \
-    libnettle6 \ 
+    libnettle6 \
+    libcurl3-nss \
+    libgd3 \
     nginx \
     libxml2-dev \
     fuse && \

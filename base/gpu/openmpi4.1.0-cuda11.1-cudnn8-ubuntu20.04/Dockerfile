@@ -75,6 +75,8 @@ RUN apt-get update && \
     libglib2.0-0 \
     dh-make \
     libx11-dev \
+    libcurl3-nss \
+    libgd3 \
     nginx \
     fuse && \
     apt-get clean -y && \

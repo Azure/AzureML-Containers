@@ -1,5 +1,17 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04 : 
 
+:20211005.v1
+-------------------
+
+ -   **Dependencies** : 
+
+ -   [CVE-2021-40145](https://ubuntu.com/security/notices/USN-5068-1)
+ -   [CVE-2021-22945](https://ubuntu.com/security/notices/USN-5079-3)
+ -   [CVE-2021-22946](https://ubuntu.com/security/notices/USN-5079-3)
+ -   [CVE-2021-22947](https://ubuntu.com/security/notices/USN-5079-3)
+  
+     - Added libcurl3-nss and libgd3 packages in dockerfile to mitigate vulnerabilities.
+
 : 20210922.v1
 -------------------
 

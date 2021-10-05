@@ -37,6 +37,8 @@ RUN apt-get update && \
     libx11-dev \
     libssl1.1 \
     libx11-dev \
+    libcurl3-nss \
+    libgd3 \
     libxml2-dev \
     fuse && \
     apt-get clean -y && \
