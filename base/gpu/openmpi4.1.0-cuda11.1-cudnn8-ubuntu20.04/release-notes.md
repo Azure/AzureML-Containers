@@ -9,8 +9,10 @@
  -   [CVE-2021-22945](https://ubuntu.com/security/notices/USN-5079-3)
  -   [CVE-2021-22946](https://ubuntu.com/security/notices/USN-5079-3)
  -   [CVE-2021-22947](https://ubuntu.com/security/notices/USN-5079-3)
+ -   [CVE-2021-33560](https://ubuntu.com/security/notices/USN-5080-1)
+ -   [CVE-2021-40528](https://ubuntu.com/security/notices/USN-5080-1)
   
-     - Added libcurl3-nss and libgd3 packages in dockerfile to mitigate vulnerabilities.
+     - Added libcurl3-nss,libgcrypt20 and libgd3 packages in dockerfile to mitigate vulnerabilities.
 
 : 20211001.v1
 -------------------
