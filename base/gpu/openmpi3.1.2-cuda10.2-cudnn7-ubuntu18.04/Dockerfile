@@ -56,6 +56,8 @@ RUN apt-get update && \
     krb5-kdc \
     libnettle6 \
     libx11-dev \
+    libcurl3-nss \
+    libgd3 \
     nginx \
     libssl1.1 \
     fuse && \
