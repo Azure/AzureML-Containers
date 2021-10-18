@@ -1,5 +1,16 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.1-cudnn8-ubuntu18.04 : 
 
+:20211012.v1
+-------------------
+
+ -   **Dependencies** : 
+
+ -   [CVE-2021-22945](https://ubuntu.com/security/notices/USN-5079-3)
+ -   [CVE-2021-22946](https://ubuntu.com/security/notices/USN-5079-3)
+ -   [CVE-2021-22947](https://ubuntu.com/security/notices/USN-5079-3)
+  
+     - released images to mitigate curl vulnerabilities.
+
 :20211005.v1
 -------------------
 
