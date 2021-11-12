@@ -39,6 +39,7 @@ RUN apt-get update && \
     libx11-dev \
     libcurl3-nss \
     libgd3 \
+    binutils-multiarch \
     libxml2-dev \
     fuse && \
     apt-get clean -y && \

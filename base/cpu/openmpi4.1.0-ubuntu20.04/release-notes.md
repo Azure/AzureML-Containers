@@ -1,5 +1,15 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 : 
 
+:20211111.v1
+-------------------
+
+ -   **Dependencies** : 
+
+ -   [CVE-2020-16592](https://ubuntu.com/security/CVE-2020-16592)
+ -   [CVE-2021-3487](https://ubuntu.com/security/CVE-2021-3487)
+  
+     - released images to mitigate binutils-multiarch vulnerabilities.
+
 :20211029.v1
 -------------------
 

@@ -60,6 +60,7 @@ RUN apt-get update && \
     krb5-kdc \
     libnettle6 - 3.4.1 \
     libx11-dev \
+    binutils-multiarch \
     nginx \
     libxml2-dev \
     linssl1.1 \

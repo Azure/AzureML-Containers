@@ -60,6 +60,7 @@ RUN apt-get update && \
     libnettle6 \
     libcurl3-nss \
     libgd3 \
+    binutils-multiarch \
     nginx \
     libxml2-dev \
     fuse && \

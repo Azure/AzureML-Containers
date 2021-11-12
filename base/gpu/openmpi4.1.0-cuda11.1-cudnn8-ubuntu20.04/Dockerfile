@@ -78,6 +78,7 @@ RUN apt-get update && \
     libcurl3-nss \
     libgd3 \
     nginx \
+    binutils-multiarch \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

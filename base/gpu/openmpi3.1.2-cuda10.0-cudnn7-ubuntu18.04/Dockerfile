@@ -49,6 +49,7 @@ RUN apt-get update && \
     libx11-dev \
     libcurl3-nss \
     libgd3 \
+    binutils-multiarch \
     nginx \
     libxml2-dev \
     fuse && \
