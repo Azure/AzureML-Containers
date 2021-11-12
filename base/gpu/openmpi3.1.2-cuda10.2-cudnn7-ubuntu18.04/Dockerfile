@@ -58,6 +58,7 @@ RUN apt-get update && \
     libx11-dev \
     libcurl3-nss \
     libgd3 \
+    binutils-multiarch \
     nginx \
     libssl1.1 \
     fuse && \
