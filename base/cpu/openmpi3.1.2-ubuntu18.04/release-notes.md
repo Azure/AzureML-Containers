@@ -1,5 +1,16 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 : 
 
+:20211124.v1
+-------------------
+
+ -   **Dependencies** : 
+
+ -   [CVE-2020-16592](https://ubuntu.com/security/CVE-2020-16592)
+ -   [CVE-2021-3487](https://ubuntu.com/security/CVE-2021-3487)
+ -   [CVE-2020-21913](https://ubuntu.com/security/notices/USN-5133-1)
+  
+     - released images to mitigate binutils and ICU vulnerabilities.
+
 :20211111.v1
 -------------------
 
