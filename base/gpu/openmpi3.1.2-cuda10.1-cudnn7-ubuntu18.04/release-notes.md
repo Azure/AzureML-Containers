@@ -1,5 +1,16 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04 : 
 
+:20211210.v1
+-------------------
+
+ -   **Dependencies** : 
+
+ -   [CVE-2020-21913](https://ubuntu.com/security/notices/USN-5133-1)
+ -   [CVE-2021-43527](https://ubuntu.com/security/notices/USN-5168-1)
+ -   [CVE-2021-23222](https://ubuntu.com/security/notices/USN-5145-1)
+
+     - released images to mitigate ICU,PostgreSQL and NSS vulnerabilities.
+
 :20211124.v1
 -------------------
 
