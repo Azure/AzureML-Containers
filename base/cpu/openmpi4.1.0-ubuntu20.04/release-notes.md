@@ -1,5 +1,14 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 : 
 
+:20211210.v1
+-------------------
+
+ -   **Dependencies** : 
+
+ -   [CVE-2020-21913](https://ubuntu.com/security/notices/USN-5133-1)
+
+     - released images to mitigate ICU vulnerabilities.
+
 :20211124.v1
 -------------------
 
