@@ -1,5 +1,14 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.2-cudnn7-ubuntu18.04 :
 
+:20211221.v1
+-------------------
+
+ -   **Dependencies** : 
+
+ -   [CVE-2021-3800](https://ubuntu.com/security/notices/USN-5189-1)
+
+     - released images to mitigate GLib vulnerabilities.
+
 :20211210.v1
 -------------------
 
