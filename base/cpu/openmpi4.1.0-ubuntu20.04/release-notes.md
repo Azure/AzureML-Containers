@@ -1,5 +1,14 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 : 
 
+:20220127.v1
+-------------------
+
+ -   **Dependencies** : 
+
+ -   [CVE-2021-3997](https://ubuntu.com/security/CVE-2021-3997)
+
+     - released images to mitigate systemd vulnerabilities.
+
 :20220113.v1
 -------------------
 
