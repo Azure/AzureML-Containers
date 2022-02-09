@@ -1,5 +1,14 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04 : 
 
+:20220208.v1
+-------------------
+
+ -   **Dependencies** : 
+
+ -   [CVE-2021-3997](https://ubuntu.com/security/CVE-2021-3997)
+
+     - released images to mitigate systemd vulnerabilities.
+
 :20220127.v1
 -------------------
 
