@@ -3,6 +3,7 @@ This repository contains Dockerfiles for the base images used in [Azure Machine 
 
 ### Table of Contents
 - [Introduction](#introduction)
+- [Deprecated base images](#deprecated)
 - [Base image dependencies](#dependencies)
 - [How to get Azure ML images](#getdocker)
   * [Featured tags](#tags)
@@ -24,6 +25,18 @@ You can also use these Docker images as base images for your custom Azure ML [En
 **Note that these base images do not come with Python packages, notably the Azure ML Python SDK, installed.** If you require the Azure ML SDK package for your job, make sure you also install the appropriate package.
 
 **Please note that images supporting Ubuntu 16.04 are now deprecated. We recommend using images supporting Ubuntu 18.04 for the timebeing as we transition towards providing 20.04 images.** 
+
+<a name="deprecated"></a>
+## Deprecated base images
+* azureml/base
+* azureml/base-gpu
+* azureml/base-lite
+* azureml/intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
+* azureml/intelmpi2018.3-cuda9.0-cudnn7-ubuntu16.04
+* azureml/intelmpi2018.3-ubuntu16.04
+* azureml/o16n-base/python-slim
+* azureml/openmpi3.1.2-cuda10.0-cudnn7-ubuntu16.04
+* azureml/openmpi3.1.2-ubuntu16.04
 
 <a name="dependencies"></a>
 ## Base image dependencies
