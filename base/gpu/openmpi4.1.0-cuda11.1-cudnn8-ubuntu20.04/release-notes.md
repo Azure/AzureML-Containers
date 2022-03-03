@@ -5,7 +5,7 @@
 
 -   **Dependencies** : 
 
- -   CVE-2018-7169(https://ubuntu.com/security/notices/USN-5254-1 )
+ -   [CVE-2018-7169](https://ubuntu.com/security/notices/USN-5254-1 )
 
      - released images to mitigate shadow  - system login tools vulnerabilities.
 
