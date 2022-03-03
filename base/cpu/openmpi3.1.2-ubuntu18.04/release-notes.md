@@ -1,5 +1,15 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
 
+:20220303.v1
+-------------------
+
+-   **Dependencies** : 
+
+ -   CVE-2022-24407(https://ubuntu.com/security/notices/USN-5301-1)
+ -   CVE-2022-24407(https://ubuntu.com/security/notices/USN-5288-1)
+
+     - released images to mitigate shadow and cyrus sasl  - system login tools vulnerabilities.
+
 :20220218.v1
 -------------------
 
