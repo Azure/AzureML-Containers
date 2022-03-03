@@ -5,8 +5,8 @@
 
 -   **Dependencies** : 
 
- -   CVE-2022-24407(https://ubuntu.com/security/notices/USN-5301-1)
- -   CVE-2022-24407(https://ubuntu.com/security/notices/USN-5288-1)
+ -   [CVE-2022-24407](https://ubuntu.com/security/notices/USN-5301-1)
+ -   [CVE-2021-45960](https://ubuntu.com/security/notices/USN-5288-1)
 
      - released images to mitigate shadow and cyrus sasl  - system login tools vulnerabilities.
 
