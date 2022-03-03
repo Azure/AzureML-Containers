@@ -1,4 +1,13 @@
--  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.1-cudnn8-ubuntu20.04 : 
+-  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.1-cudnn8-ubuntu20.04 :
+
+:20220303.v1
+-------------------
+
+-   **Dependencies** : 
+
+ -   CVE-2018-7169(https://ubuntu.com/security/notices/USN-5254-1 )
+
+     - released images to mitigate shadow  - system login tools vulnerabilities.
 
 :20220303.v1
 -------------------
