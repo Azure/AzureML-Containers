@@ -10,15 +10,6 @@
 
      - released images to mitigate shadow  - cyrus sasl  vulnerabilities.
 
-:20220218.v1
--------------------
-
- -   **Dependencies** : 
-
- -   [CVE-2018-7169](https://ubuntu.com/security/notices/USN-5254-1)
-
-     - released images to mitigate shadow - system login tools vulnerabilities.
-
 :20220208.v1
 -------------------
 
