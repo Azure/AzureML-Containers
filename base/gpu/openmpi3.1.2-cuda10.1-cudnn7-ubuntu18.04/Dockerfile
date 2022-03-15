@@ -80,6 +80,10 @@ ENV SVDIR=/var/runit
 ENV WORKER_TIMEOUT=300
 EXPOSE 5001 8883 8888
 
+RUN apt-get update && apt-get install --only-upgrade passwd=1:4.5-1ubuntu2.2 -y \
+   && apt-get install --only-upgrade login=1:4.5-1ubuntu2.2 -y && \
+   apt-get install --only-upgrade uidmap=1:4.5-1ubuntu2.2 -y
+
 # Conda Environment
 ENV MINICONDA_VERSION py37_4.9.2
 ENV PATH /opt/miniconda/bin:$PATH
