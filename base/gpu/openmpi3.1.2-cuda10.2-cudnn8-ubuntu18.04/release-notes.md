@@ -1,5 +1,15 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.2-cudnn8-ubuntu18.04 :
 
+:20220314.v1
+-------------------
+
+ -   **Dependencies** : 
+
+ -   [CVE-2020-6096](https://ubuntu.com/security/notices/USN-5310-1)
+ -   [CVE-2018-7169](https://ubuntu.com/security/notices/USN-5254-1)
+
+     - released images to mitigate GNU C Library and shadow vulnerabilities.
+
 :20220303.v1
 -------------------
 
