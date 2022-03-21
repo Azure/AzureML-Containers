@@ -156,13 +156,16 @@ RUN mkdir /tmp/rdma-core && \
     dpkg -i ../*.deb && \
     rm -rf /tmp/rdma-core
 
-#Install v3 version of nccl-rdma-sharp-plugins
+#Install latest version of nccl-rdma-sharp-plugins
 RUN cd /tmp && \
     mkdir -p /usr/local/nccl-rdma-sharp-plugins && \
     apt install -y dh-make zlib1g-dev && \
-    git clone -b v2.0.0 https://github.com/Mellanox/nccl-rdma-sharp-plugins.git && \
+    git clone -b v2.1.0 https://github.com/Mellanox/nccl-rdma-sharp-plugins.git && \
     cd nccl-rdma-sharp-plugins && \
     ./autogen.sh && \
     ./configure --prefix=/usr/local/nccl-rdma-sharp-plugins --with-cuda=/usr/local/cuda --without-ucx && \
     make && \
     make install
+    
+# set env var to find nccl rdma plugins inside this container
+ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/nccl-rdma-sharp-plugins/lib
