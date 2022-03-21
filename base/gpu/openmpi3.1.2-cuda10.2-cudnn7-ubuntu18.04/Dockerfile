@@ -105,6 +105,7 @@ RUN mkdir /tmp/openmpi && \
     ldconfig && \
     rm -rf /tmp/openmpi
 
+
 # Msodbcsql17 installation
 RUN apt-get update && \
     apt-get install -y curl && \
