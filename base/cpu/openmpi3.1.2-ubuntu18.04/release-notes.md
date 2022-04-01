@@ -1,5 +1,14 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
 
+:20220401.v1 
+------------------- 
+
+-   **Dependencies** :
+-   
+-   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1)   
+
+     - released images to mitigate for tar Vulnerability (USN-5329-1) 
+
 :20220314.v1
 -------------------
 
