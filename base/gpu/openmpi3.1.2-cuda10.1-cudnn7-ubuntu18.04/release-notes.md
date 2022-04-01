@@ -7,7 +7,7 @@
 
 -  [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1)
 -  [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1)
-- [CVE-2022-23218](https://ubuntu.com/security/notices/USN-5310-1)
+-  [CVE-2022-23218](https://ubuntu.com/security/notices/USN-5310-1)
 -  [CVE-2022-23219](https://ubuntu.com/security/notices/USN-5332-1)
 -  [CVE-2022-24407](https://ubuntu.com/security/notices/USN-5332-1) 
 
