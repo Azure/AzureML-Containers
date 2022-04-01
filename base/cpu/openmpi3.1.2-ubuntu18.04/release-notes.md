@@ -4,10 +4,10 @@
 ------------------- 
 
 -   **Dependencies** :
--   
+  
 -   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1)   
 
-     - released images to mitigate for tar Vulnerability (USN-5329-1) 
+     - released images to mitigate for **tar** Vulnerability (USN-5329-1) 
 
 :20220314.v1
 -------------------
