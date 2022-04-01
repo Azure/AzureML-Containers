@@ -5,9 +5,11 @@
 
 -   **Dependencies** :
   
--   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1)   
+-   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1) 
+-   [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1) 
 
-     - released images to mitigate for **tar** Vulnerability (USN-5329-1) 
+     - released images to mitigate for **tar** Vulnerability (USN-5329-1)
+     - released images to mitigate for **OpenSSL** Vulnerability
 
 :20220314.v1
 -------------------
