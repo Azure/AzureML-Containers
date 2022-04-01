@@ -15,6 +15,7 @@ FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210623.40134510 AS infe
 # Label: com.nvidia.cudnn.version=7.6.3.30
 # Label: com.nvidia.volumes.needed=nvidia_driver
 # Ubuntu 18.04
+
 FROM nvidia/cuda:10.2-cudnn8-devel-ubuntu18.04
 
 USER root:root

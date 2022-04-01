@@ -7,6 +7,7 @@ FROM ubuntu:18.04
 USER root:root
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
+
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install Common Dependencies

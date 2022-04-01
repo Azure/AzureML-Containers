@@ -7,6 +7,7 @@ FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
 USER root:root
 
 ENV com.nvidia.cuda.version $CUDA_VERSION
+
 ENV com.nvidia.volumes.needed nvidia_driver
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
