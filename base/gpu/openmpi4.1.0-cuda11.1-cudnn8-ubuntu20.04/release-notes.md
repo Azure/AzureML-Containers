@@ -15,7 +15,7 @@
      - released images to mitigate for **OpenSSL** Vulnerability (USN-5328-1) 
      - released images to mitigate **GNU C** library Vulnerability (USN-5310-1) 
      - released images to mitigate **Bind** Vulnerability (USN-5332-1)  
-     - released images to mitigate **Cyru SASL** Vulnerability (USN-5301-1) 
+     - released images to mitigate **Cyru SASL** Vulnerability (USN-5301-1)
 
 :20220314.v1
 -------------------
