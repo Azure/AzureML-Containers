@@ -9,7 +9,7 @@
 -   [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1) 
 
      - released images to mitigate for **tar** Vulnerability (USN-5329-1)
-     - released images to mitigate for **OpenSSL** Vulnerability
+     - released images to mitigate for **OpenSSL** Vulnerability(USN-5328-1)
 
 :20220314.v1
 -------------------
