@@ -1,11 +1,13 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
 FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210623.40134510 AS inferencing-assets
+
 FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
 
 USER root:root
 
 ENV com.nvidia.cuda.version $CUDA_VERSION
+
 ENV com.nvidia.volumes.needed nvidia_driver
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
