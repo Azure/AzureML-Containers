@@ -11,11 +11,7 @@
 -  [CVE-2022-23219](https://ubuntu.com/security/notices/USN-5332-1)
 -  [CVE-2022-24407](https://ubuntu.com/security/notices/USN-5332-1) 
 
-     - released images to mitigate for **tar** Vulnerability (USN-5329-1) 
-     - released images to mitigate for **OpenSSL** Vulnerability (USN-5328-1) 
-     - released images to mitigate **GNU C** library Vulnerability (USN-5310-1) 
-     - released images to mitigate **Bind** Vulnerability (USN-5332-1)  
-     - released images to mitigate **Cyru SASL** Vulnerability (USN-5301-1)
+     - released images to mitigate latest versions of tar,openssl,GNU,Bind and Cyrus SASL Vulnerabilities.
 
 :20220314.v1
 -------------------
