@@ -10,7 +10,7 @@
 -   [CVE-2022-0391](https://ubuntu.com/security/notices/USN-5342-1)
 -   [CVE-2018-25032](https://ubuntu.com/security/notices/USN-5355-1)
     
-     - released images to mitigate latest versions of tar and openssl pythonlib and zlib Vulnerabilities.
+     - released images to mitigate latest versions of tar ,openssl, pythonlib and zlib Vulnerabilities.
 
 :20220401.v1 
 ------------------- 
