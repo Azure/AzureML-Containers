@@ -1,5 +1,10 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
 
+:20220413.v1
+------------------- 
+
+- released cuda 11.3 image with new cuda drivers.
+
 :20220401.v1 
 ------------------- 
 
