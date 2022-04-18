@@ -1,5 +1,10 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+:20220418.v1
+------------------- 
+
+- released image with new python assets chnages.
+
 :20220401.v1 
 ------------------- 
 
