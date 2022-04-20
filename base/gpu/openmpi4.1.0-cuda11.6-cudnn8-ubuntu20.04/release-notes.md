@@ -1,31 +1,22 @@
--  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
+-  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
-:20220418.v1
+:20220413.v1
 ------------------- 
 
-- released image with new python assets chnages.
-
-:20220413.v1 
-------------------- 
-
--   **Dependencies** :
-  
--   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1) 
--   [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1)
--   [CVE-2022-0391](https://ubuntu.com/security/notices/USN-5342-1)
--   [CVE-2018-25032](https://ubuntu.com/security/notices/USN-5355-1)
-    
-     - released images to mitigate latest versions of tar ,openssl, pythonlib and zlib Vulnerabilities.
+- released cuda 11.6 image with new cuda drivers.
 
 :20220401.v1 
 ------------------- 
 
 -   **Dependencies** :
-  
--   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1) 
--   [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1) 
 
-     - released images to mitigate latest versions of tar and openssl Vulnerabilities.
+-  [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1)
+-  [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1)
+-  [CVE-2022-23218](https://ubuntu.com/security/notices/USN-5310-1)
+-  [CVE-2022-23219](https://ubuntu.com/security/notices/USN-5332-1)
+-  [CVE-2022-24407](https://ubuntu.com/security/notices/USN-5332-1) 
+
+     - released images to mitigate latest versions of tar,openssl,GNU,Bind and Cyrus SASL Vulnerabilities.
 
 :20220314.v1
 -------------------
@@ -35,17 +26,17 @@
  -   [CVE-2020-6096](https://ubuntu.com/security/notices/USN-5310-1)
 
      - released images to mitigate GNU C Library vulnerabilities.
- 
+
 :20220303.v1
 -------------------
 
 -   **Dependencies** : 
 
+ -   [CVE-2018-7169](https://ubuntu.com/security/notices/USN-5254-1)
  -   [CVE-2022-24407](https://ubuntu.com/security/notices/USN-5301-1)
- -   [CVE-2021-45960](https://ubuntu.com/security/notices/USN-5288-1)
 
-     - released images to expat shadow and cyrus sasl  - system login tools vulnerabilities.
-
+     - released images to mitigate shadow  - cyrus sasl  vulnerabilities.
+ 
 :20220218.v1
 -------------------
 
@@ -97,9 +88,9 @@
  -   **Dependencies** : 
 
  -   [CVE-2020-21913](https://ubuntu.com/security/notices/USN-5133-1)
-
+ -   
      - released images to mitigate ICU vulnerabilities.
-
+     - 
 :20211124.v1
 -------------------
 
@@ -151,10 +142,13 @@
  -   [CVE-2021-22945](https://ubuntu.com/security/notices/USN-5079-3)
  -   [CVE-2021-22946](https://ubuntu.com/security/notices/USN-5079-3)
  -   [CVE-2021-22947](https://ubuntu.com/security/notices/USN-5079-3)
+ -   [CVE-2021-33560](https://ubuntu.com/security/notices/USN-5080-1)
+ -   [CVE-2021-40528](https://ubuntu.com/security/notices/USN-5080-1)
   
-     - Added libcurl3-nss and libgd3 packages in dockerfile to mitigate vulnerabilities.
+     - Added libcurl3-nss,libgcrypt20 and libgd3 packages in dockerfile to mitigate vulnerabilities.
 
 : 20211001.v1
 -------------------
 
-- Released ubuntu20.04 CPU image.
+- Released Ubuntu20.04 GPU image.
+  
