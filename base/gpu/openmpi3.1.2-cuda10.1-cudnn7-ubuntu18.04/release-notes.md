@@ -1,5 +1,19 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04 :
 
+:20220413.v1  
+
+-------------------  
+-   **Dependencies** :
+
+-   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1)
+-   [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1)
+-   [CVE-2018-25032](https://ubuntu.com/security/notices/USN-5355-1)
+-   [CVE-2022-23218](https://ubuntu.com/security/notices/USN-5310-1)
+-   [CVE-2022-24407](https://ubuntu.com/security/notices/USN-5301-1)
+-   [CVE-2022-25310](https://ubuntu.com/security/notices/USN-5366-1)
+ 
+     - released images to mitigate latest versions of tar and openssl,zlib,gnu,cyrus,fribidi Vulnerabilities. 
+
 :20220401.v1 
 ------------------- 
 
