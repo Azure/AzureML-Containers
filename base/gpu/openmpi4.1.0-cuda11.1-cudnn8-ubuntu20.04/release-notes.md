@@ -1,6 +1,6 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.1-cudnn8-ubuntu20.04 :
 
-:20220413.v1  
+:20220412.v1  
 
 -------------------  
 -   **Dependencies** :
@@ -14,7 +14,7 @@
  
      - released images to mitigate latest versions of tar,openssl,zlib,gnu,cyrus and fribidi Vulnerabilities.
 
-:20220401.v1 
+:20220329.v1
 ------------------- 
 
 -   **Dependencies** :
