@@ -5,7 +5,7 @@
 
 - released image with new python assets chnages.
 
-:20220413.v1 
+:20220412.v1 
 ------------------- 
 
 -   **Dependencies** :
@@ -17,7 +17,7 @@
     
      - released images to mitigate latest versions of tar ,openssl, pythonlib and zlib Vulnerabilities.
 
-:20220401.v1 
+:20220329.v1 
 ------------------- 
 
 -   **Dependencies** :
