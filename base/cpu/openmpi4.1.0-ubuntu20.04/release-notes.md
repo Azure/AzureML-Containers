@@ -1,5 +1,17 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+:202205--.v1 
+------------------- 
+
+-   **Dependencies** :
+  
+-   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1) 
+-   [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1)
+-   [CVE-2022-0391](https://ubuntu.com/security/notices/USN-5342-1)
+-   [CVE-2018-25032](https://ubuntu.com/security/notices/USN-5355-1) need to change
+    
+     - released images to mitigate latest versions of Git, Gzip, Xz utils, and Bash Vulnerabilities.
+
 :20220418.v1
 ------------------- 
 
