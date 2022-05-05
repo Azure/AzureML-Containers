@@ -30,6 +30,7 @@ RUN apt-get update && \
     build-essential \
     bzip2 \
     libbz2-1.0 \
+    systemd \
     git \
     wget \
     cpio \
