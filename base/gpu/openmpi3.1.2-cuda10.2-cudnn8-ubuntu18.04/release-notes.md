@@ -1,4 +1,19 @@
--  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.2-cudnn8-ubuntu18.04 :
+-   **As of 05/12/2022** please note this `image will be deprecated`.
+-   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.2-cudnn8-ubuntu18.04 :
+
+:20220504.v1 
+-------------------   
+
+-   **Dependencies** :   
+
+-   [CVE-2018-25032](https://ubuntu.com/security/notices/USN-5355-1)
+-   [CVE-2022-24765](https://ubuntu.com/security/notices/USN-5376-1)
+-   [CVE-2022-1271](https://ubuntu.com/security/notices/USN-5378-1)
+-   [CVE-2022-1271](https://ubuntu.com/security/notic[es/USN-5378-2)
+-   [CVE-2019-18276](https://ubuntu.com/security/notices/USN-5380-1) 
+
+     - released images to mitigate latest versions of Zlib, Git, Gzip, Xz utils, Bash Vulnerabilities. 
+     
 
 :20220412.v1  
 

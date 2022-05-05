@@ -1,5 +1,16 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04 :
 
+:20220504.v1 
+------------------- 
+
+-   **Dependencies** :
+
+-   [CVE-2022-1271](https://ubuntu.com/security/notices/USN-5378-1)
+-   [CVE-2022-1271](https://ubuntu.com/security/notic[es/USN-5378-2)
+-   [CVE-2019-18276](https://ubuntu.com/security/notices/USN-5380-1)  
+
+     - released images to mitigate latest versions of Gzip, Xz utils, Bash Vulnerabilities.
+
 :20220413.v1
 ------------------- 
 

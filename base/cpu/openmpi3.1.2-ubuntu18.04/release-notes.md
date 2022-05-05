@@ -1,5 +1,23 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
 
+:20220504.v1 
+------------------- 
+
+-   **Dependencies** :
+
+-   [CVE-2022-24407](https://ubuntu.com/security/notices/USN-5301-1)
+-   [CVE-2022-23219](https://ubuntu.com/security/notices/USN-5310-1)
+-   [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1)
+-   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1)
+-   [CVE-2018-25032](https://ubuntu.com/security/notices/USN-5355-1)
+-   [CVE-2022-24765](https://ubuntu.com/security/notices/USN-5376-1)
+-   [CVE-2021-3618](https://ubuntu.com/security/notices/USN-5371-1)
+-   [CVE-2022-1271](https://ubuntu.com/security/notices/USN-5378-1)
+-   [CVE-2022-1271](https://ubuntu.com/security/notic[es/USN-5378-2)
+-   [CVE-2019-18276](https://ubuntu.com/security/notices/USN-5380-1)       
+    
+      - released images to mitigate latest versions of cyrus sasl, gnu c, Openssl, Tar, Zlib, Git, Nginx lua , Gzip, Xz utils and Bash Vulnerabilities.
+
 :20220412.v1 
 ------------------- 
 

@@ -10,6 +10,7 @@ ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
 ENV DEBIAN_FRONTEND noninteractive
 
+
 # Install Common Dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
@@ -29,6 +30,7 @@ RUN apt-get update && \
     build-essential \
     bzip2 \
     libbz2-1.0 \
+    systemd \
     git \
     wget \
     cpio \
