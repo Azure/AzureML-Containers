@@ -1,4 +1,4 @@
--    As of 05/12/2022, please note this `image will be deprecated`.
+-   **As of 05/12/2022**, please note this `image will be deprecated`.
 -   **Image Name**:  docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04 :
 
 :20220504.v1 
