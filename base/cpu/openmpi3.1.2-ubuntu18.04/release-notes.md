@@ -1,6 +1,6 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
 
-:2022--12.v1 
+:20220504.v1 
 ------------------- 
 
 -   **Dependencies** :
