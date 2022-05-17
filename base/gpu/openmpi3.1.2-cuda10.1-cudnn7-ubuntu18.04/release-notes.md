@@ -1,6 +1,11 @@
 -   **As of 05/12/2022** please note this `image will be deprecated`.
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04 :
 
+:20220516.v1
+------------------- 
+
+- released images to mitigate vulnerabilities and conda upgrade with 4.11.0 version.
+
 :20220504.v1 
 ------------------- 
 

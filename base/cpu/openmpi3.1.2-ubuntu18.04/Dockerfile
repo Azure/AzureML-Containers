@@ -59,9 +59,9 @@ ENV WORKER_TIMEOUT=300
 EXPOSE 5001 8883 8888
 
 # Conda Environment
-ENV MINICONDA_VERSION py37_4.9.2
+ENV MINICONDA_VERSION py38_4.11.0
 ENV PATH /opt/miniconda/bin:$PATH
-RUN wget -qO /tmp/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \
+RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
     conda clean -ay && \
     rm -rf /opt/miniconda/pkgs && \
