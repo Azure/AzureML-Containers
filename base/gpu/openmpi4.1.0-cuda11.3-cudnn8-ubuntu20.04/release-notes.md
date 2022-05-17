@@ -3,7 +3,7 @@
 :20220516.v1
 ------------------- 
 
-     - released images to mitigate latest versions of Gzip, Xz utils, Bash Vulnerabilities.
+- released images to migitate vulnerabilities and conda updagrade with 4.11.0 version.
 
 :20220504.v1 
 ------------------- 
