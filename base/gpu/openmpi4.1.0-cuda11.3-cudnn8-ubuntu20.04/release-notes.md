@@ -4,6 +4,7 @@
 ------------------- 
 
      -- released images to mitigate vulnerabilities and conda upgrade with 4.11.0 version.
+      - released images to mitigate latest versions of Gzip, Xz utils, Bash Vulnerabilities.
 
 :20220504.v1 
 ------------------- 
