@@ -1,5 +1,13 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
 
+:20220602.v1
+------------------- 
+-   **Dependencies** :
+
+-   [CVE-2020-14155](https://ubuntu.com/security/notices/USN-5425-1)
+
+- released images to mitigate PCRE Vulnerabilities vulnerabilities.
+
 :20220516.v1
 ------------------- 
 
