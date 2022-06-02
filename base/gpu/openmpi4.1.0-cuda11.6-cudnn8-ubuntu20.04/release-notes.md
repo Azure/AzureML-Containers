@@ -5,14 +5,8 @@
 -   **Dependencies** :
 
 -   [CVE-2020-14155](https://ubuntu.com/security/notices/USN-5425-1)
--   [CVE-2019-18276](https://ubuntu.com/security/notices/USN-5380-1)
--   [CVE-2021-36690](https://ubuntu.com/security/notices/USN-5403-1)
--   [CVE-2018-25032](https://ubuntu.com/security/notices/USN-5355-1)
--   [CVE-2022-1343](https://ubuntu.com/security/notices/USN-5402-1)
--   [CVE-2022-1271](https://ubuntu.com/security/notices/USN-5378-2)
--   [CVE-2022-1271](https://ubuntu.com/security/notices/USN-5378-1)
 
-- released images to mitigate PCRE,Bash,SQLite,zlib,OpenSSL,XZ Utils and Gzip Vulnerabilities vulnerabilities.
+- released images to mitigate PCRE Vulnerabilities.
 
 :20220516.v1
 ------------------- 
