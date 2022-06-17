@@ -4,11 +4,13 @@
 ------------------- 
 -   **Dependencies** :
 
+-   [CVE-2022-29824](https://ubuntu.com/security/notices/USN-5422-1) 
 -   [CVE-2020-14155](https://ubuntu.com/security/notices/USN-5425-1) 
--   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5464-1)
--   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
+-   [CVE-2022-29155](https://ubuntu.com/security/notices/USN-5424-1) 
+-   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5464-1) 
+-   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1)  
 
-- released images to mitigate PCRE, dpkg and E2fsprogs Vulnerabilities vulnerabilities.
+- released images to mitigate libxml2,PCRE, OpenLDAP dpkg and E2fsprogs Vulnerabilities vulnerabilities.
 
 :20220601.v1
 ------------------- 
