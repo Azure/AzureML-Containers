@@ -9,7 +9,7 @@
 -  [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5464-1)
 -  [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1)
 
-- released images to mitigate GnuPG,PCRE,dpkg and E2fsprogs Vulnerabilities vulnerabilities.
+- released images to mitigate GnuPG,PCRE,dpkg and E2fsprogs Vulnerabilities.
 
 :20220601.v1
 ------------------- 
@@ -17,7 +17,7 @@
 
 -   [CVE-2020-14155](https://ubuntu.com/security/notices/USN-5425-1)
 
-- released images to mitigate PCRE Vulnerabilities vulnerabilities.
+- released images to mitigate PCRE Vulnerabilities.
 
 
 :20220516.v1
