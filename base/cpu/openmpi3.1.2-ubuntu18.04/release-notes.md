@@ -8,7 +8,7 @@
 -   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5464-1)
 -   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
 
-- released images to mitigate PCRE,dpkg and E2fsprogs Vulnerabilities.
+- released images to mitigate PCRE, dpkg and E2fsprogs Vulnerabilities.
 
 :20220601.v1
 ------------------- 
