@@ -16,7 +16,7 @@
 
 -   [CVE-2020-14155](https://ubuntu.com/security/notices/USN-5425-1)
 
-- released images to mitigate PCRE Vulnerabilities vulnerabilities.
+- released images to mitigate PCRE Vulnerabilities.
 
 :20220516.v1
 ------------------- 
