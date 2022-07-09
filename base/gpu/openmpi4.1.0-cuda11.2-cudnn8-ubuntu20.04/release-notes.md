@@ -1,5 +1,19 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04 :
 
+:20220708.v1
+------------------- 
+-   **Dependencies** :
+------------------- 
+
+-   [CVE-2019-20838](https://ubuntu.com/security/notices/USN-5425-1) 
+-   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5446-1)
+-   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
+-   [CVE-2022-32207](https://ubuntu.com/security/notices/USN-5495-1)
+-   [CVE-2022-2068](https://ubuntu.com/security/notices/USN-5488-1)
+
+     - released images to mitigate PCRE, dpkg, OpenSSL, CURL and E2fsprogs Vulnerabilities.
+
+
 :20220616.v1
 ------------------- 
 -   **Dependencies** :
@@ -8,7 +22,7 @@
 -   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5464-1)
 -   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
 
-- released images to mitigate PCRE, dpkg and E2fsprogs Vulnerabilities.
+      - released images to mitigate PCRE, dpkg and E2fsprogs Vulnerabilities.
 
 :20220601.v1
 ------------------- 
@@ -16,12 +30,12 @@
 
 -   [CVE-2020-14155](https://ubuntu.com/security/notices/USN-5425-1)
 
-- released images to mitigate PCRE Vulnerabilities.
+      - released images to mitigate PCRE Vulnerabilities.
 
 :20220516.v1
 ------------------- 
 
-- released images to mitigate vulnerabilities and conda upgrade with 4.11.0 version.
+     - released images to mitigate vulnerabilities and conda upgrade with 4.11.0 version.
 
 :20220504.v1 
 ------------------- 
@@ -37,7 +51,7 @@
 :20220413.v1
 ------------------- 
 
-- released cuda 11.2 image with new cuda drivers.
+   - released cuda 11.2 image with new cuda drivers.
 
 :20220401.v1 
 ------------------- 
