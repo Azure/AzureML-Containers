@@ -1,5 +1,17 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
 
+:20220708.v1
+------------------- 
+-   **Dependencies** :
+
+-   [CVE-2019-20838](https://ubuntu.com/security/notices/USN-5425-1) 
+-   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5446-1)
+-   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
+-   [CVE-2022-2068](https://ubuntu.com/security/notices/USN-5488-1)
+-   [CVE-2022-32208](https://ubuntu.com/security/notices/USN-5495-1) 
+
+- released images to mitigate PCRE, dpkg, CURL,OpenSSL and E2fsprogs Vulnerabilities.
+
 :20220616.v1
 ------------------- 
 -   **Dependencies** :
