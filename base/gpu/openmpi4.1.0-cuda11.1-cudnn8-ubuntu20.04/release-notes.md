@@ -5,13 +5,12 @@
 -   **Dependencies** :
 
 -   [CVE-2019-20838](https://ubuntu.com/security/notices/USN-5425-1) 
--   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5446-1)
+-   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5446CVE-2022-1304-1)
 -   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
--   [CVE-2022-32207](https://ubuntu.com/security/notices/USN-5495-1)
--   [CVE-2022-2068](https://ubuntu.com/security/notices/USN-5488-1)
+-   [CVE-2022-2068](https://ubuntu.com/security/notices/USN-5488-1) 
+-   [CVE-2022-32208](https://ubuntu.com/security/notices/USN-5495-1)
 
 - released images to mitigate PCRE, dpkg, OpenSSL, CURL and E2fsprogs Vulnerabilities.
-:20220616.v1
 ------------------- 
 -   **Dependencies** :
 
