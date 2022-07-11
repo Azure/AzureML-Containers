@@ -3,7 +3,6 @@
 :20220708.v1
 ------------------- 
 -   **Dependencies** :
-------------------- 
 
 -   [CVE-2019-20838](https://ubuntu.com/security/notices/USN-5425-1) 
 -   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5446-1)
