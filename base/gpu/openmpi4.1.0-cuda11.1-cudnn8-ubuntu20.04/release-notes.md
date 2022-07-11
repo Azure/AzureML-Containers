@@ -12,6 +12,17 @@
 
 - released images to mitigate PCRE, dpkg, OpenSSL, CURL and E2fsprogs Vulnerabilities.
 
+
+:20220616.v1
+------------------- 
+-   **Dependencies** :
+
+-   [CVE-2020-14155](https://ubuntu.com/security/notices/USN-5425-1) 
+-   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5464-1)
+-   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
+
+     - released images to mitigate PCRE, dpkg and E2fsprogs Vulnerabilities.
+
 :20220601.v1
 ------------------- 
 -   **Dependencies** :
