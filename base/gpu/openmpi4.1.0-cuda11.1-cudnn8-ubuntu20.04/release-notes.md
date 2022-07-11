@@ -11,6 +11,8 @@
 -   [CVE-2022-32208](https://ubuntu.com/security/notices/USN-5495-1)
 
 - released images to mitigate PCRE, dpkg, OpenSSL, CURL and E2fsprogs Vulnerabilities.
+
+:20220616.v1
 ------------------- 
 -   **Dependencies** :
 
