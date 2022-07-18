@@ -24,6 +24,8 @@ ENV HOROVOD_GPU_ALLREDUCE=NCCL
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     # SSH and RDMA
+    #added openssl - 1.1.1 package to mitigate vulnerabilites after cuda upgdrade, will remove this package
+    openssl - 1.1.1 \
     libmlx4-1 \
     libmlx5-1 \
     librdmacm1 \
@@ -79,12 +81,25 @@ RUN apt-get update && \
     libgd3 \
     nginx \
     binutils-multiarch \
+    # adding below packages to mitigate the vulnerabilities till libpcre3
+    libcurl3-nss \
+    e2fsprogs \
+    e2fsck-static \
+    fuse2fs \
+    gnupg \
+    gnupg2 \
+    gpg \
+    libdpkg-perl \
+    dpkg \
+    libpcre3 \
+    fuse && \
+    apt-get clean -y && \
+    
+    rm -rf /var/lib/apt/lists/*
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
- 
-
-
+    
 # Inference
 # Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
 COPY --from=inferencing-assets /artifacts /var/

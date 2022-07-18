@@ -42,11 +42,14 @@ RUN apt-get update && \
     libcurl3-nss \
     libgd3 \
     binutils-multiarch \
-    libxml2-dev \
+    libxml2-dev \ 
+# adding below packages to mitigate the vulnerabilities till fuse2fs
+    e2fsprogs \
+    e2fsck-static \
+    fuse2fs \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
-
 
 # Inference
 # Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
