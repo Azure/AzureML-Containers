@@ -3,7 +3,7 @@
 :20220714.v1
 ------------------- 
 -   **Dependencies** :
--   [CVE-2022-1304 ](https://ubuntu.com/security/notices/USN-5464-1) 
+-   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
 -   [CVE-2022-2068](https://ubuntu.com/security/notices/USN-5488-1)
 -   [CVE-2022-32208](https://ubuntu.com/security/notices/USN-5495-1)
 
