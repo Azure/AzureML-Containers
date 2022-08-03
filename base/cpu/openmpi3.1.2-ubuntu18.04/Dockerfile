@@ -42,10 +42,6 @@ RUN apt-get update && \
     libgd3 \
     binutils-multiarch \
     libxml2-dev \
-    #adding below packages to mitigate the vulnerabilities till fuse2fs
-    e2fsprogs \
-    e2fsck-static \
-    fuse2fs \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
