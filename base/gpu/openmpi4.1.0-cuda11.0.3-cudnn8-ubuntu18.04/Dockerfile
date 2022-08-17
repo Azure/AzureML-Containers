@@ -27,6 +27,8 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     #added openssl - 1.1.1 package to mitigate vulnerabilites after cuda upgdrade, will remove this package
     openssl - 1.1.1 \
+    #adding openssl1.0 to mitigate vulnerability
+    openssl1.0 \
     # SSH and RDMA
     libmlx4-1 \
     libmlx5-1 \
