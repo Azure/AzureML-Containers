@@ -4,8 +4,9 @@
 ------------------- 
 -   **Dependencies** :
 -   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
+-   [CVE-2016-3709](https://ubuntu.com/security/notices/USN-5548-1)
 
-- released images to mitigate E2fsprogs, e2fsck-static, and fuse2fs Vulnerabilities.
+- released images to mitigate libgnutls30, E2fsprogs, e2fsck-static, and fuse2fs Vulnerabilities.
 
 :20220729.v1
 ------------------- 
