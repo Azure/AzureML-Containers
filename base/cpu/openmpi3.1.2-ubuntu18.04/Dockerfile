@@ -46,6 +46,7 @@ RUN apt-get update && \
     e2fsprogs \
     e2fsck-static \
     fuse2fs \
+    libgnutls30 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
