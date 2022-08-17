@@ -1,5 +1,13 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+:20220815.v1
+------------------- 
+-   **Dependencies** : 
+-   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
+-   [CVE-2016-3709](https://ubuntu.com/security/notices/USN-5548-1)
+
+- released images to mitigate libgnutls30, e2fsck-static, fuse2fs and E2fsprogs Vulnerabilities.
+
 :20220729.v1
 ------------------- 
 -   **Dependencies** : 
