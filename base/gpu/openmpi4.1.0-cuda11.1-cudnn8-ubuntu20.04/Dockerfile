@@ -26,6 +26,7 @@ RUN apt-get update && \
     # SSH and RDMA
     #added openssl - 1.1.1 package to mitigate vulnerabilites after cuda upgdrade, will remove this package
     openssl - 1.1.1 \
+    libgnutls30 \
     libmlx4-1 \
     libmlx5-1 \
     librdmacm1 \
