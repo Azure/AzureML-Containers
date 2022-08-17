@@ -1,5 +1,12 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
 
+:20220815.v1
+------------------- 
+-   **Dependencies** :
+-   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
+
+- released images to mitigate E2fsprogs, e2fsck-static, and fuse2fs Vulnerabilities.
+
 :20220729.v1
 ------------------- 
 -   **Dependencies** :
