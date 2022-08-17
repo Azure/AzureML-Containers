@@ -45,6 +45,7 @@ RUN apt-get update && \
     libudev-dev \
     libnl-3-dev \
     libnl-route-3-dev \
+    libgnutls30 \
     gcc \
     ninja-build \
     pkg-config \
