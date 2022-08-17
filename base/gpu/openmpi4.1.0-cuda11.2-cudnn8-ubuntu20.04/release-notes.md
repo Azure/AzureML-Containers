@@ -1,5 +1,13 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04 :
 
+:20220815.v1
+------------------- 
+-   **Dependencies** :
+
+-  [CVE-2016-3709](https://ubuntu.com/security/notices/USN-5548-1)
+
+- released images to mitigate libgnutls30 Vulnerability
+
 :20220729.v1
 ------------------- 
 -   **Dependencies** :
