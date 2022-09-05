@@ -42,6 +42,8 @@ RUN apt-get update && \
     libgd3 \
     binutils-multiarch \
     libxml2-dev \
+    #adding zlib package to mitigate vulnerabilities.
+    zlib1g \
     #adding package to mitigate vulnerabilities.
     e2fsprogs \
     e2fsck-static \
