@@ -3,7 +3,6 @@
 :20220902.v1
 ------------------- 
 -   **Dependencies** :
--   
 - released images to mitigate vulnerabilities
 -
 :20220815.v1
