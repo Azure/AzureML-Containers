@@ -1,5 +1,12 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
 
+:20220902.v1
+------------------- 
+-   **Dependencies** :
+-   [CVE-2022-37434](https://ubuntu.com/security/notices/USN-5570-1) 
+
+- released images to mitigate zlib Vulnerabilities.
+
 :20220815.v1
 ------------------- 
 -   **Dependencies** :
