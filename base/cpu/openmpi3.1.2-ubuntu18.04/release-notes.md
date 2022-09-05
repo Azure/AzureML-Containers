@@ -6,6 +6,7 @@
 -   [CVE-2022-37434](https://ubuntu.com/security/notices/USN-5570-1) 
 
 - released images to mitigate zlib Vulnerabilities.
+
 :20220815.v1
 ------------------- 
 -   **Dependencies** :
