@@ -45,6 +45,8 @@ RUN apt-get update && \
     #adding zlib package to mitigate vulnerabilities.
     zlib1g \
     #adding package to mitigate vulnerabilities.
+    libcurl3-nss \
+    libudev1 \ 
     e2fsprogs \
     e2fsck-static \
     fuse2fs \
