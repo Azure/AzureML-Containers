@@ -1,5 +1,13 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
 
+:20220915.v1
+------------------- 
+-   **Dependencies** :
+-   [CVE-2022-2526](https://ubuntu.com/security/notices/USN-5583-1) 
+-   [CVE-2022-35252](https://ubuntu.com/security/notices/USN-5587-1)
+
+- released images to mitigate libcurl3-nss, libudev1 vulnerabilities
+
 :20220902.v1
 ------------------- 
 -   **Dependencies** :
