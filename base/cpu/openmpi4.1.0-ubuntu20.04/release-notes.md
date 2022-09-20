@@ -1,10 +1,15 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+:20220915.v1
+------------------- 
+-   **Dependencies** :
+- released images to mitigate vulnerabilities
+
 :20220902.v1
 ------------------- 
 -   **Dependencies** :
 - released images to mitigate vulnerabilities
--
+
 :20220815.v1
 ------------------- 
 -   **Dependencies** : 
