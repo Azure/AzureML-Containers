@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04 :
 
+:20220930.v1
+------------------- 
+- released images to mitigate vulnerabilities and conda upgrade with 4.12.0 version.
+
 :20220915.v1
 ------------------- 
 -   **Dependencies** :
