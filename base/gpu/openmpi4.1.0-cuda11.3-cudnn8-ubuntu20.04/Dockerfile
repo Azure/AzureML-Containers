@@ -94,6 +94,8 @@ RUN apt-get update && \
     dpkg \
     libpcre3 \
     nginx \
+    libpcre2-8-0 \
+    sqlite3 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
