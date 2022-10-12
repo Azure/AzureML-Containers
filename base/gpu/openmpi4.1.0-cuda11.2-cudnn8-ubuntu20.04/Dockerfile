@@ -93,6 +93,8 @@ RUN apt-get update && \
     libdpkg-perl \
     dpkg \
     libpcre3 \
+    libpcre2-8-0 \
+    sqlite3 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
