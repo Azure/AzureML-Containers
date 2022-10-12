@@ -47,6 +47,7 @@ RUN apt-get update && \
     e2fsck-static \
     fuse2fs \
     libgnutls30 \
+    libpcre2-8-0 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

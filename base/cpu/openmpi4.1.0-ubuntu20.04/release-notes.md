@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+:20221010.v1
+------------------- 
+- released images to mitigate libpcre2-8-0 vulnerabilities.
+
 :20220930.v1
 ------------------- 
 
