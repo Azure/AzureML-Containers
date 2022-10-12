@@ -1,5 +1,13 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
+:20221010.v1
+------------------- 
+-   **Dependencies** :
+-  [CVE-2021-20223](https://ubuntu.com/security/notices/USN-5615-1)
+-  [CVE-2022-1586](https://ubuntu.com/security/notices/USN-5627-1) 
+
+- released images to mitigate sqlite3, libpcre2-8-0 vulnerabilities.
+
 :20220930.v1
 ------------------- 
 - released images to mitigate vulnerabilities and conda upgrade with 4.12.0 version.
