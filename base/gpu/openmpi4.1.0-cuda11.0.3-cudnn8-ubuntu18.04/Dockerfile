@@ -90,6 +90,17 @@ RUN apt-get update && \
     libcurl3-nss \
     e2fsprogs \
     e2fsck-static \
+    perl \
+    libksba8 \
+    libkrb5-26-heimdal \
+    libhx509-5-heimdal \
+    libheimntlm0-heimdal \
+    libheimbase1-heimdal \
+    libasn1-8-heimdal \
+    libroken18-heimdal \
+    libwind0-heimdal \
+    libgssapi3-heimdal \
+    libhcrypto4-heimdal \
     fuse2fs \
     gnupg \
     gnupg2 \
