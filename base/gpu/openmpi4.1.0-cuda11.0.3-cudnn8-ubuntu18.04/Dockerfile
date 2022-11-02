@@ -126,10 +126,6 @@ ENV WORKER_TIMEOUT=300
 EXPOSE 5001 8883 8888
 
 # pinned versions to mitigate shadow(https://ubuntu.com/security/notices/USN-5254-1) vulnerabilities.
-RUN apt-get update && apt-get install --only-upgrade passwd=1:4.5-1ubuntu2.2 -y \
-   && apt-get install --only-upgrade login=1:4.5-1ubuntu2.2 -y && \
-   apt-get install --only-upgrade uidmap=1:4.5-1ubuntu2.2 -y
-
 # Conda Environment
 ENV MINICONDA_VERSION py38_4.11.0
 ENV PATH /opt/miniconda/bin:$PATH
