@@ -48,6 +48,8 @@ RUN apt-get update && \
     fuse2fs \
     libgnutls30 \
     libpcre2-8-0 \
+    libgmp10 \
+    zlib1g \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
