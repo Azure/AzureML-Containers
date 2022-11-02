@@ -2,7 +2,7 @@
 
 :20221101.v1
 ------------------- 
-- released images to mitigate vulnerabilities GMP vulnerabilities.
+- released images to mitigate vulnerabilities vulnerabilities.
 
 :20221010.v1
 ------------------- 
