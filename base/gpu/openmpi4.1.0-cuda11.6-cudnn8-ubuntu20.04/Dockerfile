@@ -11,7 +11,6 @@ FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20220331.v12 AS inferenci
 FROM nvidia/cuda:11.6.1-cudnn8-devel-ubuntu20.04
 
 USER root:root
-
 ENV com.nvidia.cuda.version $CUDA_VERSION
 ENV com.nvidia.volumes.needed nvidia_driver
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
