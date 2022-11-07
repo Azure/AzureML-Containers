@@ -4,7 +4,7 @@
 ------------------- 
 -   [CVE-2021-43618](https://ubuntu.com/security/notices/USN-5672-1) 
 
-- released images to mitigate vulnerabilities vulnerabilities.
+- released images to mitigate vulnerabilities.
 
 :20221010.v1
 ------------------- 
