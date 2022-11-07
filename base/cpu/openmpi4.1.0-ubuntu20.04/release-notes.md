@@ -5,7 +5,7 @@
 -   **Dependencies** :
 -   [CVE-2021-43618](https://ubuntu.com/security/notices/USN-5672-1) 
 
-- released images to mitigate vulnerabilities GMP vulnerabilities.
+- released images to mitigate GMP vulnerabilities.
 
 :20221010.v1
 ------------------- 
