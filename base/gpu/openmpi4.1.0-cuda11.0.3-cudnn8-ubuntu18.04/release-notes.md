@@ -8,7 +8,7 @@
 -   [CVE-2018-16860](https://ubuntu.com/security/notices/USN-5675-1) 
 -   [CVE-2022-3515](https://ubuntu.com/security/notices/USN-5688-1)
 
-- released images to mitigate Heimdal,Libksba vulnerabilities.
+- released images to mitigate Heimdal, Libksba vulnerabilities.
 
 :20221010.v1
 ------------------- 
