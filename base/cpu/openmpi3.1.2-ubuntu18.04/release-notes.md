@@ -1,4 +1,4 @@
-**"Note: Support to Ubuntu 18.04 images will be dropped starting January 2023 as it reached EOL"**
+**Note: Support for Ubuntu 18.04 images will be dropped starting January 2023 when it reaches EOL**
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
 
