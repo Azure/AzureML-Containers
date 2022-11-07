@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
+:20221101.v1
+------------------- 
+- released images to mitigate vulnerabilities.
+
 :20221010.v1
 ------------------- 
 -   **Dependencies** :

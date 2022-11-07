@@ -1,4 +1,14 @@
+**Note: Support to Ubuntu 18.04 images will be dropped starting January 2023 when it reaches EOL**
+
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04 :
+
+:20221101.v1
+------------------- 
+-   **Dependencies** :
+-   [CVE-2018-16860](https://ubuntu.com/security/notices/USN-5675-1) 
+-   [CVE-2022-3515](https://ubuntu.com/security/notices/USN-5688-1)
+
+- released images to mitigate Heimdal, Libksba vulnerabilities.
 
 :20221010.v1
 ------------------- 

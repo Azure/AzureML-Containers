@@ -1,10 +1,18 @@
+**Note: Support for Ubuntu 18.04 images will be dropped starting January 2023 when it reaches EOL**
+
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
+
+:20221101.v1
+------------------- 
+-   **Dependencies** :
+-   [CVE-2021-43618](https://ubuntu.com/security/notices/USN-5672-1) 
+
+- released images to mitigate GMP vulnerabilities.
 
 :20220930.v1
 ------------------- 
-
-- released images to mitigate vulnerabilities and conda upgrade with 4.12.0 version.
-
+- released images to mitigate vulnerabilities 
+- upgraded to conda with 4.12.0
 
 :20220915.v1
 ------------------- 

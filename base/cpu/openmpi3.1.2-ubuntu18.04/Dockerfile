@@ -49,6 +49,7 @@ RUN apt-get update && \
     libudev1 \ 
     e2fsprogs \
     e2fsck-static \
+    libgmp10 \ 
     fuse2fs \
     libgnutls30 \
     fuse && \

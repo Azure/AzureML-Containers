@@ -1,5 +1,12 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+:20221101.v1
+------------------- 
+-   **Dependencies** :
+-   [CVE-2021-43618](https://ubuntu.com/security/notices/USN-5672-1) 
+
+- released images to mitigate GMP vulnerabilities.
+
 :20221010.v1
 ------------------- 
 - released images to mitigate libpcre2-8-0 vulnerabilities.

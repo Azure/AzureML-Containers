@@ -21,7 +21,6 @@ ENV NCCL_DEBUG=INFO
 ENV HOROVOD_GPU_ALLREDUCE=NCCL
 
 
-
 # Install Common Dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
