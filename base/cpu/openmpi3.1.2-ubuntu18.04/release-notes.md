@@ -11,7 +11,8 @@
 
 :20220930.v1
 ------------------- 
-- released images to mitigate vulnerabilities and conda upgrade with 4.12.0 version.
+- released images to mitigate vulnerabilities 
+- upgraded to conda with 4.12.0
 
 :20220915.v1
 ------------------- 
