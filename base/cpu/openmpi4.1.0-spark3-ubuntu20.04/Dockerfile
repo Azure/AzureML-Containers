@@ -41,16 +41,27 @@ RUN mkdir -p /usr/share/man/man1 && \
     libgcrypt20 \
     binutils-multiarch \
     nginx \
+    #adding packages to mitigate vulnerabilities.
+    e2fsprogs \
+    e2fsck-static \
+    fuse2fs \
+    logsave \
+    libss2 \
+    libcom-err2 \
+    libgnutls30 \
+    libpcre2-8-0 \
+    libgmp10 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
 	
+    
 #Cmake Installation
 RUN apt-get update && \
     apt-get install -y cmake
 	
 # Conda Environment
-ENV MINICONDA_VERSION py38_4.11.0
+ENV MINICONDA_VERSION py38_4.12.0
 ENV PATH /opt/miniconda/bin:$PATH
 RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
@@ -70,7 +81,7 @@ RUN mkdir /tmp/ucx && \
         make -j $(nproc --all) && \
         make install && \
         rm -rf /tmp/ucx
-			
+
 # Open-MPI installation
 ENV OPENMPI_VERSION 4.1.0
 RUN mkdir /tmp/openmpi && \
@@ -83,10 +94,10 @@ RUN mkdir /tmp/openmpi && \
     make install && \
     ldconfig && \
     rm -rf /tmp/openmpi
-		
+
 # spark
-ENV HADOOP_VERSION 3.2
-ENV SPARK_VERSION 3.2.1
+ENV HADOOP_VERSION 3
+ENV SPARK_VERSION 3.3.1
 RUN curl -s https://archive.apache.org/dist/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION}.tgz | tar -xz -C /opt/ && \
     mv /opt/spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION} /opt/spark
 ENV SPARK_HOME /opt/spark
@@ -94,8 +105,8 @@ ENV SPARK_JARS /opt/spark/jars/
 ENV PATH $PATH:$SPARK_HOME/bin
 
 # azure-hadoop
-ENV HADOOP_AZURE_VERSION 3.3.1
-ENV AZURE_STORAGE_VERSION 3.1.0
+ENV HADOOP_AZURE_VERSION 3.3.4
+ENV AZURE_STORAGE_VERSION 8.6.6
 ENV SPARK_HOME /opt/spark
 ENV SPARK_JARS /opt/spark/jars/
 RUN wget -P ${SPARK_JARS} https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-azure/${HADOOP_AZURE_VERSION}/hadoop-azure-${HADOOP_AZURE_VERSION}.jar && \
