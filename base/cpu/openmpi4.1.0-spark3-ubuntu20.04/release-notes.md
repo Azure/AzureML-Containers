@@ -1,4 +1,4 @@
-:20221129.v2
+:20221129.v1
 ------------------- 
 - released image to mitigate vulnerabilities. 
 
