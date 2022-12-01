@@ -4,7 +4,13 @@
 
 :20221129.v1
 ------------------- 
-- released images to mitigate vulnerabilities 
+-   **Dependencies** :
+-   [CVE-2022-43680](https://ubuntu.com/security/notices/USN-5638-3) 
+-   [CVE-2022-40674](https://ubuntu.com/security/notices/USN-5638-2)
+-   [CVE-2022-35737](https://ubuntu.com/security/notices/USN-5716-1)
+-   [CVE-2022-41741](https://ubuntu.com/security/notices/USN-5722-1)
+
+- released images to mitigate expat, sqlite and ngnix vulnerabilities.
 
 :20221101.v1
 ------------------- 
