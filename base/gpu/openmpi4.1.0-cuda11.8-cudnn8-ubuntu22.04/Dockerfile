@@ -27,79 +27,12 @@ ENV HOROVOD_GPU_ALLREDUCE=NCCL
 
 # Install Common Dependencies
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-    # SSH and RDMA
-    #added openssl - 1.1.1 package to mitigate vulnerabilites after cuda upgdrade, will remove this package
-    openssl - 1.1.1 \
-    libmlx4-1 \
-    libmlx5-1 \
-    librdmacm1 \
-    libibverbs1 \
-    libmthca1 \
-    libdapl2 \
-    libgnutls30 \
-    dapl2-utils \
-    openssh-client \
-    openssh-server \
-    redis \
-    iproute2 && \
-    # rdma-core dependencies
-    apt-get install -y \
-    udev \
-    libudev-dev \
-    libnl-3-dev \
-    libnl-route-3-dev \
-    gcc \
-    ninja-build \
-    pkg-config \
-    valgrind \
-    cython3 \
-    python3-docutils \
-    pandoc \
-    dh-python \
-    python3-dev && \
+    apt-get install -y --no-install-recommends &&\
     # Others
     apt-get install -y \
-    build-essential \
-    bzip2 \
-    libbz2-1.0 \
-    systemd \
     git \
-    wget \
-    cpio \
-	pciutils \
-	libnuma-dev \
-	ibutils \
-	ibverbs-utils \ 
-	rdmacm-utils \
-	infiniband-diags \
-	perftest \
-	librdmacm-dev \
-	libibverbs-dev \
-    libsm6 \
-    libxext6 \
-    libxrender-dev \
-    libglib2.0-0 \
-    dh-make \
-    libx11-dev \
-    libgcrypt20 \
-    binutils-multiarch \
-    nginx \
-    e2fsprogs \
-    e2fsck-static \
-    fuse2fs \
-    logsave \
-    libss2 \
-    libcom-err2 \
-    gnupg \
-    gnupg2 \
-    gpg \
-    libdpkg-perl \
-    dpkg \
-    libpcre3 \
-    libpcre2-8-0 \
-    sqlite3 \
-    fuse && \
+    libnuma-dev \
+    libibverbs-dev &&\
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
 
