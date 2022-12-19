@@ -109,6 +109,7 @@ RUN apt-get update && \
     dpkg \
     libpcre3 \ 
     sqlite3 \
+    uidmap \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
