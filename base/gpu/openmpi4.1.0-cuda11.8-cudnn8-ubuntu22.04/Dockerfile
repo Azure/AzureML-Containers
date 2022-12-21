@@ -30,7 +30,9 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends &&\
     # Others
     apt-get install -y \
-    git \
+    git && \
+    # nccl-rdma-sharp-plugins dependencies
+    apt-get install -y \
     libnuma-dev \
     libibverbs-dev &&\
     apt-get clean -y && \
