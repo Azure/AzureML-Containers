@@ -2,7 +2,8 @@
 # Licensed under the MIT License.
 FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20220607.v1 AS inferencing-assets
 
-FROM mcr.microsoft.com/azureml/inference-base-2204:latest
+# DisableDockerDetector "Preferred to use DockerHub registry over MCR mirror"
+FROM library/ubuntu:22.04
 
 USER root:root
 
