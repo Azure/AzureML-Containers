@@ -96,7 +96,6 @@ RUN apt-get update && \
     sqlite3 \
     fuse && \
     apt-get clean -y && \
-    
     rm -rf /var/lib/apt/lists/*
     fuse && \
     apt-get clean -y && \
