@@ -4,7 +4,7 @@
 
 :20221222.v1
 ------------------- 
--   released images to mitigate vulnerabilities
+-   released images to mitigate vulnerabilities.
 
 :20221129.v1
 ------------------- 
