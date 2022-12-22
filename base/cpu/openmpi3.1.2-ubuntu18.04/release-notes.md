@@ -2,6 +2,10 @@
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
 
+:20221222.v1
+------------------- 
+-   released images to mitigate vulnerabilities
+
 :20221129.v1
 ------------------- 
 -   **Dependencies** :
