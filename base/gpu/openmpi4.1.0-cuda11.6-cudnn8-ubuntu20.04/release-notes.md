@@ -5,6 +5,14 @@
 
 -   released image to mitigate vunerabilities.
 
+:20221214.v2
+------------------- 
+-   **Dependencies** :
+-   [CVE-2013-4235](https://ubuntu.com/security/notices/USN-5745-1 ) 
+-   [CVE-2022-23491](https://github.com/advisories/GHSA-43fp-rhv2-5gv8)
+
+- released images to mitigate uidmap, and certifi(pip) vulnerabilities.
+
 :20221129.v1
 ------------------- 
 -   **Dependencies** :
