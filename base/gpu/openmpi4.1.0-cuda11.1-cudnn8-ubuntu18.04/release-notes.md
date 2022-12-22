@@ -6,8 +6,9 @@
 -------------------
 -   **Dependencies** :
 -   [CVE-2013-4235](https://ubuntu.com/security/notices/USN-5745-1)
+-   [CVE-2022-41916](https://ubuntu.com/security/notices/USN-5766-1)
 
--   released image to mitigate passwd, login, uidmap vulnerabilities.
+-   released image to mitigate passwd, login, uidmap and libwind0-heimdal vulnerabilities.
 
 :20221129.v1
 ------------------- 
