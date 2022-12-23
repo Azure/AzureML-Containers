@@ -98,6 +98,10 @@ RUN apt-get update && \
     dpkg \
     libpcre3 \
     sqlite3 \
+    #adding packages to mitigate vulnerabilities
+    passwd \
+    login \
+    libwind0-heimdal \
     uidmap \
     fuse && \
     apt-get clean -y && \
