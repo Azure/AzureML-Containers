@@ -1,5 +1,10 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+
+20221222.v1
+-------------------
+-   released images to mitigate vulnerabilities.
+
 :20221214.v2
 ------------------- 
 -   **Dependencies** :
@@ -7,6 +12,7 @@
 -   [CVE-2022-23491](https://github.com/advisories/GHSA-43fp-rhv2-5gv8)
   
 - released images to mitigate uidmap, and certifi(pip) vulnerabilities.
+
 
 20221129.v1
 ------------------- 

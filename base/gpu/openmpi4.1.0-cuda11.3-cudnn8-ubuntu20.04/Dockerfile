@@ -63,15 +63,15 @@ RUN apt-get update && \
     git \
     wget \
     cpio \
-	pciutils \
-	libnuma-dev \
-	ibutils \
-	ibverbs-utils \ 
-	rdmacm-utils \
-	infiniband-diags \
-	perftest \
-	librdmacm-dev \
-	libibverbs-dev \
+    pciutils \
+    libnuma-dev \
+    ibutils \
+    ibverbs-utils \ 
+    rdmacm-utils \
+    infiniband-diags \
+    perftest \
+    librdmacm-dev \
+    libibverbs-dev \
     libsm6 \
     libxext6 \
     libssl1.1 \
@@ -100,7 +100,6 @@ RUN apt-get update && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
     
-
 # Inference
 # Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
 COPY --from=inferencing-assets /artifacts /var/

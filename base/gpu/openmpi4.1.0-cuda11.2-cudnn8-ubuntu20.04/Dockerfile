@@ -63,15 +63,15 @@ RUN apt-get update && \
     git \
     wget \
     cpio \
-	pciutils \
-	libnuma-dev \
-	ibutils \
-	ibverbs-utils \ 
-	rdmacm-utils \
-	infiniband-diags \
-	perftest \
-	librdmacm-dev \
-	libibverbs-dev \
+    pciutils \
+    libnuma-dev \
+    ibutils \
+    ibverbs-utils \ 
+    rdmacm-utils \
+    infiniband-diags \
+    perftest \
+    librdmacm-dev \
+    libibverbs-dev \
     libsm6 \
     libxext6 \
     libssl1.1 \
@@ -95,6 +95,10 @@ RUN apt-get update && \
     libpcre3 \
     libpcre2-8-0 \
     sqlite3 \
+    #adding packages to mitigate vulnerabilities
+    passwd \
+    login \
+    libwind0-heimdal \
     uidmap \
     fuse && \
     apt-get clean -y && \

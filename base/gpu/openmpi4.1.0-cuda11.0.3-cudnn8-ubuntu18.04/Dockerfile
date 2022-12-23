@@ -109,11 +109,13 @@ RUN apt-get update && \
     dpkg \
     libpcre3 \ 
     sqlite3 \
+    #adding packages to mitigate vulnerabilities
+    passwd \
+    login \
     uidmap \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
-    
     
 # Inference
 # Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
