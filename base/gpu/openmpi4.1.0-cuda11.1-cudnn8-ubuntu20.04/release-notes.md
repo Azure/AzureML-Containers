@@ -5,9 +5,8 @@
 -   **Dependencies** :
 -   [CVE-2013-4235](https://ubuntu.com/security/notices/USN-5745-1)
 -   [CVE-2022-38533](https://ubuntu.com/security/notices/USN-5762-1)
--   [CVE-2022-41916](https://ubuntu.com/security/notices/USN-5766-1)
 
--   released image to mitigate passwd, login, uidmap, binutils-multiarch, binutils and libwind0-heimdal vunerabilities.
+-   released image to mitigate passwd, login, uidmap, and libwind0-heimdal vunerabilities.
 =======
 :20221214.v2
 ------------------- 
