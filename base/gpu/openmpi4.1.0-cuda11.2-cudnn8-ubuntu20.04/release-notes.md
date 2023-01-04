@@ -1,5 +1,13 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04 :
 
+:20230103.v1
+------------------- 
+-   **Dependencies** :
+-    [CVE-2022-38533](https://ubuntu.com/security/notices/USN-5762-1)
+-    [CVE-2022-41916](https://ubuntu.com/security/notices/USN-5766-1)
+
+- released images to mitigate GNU binutils and heimdal vulnerabilities.
+
 :20221129.v1
 ------------------- 
 -   **Dependencies** :
