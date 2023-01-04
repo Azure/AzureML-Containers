@@ -82,6 +82,16 @@ RUN apt-get update && \
     nginx \
     binutils-multiarch \
     # adding below packages to mitigate the vulnerabilities till libpcre3
+    libwind0-heimdal \
+    libkrb5-26-heimdal \
+    libheimbase1-heimdal \ 
+    libheimntlm0-heimdal \
+    libhx509-5-heimdal \
+    libhcrypto4-heimdal \
+    libgssapi3-heimdal \
+    libroken18-heimdal \
+    libasn1-8-heimdal \
+    libctf-nobfd0 \
     libcurl3-nss \
     e2fsprogs \
     e2fsck-static \

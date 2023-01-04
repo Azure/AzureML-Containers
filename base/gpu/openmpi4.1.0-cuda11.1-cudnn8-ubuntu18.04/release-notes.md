@@ -2,6 +2,15 @@
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.1-cudnn8-ubuntu18.04 :
 
+
+:20230103.v1
+------------------- 
+-   **Dependencies** :
+-    [CVE-2022-38533](https://ubuntu.com/security/notices/USN-5762-1)
+-    [CVE-2022-41916](https://ubuntu.com/security/notices/USN-5766-1)
+
+- released images to mitigate GNU binutils and heimdal vulnerabilities.
+
 :20221222.v1
 -------------------
 -   **Dependencies** :
@@ -9,7 +18,7 @@
 -   [CVE-2022-41916](https://ubuntu.com/security/notices/USN-5766-1)
 
 -   released image to mitigate passwd, login, uidmap and libwind0-heimdal vulnerabilities.
-=======
+
 :20221214.v2
 ------------------- 
 -   **Dependencies** :

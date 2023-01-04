@@ -54,8 +54,7 @@ RUN mkdir -p /usr/share/man/man1 && \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
-    
-    
+
 #Cmake Installation
 RUN apt-get update && \
     apt-get install -y cmake
