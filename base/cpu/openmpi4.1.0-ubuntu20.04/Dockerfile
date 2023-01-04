@@ -50,6 +50,7 @@ RUN apt-get update && \
     libpcre2-8-0 \
     libgmp10 \
     zlib1g \
+    uidmap \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
@@ -67,11 +68,13 @@ ENV WORKER_TIMEOUT=300
 EXPOSE 5001 8883 8888
 
 # Conda Environment
-ENV MINICONDA_VERSION py38_4.11.0
+ENV MINICONDA_VERSION py38_4.12.0
 ENV PATH /opt/miniconda/bin:$PATH
+ENV CONDA_PACKAGE 22.11.1
 RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
     conda clean -ay && \
+    conda install conda=${CONDA_PACKAGE} -y && \
     rm -rf /opt/miniconda/pkgs && \
     rm /tmp/miniconda.sh && \
     find / -type d -name __pycache__ | xargs rm -rf
@@ -88,7 +91,6 @@ RUN mkdir /tmp/openmpi && \
     make install && \
     ldconfig && \
     rm -rf /tmp/openmpi
-
 
 # Msodbcsql17 installation
 RUN apt-get update && \
