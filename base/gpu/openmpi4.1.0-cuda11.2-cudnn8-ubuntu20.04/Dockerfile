@@ -63,15 +63,15 @@ RUN apt-get update && \
     git \
     wget \
     cpio \
-	pciutils \
-	libnuma-dev \
-	ibutils \
-	ibverbs-utils \ 
-	rdmacm-utils \
-	infiniband-diags \
-	perftest \
-	librdmacm-dev \
-	libibverbs-dev \
+    pciutils \
+    libnuma-dev \
+    ibutils \
+    ibverbs-utils \ 
+    rdmacm-utils \
+    infiniband-diags \
+    perftest \
+    librdmacm-dev \
+    libibverbs-dev \
     libsm6 \
     libxext6 \
     libssl1.1 \
@@ -83,6 +83,16 @@ RUN apt-get update && \
     binutils-multiarch \
     nginx \
     # adding below packages to mitigate the vulnerabilities till libpcre3:1873514
+    libwind0-heimdal \
+    libkrb5-26-heimdal \
+    libheimbase1-heimdal \ 
+    libheimntlm0-heimdal \
+    libhx509-5-heimdal \
+    libhcrypto4-heimdal \
+    libgssapi3-heimdal \
+    libroken18-heimdal \
+    libasn1-8-heimdal \
+    libctf-nobfd0 \
     libcurl3-nss \
     e2fsprogs \
     e2fsck-static \
