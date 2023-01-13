@@ -64,6 +64,8 @@ Below is the list of tags:
     * openmpi3.1.2-ubuntu18.04
 - [OpenMPI CPU - Ubuntu 20.04](./base/cpu/openmpi4.1.0-ubuntu20.04)
     * openmpi4.1.0-ubuntu20.04
+- [OpenMPI CPU - Ubuntu 22.04](./base/cpu/openmpi4.1.0-ubuntu22.04)
+    * openmpi4.1.0-ubuntu22.04
 - [OpenMPI GPU - cuda10.0 - Ubuntu 18.04](./base/gpu/openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04)
     * openmpi3.1.2-cuda10.0-cudnn7-ubuntu18.04
 - [OpenMPI GPU - cuda10.1 - Ubuntu 18.04](./base/gpu/openmpi3.1.2-cuda10.1-cudnn7-ubuntu18.04)
@@ -78,6 +80,14 @@ Below is the list of tags:
     * openmpi4.1.0-cuda11.1-cudnn8-ubuntu18.04
 - [OpenMPI GPU - cuda11.1 - Ubuntu 20.04](./base/gpu/openmpi4.1.0-cuda11.1-cudnn8-ubuntu20.04)
     * openmpi4.1.0-cuda11.1-cudnn8-ubuntu20.04
+- [OpenMPI GPU - cuda11.2 - Ubuntu 20.04](./base/gpu/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04)
+    * openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04
+- [OpenMPI GPU - cuda11.3 - Ubuntu 20.04](./base/gpu/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04)
+    * openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04
+- [OpenMPI GPU - cuda11.6 - Ubuntu 20.04](./base/gpu/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04)
+    * openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04
+- [OpenMPI GPU - cuda11.8 - Ubuntu 22.04](./base/gpu/openmpi4.1.0-cuda11.8-cudnn8-ubuntu22.04)
+    * openmpi4.1.0-cuda11.8-cudnn8-ubuntu22.04
 
 <a name="howtorun"></a>
 ## Using Azure ML base images for training
