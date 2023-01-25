@@ -58,9 +58,13 @@ RUN if [ "$BUILD_NUMBER" != "None" ] && [ "$IMAGE_NAME" != "None" ]; then echo "
 # Conda Environment
 ENV MINICONDA_VERSION py38_4.12.0
 ENV PATH /opt/miniconda/bin:$PATH
+ENV CONDA_PACKAGE 22.11.1
 RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
     conda clean -ay && \
+    conda install conda=${CONDA_PACKAGE} -y && \    
+    conda install wheel=0.38.1 -c conda-forge -y && \    
+    conda install setuptools=65.5.1 -c conda-forge -y && \
     rm -rf /opt/miniconda/pkgs && \
     rm /tmp/miniconda.sh && \
     find / -type d -name __pycache__ | xargs rm -rf
