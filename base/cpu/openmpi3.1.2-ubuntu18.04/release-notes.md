@@ -2,6 +2,15 @@
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
 
+:20230320.v1
+------------------- 
+-   **Dependencies** :
+-   [CVE-2022-41916](https://ubuntu.com/security/notices/USN-5766-1)
+-   [CVE-2022-47629](https://ubuntu.com/security/notices/USN-5787-1)
+
+- Upgraded wheel and setuptools  
+- released images to mitigate heimdal and Libksba vulnerabilities.
+
 :20221222.v1
 ------------------- 
 -   released images to mitigate vulnerabilities.
