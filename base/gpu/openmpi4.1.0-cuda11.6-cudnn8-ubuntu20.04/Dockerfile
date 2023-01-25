@@ -93,7 +93,17 @@ RUN apt-get update && \
     libpcre3 \
     libpcre2-8-0 \
     sqlite3 \
-    uidmap \ 
+    uidmap \
+    libkrb5-26-heimdal \     
+    libhcrypto4-heimdal \    
+    libheimntlm0-heimdal \    
+    libheimbase1-heimdal \    
+    libasn1-8-heimdal \    
+    libgssapi3-heimdal \    
+    libhx509-5-heimdal \    
+    libroken18-heimdal \    
+    libwind0-heimdal \     
+    libksba8 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
@@ -118,6 +128,8 @@ RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
     conda clean -ay && \
     conda install conda=${CONDA_PACKAGE} -y && \
+    conda install wheel=0.38.1 -c conda-forge -y && \    
+    conda install setuptools=65.5.1 -c conda-forge -y && \
     rm -rf /opt/miniconda/pkgs && \
     rm /tmp/miniconda.sh && \
     find / -type d -name __pycache__ | xargs rm -rf
