@@ -1,5 +1,12 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.1-cudnn8-ubuntu20.04 :
 
+:20230320.v1
+------------------- 
+-   **Dependencies** :
+-   [CVE-2022-47629](https://ubuntu.com/security/notices/USN-5787-1)
+
+- Upgraded wheel and setuptools  
+- released images to mitigate Libksba vulnerability.
 
 :20230103.v1
 ------------------- 
