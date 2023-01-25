@@ -94,6 +94,7 @@ RUN apt-get update && \
     libasn1-8-heimdal \
     libctf-nobfd0 \
     libcurl3-nss \
+    libksba8 \
     e2fsprogs \
     e2fsck-static \
     fuse2fs \
@@ -136,6 +137,8 @@ RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
     conda clean -ay && \
     conda install conda=${CONDA_PACKAGE} -y && \
+    conda install wheel=0.38.1 -c conda-forge -y && \    
+    conda install setuptools=65.5.1 -c conda-forge -y && \
     rm -rf /opt/miniconda/pkgs && \
     rm /tmp/miniconda.sh && \
     find / -type d -name __pycache__ | xargs rm -rf
