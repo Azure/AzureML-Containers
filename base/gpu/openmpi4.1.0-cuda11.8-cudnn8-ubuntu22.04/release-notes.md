@@ -1,8 +1,10 @@
 :20230320.v1
 ------------------- 
 -   **Dependencies** :
+-   [CVE-2022-47629](https://ubuntu.com/security/notices/USN-5787-1)
 
-- Upgraded wheel and setuptools 
+- Upgraded wheel and setuptools
+- released image to mitigate Libksba vulnerability. 
 
 20230112.v1:
 -------------------
