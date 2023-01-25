@@ -30,6 +30,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends &&\
     # Others
     apt-get install -y \
+    libksba8 \
     git && \
     # nccl-rdma-sharp-plugins dependencies
     apt-get install -y \
