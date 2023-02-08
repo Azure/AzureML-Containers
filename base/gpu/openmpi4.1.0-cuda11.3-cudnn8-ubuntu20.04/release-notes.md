@@ -3,10 +3,10 @@
 :20230207.v1
 -------------------
 -   **Dependencies** :
--   [CVE-2022-28321](https://ubuntu.com/security/notices/USN-5825-1)
--   [CVE-2022-41903](https://github.com/git/git/security/advisories/GHSA-475x-2q3q-hvwq)
-
--   released image to mitigate git and PAM (libpam-modules, libpam-modules-bin, libpam0g, libpam-runtime) vulnerabilities.
+-   [CVE-2022-40897](https://ubuntu.com/security/notices/USN-5817-1)
+-   [CVE-2022-41903](https://github.com/git/git/security/advisories/GHSA-475x- 2q3q-hvwq)
+-   [CVE-2022-28321]( https://ubuntu.com/security/notices/USN-5825-1)
+-   [CVE-2022-42898](https://ubuntu.com/security/notices/USN-5828-1)
 
 :20230120.v1
 ------------------- 
