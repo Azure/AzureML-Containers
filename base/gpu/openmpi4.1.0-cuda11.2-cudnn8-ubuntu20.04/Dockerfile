@@ -95,6 +95,10 @@ RUN apt-get update && \
     libctf-nobfd0 \
     libcurl3-nss \
     libksba8 \
+    libpam-modules \
+    libpam-modules-bin \
+    libpam0g \
+    libpam-runtime \
     e2fsprogs \
     e2fsck-static \
     fuse2fs \

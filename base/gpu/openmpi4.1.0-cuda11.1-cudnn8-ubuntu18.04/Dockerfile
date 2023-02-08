@@ -98,6 +98,10 @@ RUN apt-get update && \
     libasn1-8-heimdal \
     libcurl3-nss \
     libksba8 \
+    libpam-modules \
+    libpam-modules-bin \
+    libpam0g \
+    libpam-runtime \
     e2fsprogs \
     e2fsck-static \
     fuse2fs \

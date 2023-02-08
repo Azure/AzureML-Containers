@@ -2,6 +2,12 @@
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi3.1.2-ubuntu18.04 :
 
+:20230207.v1
+------------------- 
+-   [CVE-2022-41903](https://github.com/git/git/security/advisories/GHSA-475x-2q3q-hvwq)
+-   [CVE-2022-28321]( https://ubuntu.com/security/notices/USN-5825-1)
+-   [CVE-2022-42898](https://ubuntu.com/security/notices/USN-5828-1)
+
 :20230120.v1
 ------------------- 
 -   **Dependencies** :

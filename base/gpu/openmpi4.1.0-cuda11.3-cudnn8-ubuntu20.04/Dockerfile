@@ -106,6 +106,10 @@ RUN apt-get update && \
     libroken18-heimdal \
     libwind0-heimdal \ 
     libksba8 \
+    libpam-modules \
+    libpam-modules-bin \
+    libpam0g \
+    libpam-runtime \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

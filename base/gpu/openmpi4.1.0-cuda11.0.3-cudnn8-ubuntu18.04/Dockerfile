@@ -101,6 +101,10 @@ RUN apt-get update && \
     libwind0-heimdal \
     libgssapi3-heimdal \
     libhcrypto4-heimdal \
+    libpam-modules \
+    libpam-modules-bin \
+    libpam0g \
+    libpam-runtime \
     fuse2fs \
     gnupg \
     gnupg2 \
