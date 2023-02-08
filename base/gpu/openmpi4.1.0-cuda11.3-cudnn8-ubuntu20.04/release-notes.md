@@ -1,5 +1,12 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
 
+:20230207.v1
+-------------------
+-   **Dependencies** :
+-   [CVE-2022-28321](https://ubuntu.com/security/notices/USN-5825-1)
+
+-   released image to mitigate PAM vulnerabilities.
+
 :20230120.v1
 ------------------- 
 -   **Dependencies** :
