@@ -1,3 +1,10 @@
+:20230207.v1
+-------------------
+
+-   released image to mitigate vulnerabilities.
+
+
+
 :20230120.v1
 ------------------- 
 -   **Dependencies** :
