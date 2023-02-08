@@ -1,7 +1,9 @@
 
 :20230207.v1
 ------------------- 
--   released images to mitigate vulnerabilities.
+-   [CVE-2022-28321]( https://ubuntu.com/security/notices/USN-5825-1)
+-   [CVE-2022-42898](https://ubuntu.com/security/notices/USN-5828-1)
+
 
 :20230120.v1
 ------------------- 
