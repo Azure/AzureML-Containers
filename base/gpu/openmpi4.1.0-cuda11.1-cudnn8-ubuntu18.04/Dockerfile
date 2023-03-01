@@ -1,7 +1,7 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
 
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20210623.40134510 AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20230222.v4 AS inferencing-assets
 
 # Tag: cuda:11.1.1-devel-ubuntu18.04
 # Env: CUDA_VERSION=11.1.1
@@ -143,8 +143,7 @@ RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
     conda clean -ay && \
     conda install conda=${CONDA_PACKAGE} -y && \
-    conda install wheel=0.38.1 -c conda-forge -y && \    
-    conda install setuptools=65.5.1 -c conda-forge -y && \
+    conda install wheel=0.38.1 setuptools=65.5.1 cryptography=39.0.1 -c conda-forge -y && \
     rm -rf /opt/miniconda/pkgs && \
     rm /tmp/miniconda.sh && \
     find / -type d -name __pycache__ | xargs rm -rf
