@@ -1,6 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20220331.v12 AS inferencing-assets
+FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20230222.v4 AS inferencing-assets
 
 FROM ubuntu:20.04
 
@@ -85,11 +85,10 @@ RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
     conda clean -ay && \
     conda install conda=${CONDA_PACKAGE} -y && \
-    conda install wheel=0.38.1 -c conda-forge -y && \    
-    conda install setuptools=65.5.1 -c conda-forge -y && \
+    conda install wheel=0.38.1 setuptools=65.5.1 cryptography=39.0.1 -c conda-forge -y && \
     rm -rf /opt/miniconda/pkgs && \
     rm /tmp/miniconda.sh && \
-    find / -type d -name __pycache__ | xargs rm -rf
+    find / -type d -name __pycache__ | xargs rm -rf  
 
 # Open-MPI installation
 ENV OPENMPI_VERSION 4.1.0
