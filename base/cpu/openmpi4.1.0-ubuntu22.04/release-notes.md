@@ -1,4 +1,8 @@
 
+:20230309.v1
+------------------- 
+-   Released image to mitigate vulnerabilities.
+
 :20230227.v1
 ------------------- 
 -   [GHSA-5crp-9r3c-p9vr](https://github.com/advisories/GHSA-5crp-9r3c-p9vr)
