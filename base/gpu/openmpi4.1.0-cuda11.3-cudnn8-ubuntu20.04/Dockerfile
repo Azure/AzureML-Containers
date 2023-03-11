@@ -110,6 +110,7 @@ RUN apt-get update && \
     libpam-modules-bin \
     libpam0g \
     libpam-runtime \
+    tar \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
