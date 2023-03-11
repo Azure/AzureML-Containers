@@ -1,3 +1,5 @@
+
+**Note: As of 03/10/2023, image has been deprecated.
 **Note: Support to Ubuntu 18.04 images will be dropped starting January 2023 when it reaches EOL**
 
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.0.3-cudnn8-ubuntu18.04 :
