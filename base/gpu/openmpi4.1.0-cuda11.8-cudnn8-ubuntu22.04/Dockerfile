@@ -31,6 +31,8 @@ RUN apt-get update && \
     # Others
     apt-get install -y \
     libksba8 \
+    openssl \
+    libssl3 \
     git && \
     # nccl-rdma-sharp-plugins dependencies
     apt-get install -y \
