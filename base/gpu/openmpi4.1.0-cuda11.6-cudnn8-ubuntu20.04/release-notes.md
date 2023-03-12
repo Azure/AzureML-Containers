@@ -1,4 +1,10 @@
--  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
+- **Note: updated to use cuda 11.6.2 instead of 11.6.1 nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
+-   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
+
+:20230309.v1
+------------------- 
+-   [CVE-2022-48303](https://ubuntu.com/security/notices/USN-5900-1)
+-   [CVE-2023-0361](https://ubuntu.com/security/notices/USN-5901-1)
 
 :20230227.v1
 -------------------

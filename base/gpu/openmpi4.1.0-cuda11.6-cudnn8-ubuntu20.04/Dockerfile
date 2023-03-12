@@ -8,7 +8,7 @@ FROM mcr.microsoft.com/azureml/o16n-base/python-assets:20230222.v4 AS inferencin
 # Env: NCCL_VERSION=2.12.7-1
 # Env: NV_CUDNN_VERSION=8.4.0.27
 
-FROM nvidia/cuda:11.6.1-cudnn8-devel-ubuntu20.04
+FROM nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 
 USER root:root
 ENV com.nvidia.cuda.version $CUDA_VERSION
@@ -108,6 +108,7 @@ RUN apt-get update && \
     libpam-modules-bin \
     libpam0g \
     libpam-runtime \
+    tar \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

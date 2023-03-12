@@ -115,6 +115,7 @@ RUN apt-get update && \
     login \
     libwind0-heimdal \
     uidmap \
+    tar \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*   
