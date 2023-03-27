@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04 :
 
+:20230324.v1
+------------------- 
+-   Released image to mitigate vulnerabilities.
+
 :20230309.v1
 ------------------- 
 -   [CVE-2022-48303](https://ubuntu.com/security/notices/USN-5900-1)
