@@ -194,6 +194,5 @@ RUN cd /tmp && \
     make && \
     make install
 
-
 # set env var to find nccl rdma plugins inside this container
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/nccl-rdma-sharp-plugins/lib

@@ -37,6 +37,10 @@ RUN apt-get update && \
     # nccl-rdma-sharp-plugins dependencies
     apt-get install -y \
     libnuma-dev \
+    libgnutls30 \
+    tar \
+    libsystemd0 \
+    libudev1 \
     libibverbs-dev &&\
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
