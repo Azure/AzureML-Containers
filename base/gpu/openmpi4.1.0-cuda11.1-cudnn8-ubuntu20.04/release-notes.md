@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.1-cudnn8-ubuntu20.04 :
 
+:20230412.v1
+------------------- 
+- [CVE-2022-31772](https://www.ibm.com/support/pages/node/6833806)
+
 :20230324.v1
 ------------------- 
 -   [CVE-2021-36222](https://ubuntu.com/security/notices/USN-5959-1)

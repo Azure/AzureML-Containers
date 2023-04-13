@@ -1,3 +1,8 @@
+
+:20230412.v1
+------------------- 
+- Released image to mitigate Vulnerabilities
+
 :20230309.v1
 -------------------
 - Released image to mitigate vulnerabilities.
