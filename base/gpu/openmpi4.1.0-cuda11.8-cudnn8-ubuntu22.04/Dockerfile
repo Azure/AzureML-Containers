@@ -16,7 +16,6 @@ USER root:root
 ARG IMAGE_NAME=None
 ARG BUILD_NUMBER=None
 
-
 ENV com.nvidia.cuda.version $CUDA_VERSION
 ENV com.nvidia.volumes.needed nvidia_driver
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
