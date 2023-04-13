@@ -158,7 +158,6 @@ RUN mkdir /tmp/ucx && \
         make install && \
         rm -rf /tmp/ucx
 
-
 # Open-MPI installation
 ENV OPENMPI_VERSION 4.1.0
 RUN mkdir /tmp/openmpi && \
