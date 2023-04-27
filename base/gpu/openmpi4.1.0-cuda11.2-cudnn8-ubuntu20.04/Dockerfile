@@ -119,7 +119,6 @@ RUN apt-get update && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*   
     
-
 # Inference
 # Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
 COPY --from=inferencing-assets /artifacts /var/
@@ -131,7 +130,6 @@ RUN /var/requirements/install_system_requirements.sh && \
 ENV SVDIR=/var/runit
 ENV WORKER_TIMEOUT=300
 EXPOSE 5001 8883 8888
-
 
 # Conda Environment
 ENV MINICONDA_VERSION py38_4.12.0
