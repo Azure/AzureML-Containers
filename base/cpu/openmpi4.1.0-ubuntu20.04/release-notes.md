@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+:20230426.v1
+------------------- 
+- [CVE-2023-29469](https://ubuntu.com/security/notices/USN-6028-1)
+
 :20230412.v1
 ------------------- 
 - Released image to mitigate Vulnerabilities
