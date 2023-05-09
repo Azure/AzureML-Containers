@@ -113,8 +113,7 @@ RUN apt-get update && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
     
- 
-# Inference
+ # Inference
 # Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
 COPY --from=inferencing-assets /artifacts /var/
 RUN /var/requirements/install_system_requirements.sh && \
