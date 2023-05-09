@@ -1,4 +1,9 @@
 
+:20230509.v1
+------------------- 
+- Released image to mitigate Vulnerabilities
+
+
 :20230426.v1
 ------------------- 
 - [CVE-2023-29469](https://ubuntu.com/security/notices/USN-6028-1)
