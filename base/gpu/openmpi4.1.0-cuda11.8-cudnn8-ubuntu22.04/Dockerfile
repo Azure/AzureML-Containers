@@ -69,7 +69,7 @@ RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
     conda clean -ay && \
     conda install conda=${CONDA_PACKAGE} -y && \
-    conda install wheel=0.38.1 setuptools=65.5.1 cryptography=39.0.1 -c conda-forge -y && \
+    conda install wheel=0.38.1 setuptools=65.5.1 cryptography=39.0.1 requests=2.31.0 -c conda-forge -y && \
     rm -rf /opt/miniconda/pkgs && \
     rm /tmp/miniconda.sh && \
     find / -type d -name __pycache__ | xargs rm -rf
@@ -80,10 +80,10 @@ RUN apt-get update && \
 
 
 # Open-MPI installation
-ENV OPENMPI_VERSION 3.1.2
+ENV OPENMPI_VERSION 4.1.0
 RUN mkdir /tmp/openmpi && \
     cd /tmp/openmpi && \
-    wget https://download.open-mpi.org/release/open-mpi/v3.1/openmpi-${OPENMPI_VERSION}.tar.gz && \
+    wget https://download.open-mpi.org/release/open-mpi/v4.1/openmpi-${OPENMPI_VERSION}.tar.gz && \
     tar zxf openmpi-${OPENMPI_VERSION}.tar.gz && \
     cd openmpi-${OPENMPI_VERSION} && \
     ./configure --enable-orterun-prefix-by-default && \
