@@ -60,6 +60,11 @@ RUN apt-get update && \
     libhx509-5-heimdal \    
     libroken18-heimdal \    
     libwind0-heimdal \
+    libtinfo6 \
+    libncurses6 \ 
+    ncurses-bin \
+    ncurses-base \
+    libncursesw6 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
