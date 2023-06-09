@@ -115,6 +115,14 @@ RUN apt-get update && \
     libwind0-heimdal \
     uidmap \
     tar \
+    libtinfo6 \
+    libncurses6 \ 
+    ncurses-bin \ 
+    libncurses-dev \
+    ncurses-base \
+    libtinfo5 \
+    libncursesw6 \
+    libncursesw5 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*   
