@@ -18,6 +18,13 @@ RUN apt-get update && \
     # SSH and RDMA
     openssh-client \
     openssh-server \
+    #Adding packages to mitigate vulnerabilities
+    libssl3 \
+    libtinfo6 \
+    libncurses6 \ 
+    ncurses-bin \
+    ncurses-base \
+    libncursesw6 \
     iproute2 && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
