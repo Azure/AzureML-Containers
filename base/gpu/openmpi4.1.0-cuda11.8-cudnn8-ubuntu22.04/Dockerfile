@@ -40,6 +40,15 @@ RUN apt-get update && \
     tar \
     libsystemd0 \
     libudev1 \
+    ncurses-bin \
+    ncurses-base \
+    libtinfo6 \
+    libbinutils \
+    libctf0 \
+    binutils \ 
+    libctf-nobfd0 \
+    binutils-common \
+    binutils-x86-64-linux-gnu \
     libibverbs-dev &&\
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
