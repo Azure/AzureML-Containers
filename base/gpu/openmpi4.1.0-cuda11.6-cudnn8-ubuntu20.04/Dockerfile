@@ -109,6 +109,10 @@ RUN apt-get update && \
     libpam0g \
     libpam-runtime \
     tar \
+    ncurses-bin \
+    ncurses-base \
+    libncursesw5 \
+    libctf-nobfd0 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

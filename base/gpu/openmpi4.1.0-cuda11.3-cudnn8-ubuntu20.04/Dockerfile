@@ -110,6 +110,17 @@ RUN apt-get update && \
     libpam0g \
     libpam-runtime \
     tar \
+    ncurses-bin \
+    ncurses-base \
+    libncursesw5 \
+    libtinfo5 \
+    libbinutils \
+    libctf0 \
+    binutils-multiarch \
+    binutils \
+    libctf-nobfd0 \
+    binutils-common \
+    binutils-x86-64-linux-gnu \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*

@@ -1,3 +1,8 @@
+:20230608.v1
+------------------- 
+- [CVE-2021-39537](https://ubuntu.com/security/notices/USN-6099-1)
+- [CVE-2023-1255](https://ubuntu.com/security/notices/USN-6119-1)
+
 
 :20230530.v1
 ------------------- 

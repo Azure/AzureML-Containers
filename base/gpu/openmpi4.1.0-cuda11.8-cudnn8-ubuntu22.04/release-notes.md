@@ -1,3 +1,10 @@
+
+:20230608.v1
+------------------- 
+-  [CVE-2021-39537](https://ubuntu.com/security/notices/USN-6099-1)
+-  [CVE-2023-1972](https://ubuntu.com/security/notices/USN-6101-1)
+
+
 :20230531.v1
 ------------------- 
 -  [CVE-2023-32681](https://github.com/advisories/GHSA-j8r2-6x86-q33q)
