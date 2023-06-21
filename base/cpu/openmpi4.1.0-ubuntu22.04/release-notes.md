@@ -1,3 +1,8 @@
+
+:20230620.v1
+-------------------
+Upgraded miniconda and conda packages to resolve issues with broken conda
+
 :20230615.v1
 ------------------- 
 -  [CVE-2023-2650](https://github.com/advisories/GHSA-5cpq-8wj7-hf2v)
