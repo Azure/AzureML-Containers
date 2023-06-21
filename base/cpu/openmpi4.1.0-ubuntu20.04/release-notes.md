@@ -1,6 +1,6 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
-:20230615.v1
+:20230620.v1
 -------------------
 Upgraded miniconda and conda packages to resolve issues with broken conda
 
