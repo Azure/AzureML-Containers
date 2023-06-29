@@ -1,6 +1,10 @@
 - **Note: updated to use cuda 11.6.2 instead of 11.6.1 nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 -   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
+:20230628.v1
+-------------------
+- Released image to mitigate vulnerabilities.
+
 :20230620.v1
 -------------------
 Upgraded miniconda and conda packages to resolve issues with broken conda

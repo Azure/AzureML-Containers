@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
 
+:20230628.v1
+-------------------
+- Released image to mitigate vulnerabilities.
+
 :20230620.v1
 -------------------
 Upgraded miniconda and conda packages to resolve issues with broken conda

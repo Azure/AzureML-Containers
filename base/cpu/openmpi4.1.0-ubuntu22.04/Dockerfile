@@ -19,6 +19,7 @@ RUN apt-get update && \
     openssh-client \
     openssh-server \
     #Adding packages to mitigate vulnerabilities
+    libcap2 \
     libssl3 \
     libtinfo6 \
     libncurses6 \ 

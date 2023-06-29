@@ -127,7 +127,7 @@ RUN apt-get update && \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*   
-    
+
 # Inference
 # Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
 COPY --from=inferencing-assets /artifacts /var/
@@ -208,7 +208,6 @@ RUN cd /tmp && \
     ./configure --prefix=/usr/local/nccl-rdma-sharp-plugins --with-cuda=/usr/local/cuda --without-ucx && \
     make && \
     make install
-
 
 # set env var to find nccl rdma plugins inside this container
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/nccl-rdma-sharp-plugins/lib
