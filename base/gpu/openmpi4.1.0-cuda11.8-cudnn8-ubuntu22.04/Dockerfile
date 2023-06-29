@@ -38,6 +38,7 @@ RUN apt-get update && \
     libnuma-dev \
     libgnutls30 \
     tar \
+    libcap2 \
     libsystemd0 \
     libudev1 \
     ncurses-bin \
