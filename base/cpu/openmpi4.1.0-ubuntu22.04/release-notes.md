@@ -1,3 +1,7 @@
+:20230727.v1
+-------------------
+- Upgraded cryptography to 41.0.2
+
 :20230628.v1
 -------------------
 -  [CVE-2023-2602](https://ubuntu.com/security/notices/USN-6166-1)
