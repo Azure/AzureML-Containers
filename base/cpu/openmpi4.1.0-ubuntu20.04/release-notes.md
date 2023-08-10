@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+:20230808.v1
+-------------------
+- Upgraded cryptography to 41.0.3
+
 :20230727.v1
 -------------------
 - Upgraded cryptography to 41.0.2
