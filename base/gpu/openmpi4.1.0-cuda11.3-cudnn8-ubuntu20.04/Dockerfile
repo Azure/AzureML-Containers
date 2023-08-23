@@ -43,6 +43,7 @@ RUN apt-get update && \
     udev \
     libudev-dev \
     libnl-3-dev \
+    libtiff5 \
     libnl-route-3-dev \
     gcc \
     ninja-build \
