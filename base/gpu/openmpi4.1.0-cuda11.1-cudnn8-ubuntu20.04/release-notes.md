@@ -2,7 +2,7 @@
 
 :20230822.v1
 -------------------
-- Released image to mitigate openssh vulnerability - USN-6279-1
+- Released image to mitigate openssh and libtiff5 vulnerabilities
 
 :20230808.v1
 -------------------
