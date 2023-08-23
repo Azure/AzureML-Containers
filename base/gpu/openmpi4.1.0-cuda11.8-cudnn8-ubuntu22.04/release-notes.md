@@ -1,3 +1,7 @@
+:20230822.v1
+-------------------
+- Released image to mitigate vulnerabilities.
+
 :20230808.v1
 -------------------
 - Upgraded cryptography to 41.0.3
