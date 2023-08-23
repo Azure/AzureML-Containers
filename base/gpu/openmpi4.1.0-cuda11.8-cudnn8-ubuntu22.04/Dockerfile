@@ -88,7 +88,6 @@ RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${
 RUN apt-get update && \
     apt-get install -y cmake
 
-
 # Open-MPI installation
 ENV OPENMPI_VERSION 4.1.0
 RUN mkdir /tmp/openmpi && \
