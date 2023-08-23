@@ -73,6 +73,7 @@ RUN apt-get update && \
     libsm6 \
     libxext6 \
     libssl1.1 \
+    libtiff5 \
     libxrender-dev \
     libglib2.0-0 \
     dh-make \
