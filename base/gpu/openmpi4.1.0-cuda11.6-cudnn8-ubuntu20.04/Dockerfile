@@ -32,6 +32,7 @@ RUN apt-get update && \
     libibverbs1 \
     libmthca1 \
     libdapl2 \
+    libtiff5 \
     dapl2-utils \
     openssh-client \
     openssh-server \

@@ -41,6 +41,7 @@ RUN apt-get update && \
     # rdma-core dependencies
     apt-get install -y \
     udev \
+    libtiff5 \
     libudev-dev \
     libnl-3-dev \
     libnl-route-3-dev \
