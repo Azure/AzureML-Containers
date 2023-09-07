@@ -42,6 +42,7 @@ RUN apt-get update && \
     apt-get install -y \
     udev \
     libtiff5 \
+    elfutils \
     libudev-dev \
     libnl-3-dev \
     libnl-route-3-dev \
