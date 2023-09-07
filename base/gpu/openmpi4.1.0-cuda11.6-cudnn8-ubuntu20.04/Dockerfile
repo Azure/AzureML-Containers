@@ -33,6 +33,7 @@ RUN apt-get update && \
     libmthca1 \
     libdapl2 \
     libtiff5 \
+    elfutils \
     dapl2-utils \
     openssh-client \
     openssh-server \
