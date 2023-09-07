@@ -20,6 +20,7 @@ RUN apt-get update && \
     libibverbs1 \
     libmthca1 \
     libdapl2 \
+    elfutils \
     dapl2-utils \
     openssh-client \
     openssh-server \
