@@ -31,6 +31,7 @@ RUN apt-get update && \
     librdmacm1 \
     libibverbs1 \
     libmthca1 \
+    elfutils \
     libdapl2 \
     dapl2-utils \
     openssh-client \
