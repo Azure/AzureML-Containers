@@ -1,3 +1,7 @@
+:20230907.v1
+-------------------
+- Released image to mitigate elfutils vulnerability - USN-6322-1
+  
 :20230822.v1
 -------------------
 - Released image to mitigate vulnerabilities.
