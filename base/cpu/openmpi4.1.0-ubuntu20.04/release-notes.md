@@ -1,4 +1,7 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
+:20230907.v1
+-------------------
+- [CVE-2021-33294](https://ubuntu.com/security/notices/USN-6322-1)
 
 :20230822.v1
 -------------------
