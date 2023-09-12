@@ -125,7 +125,7 @@ RUN apt-get update && \
     perl \
     fuse && \
     apt-get clean -y && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* 
     
 # Inference
 # Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
