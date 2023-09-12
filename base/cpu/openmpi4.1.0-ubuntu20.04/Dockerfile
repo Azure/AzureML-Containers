@@ -67,7 +67,7 @@ RUN apt-get update && \
     libncursesw6 \
     fuse && \
     apt-get clean -y && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* 
 
 
 # Inference

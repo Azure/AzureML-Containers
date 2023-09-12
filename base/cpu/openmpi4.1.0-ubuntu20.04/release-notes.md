@@ -1,5 +1,8 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
-
+:20230907.v1
+-------------------
+- Released image to mitigate openssh vulnerability - USN-6322-1
+  
 :20230822.v1
 -------------------
 - Released image to mitigate openssh vulnerability - USN-6279-1
