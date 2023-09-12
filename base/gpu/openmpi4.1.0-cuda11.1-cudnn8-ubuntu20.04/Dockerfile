@@ -129,7 +129,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
     fuse && \
     apt-get clean -y && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* 
 
     
 # Inference
