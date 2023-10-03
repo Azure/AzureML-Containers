@@ -1,9 +1,16 @@
 - **Note: updated to use cuda 11.6.2 instead of 11.6.1 nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 -   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
+
 :20231002.v1
 ------------------
 - Upgraded cryptography to 41.0.4
+
+=======
+:20230907.v1
+-------------------
+- Released image to mitigate openssh vulnerability - USN-6322-1
+  
 
 :20230822.v1
 -------------------

@@ -4,6 +4,13 @@
 ------------------
 - Upgraded cryptography to 41.0.4
 
+=======
+  
+:20230907.v1
+-------------------
+- Released image to mitigate openssh vulnerability - USN-6322-1
+  
+
 :20230822.v1
 -------------------
 - Released image to mitigate openssh and libtiff5 vulnerabilities

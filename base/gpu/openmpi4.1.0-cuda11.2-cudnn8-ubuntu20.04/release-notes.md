@@ -1,8 +1,15 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04 :
+
   
 :20231002.v1
 ------------------
 - Upgraded cryptography to 41.0.4
+=======
+
+:20230907.v1
+-------------------
+- Released image to mitigate openssh vulnerability - USN-6322-1
+
   
 :20230822.v1
 -------------------

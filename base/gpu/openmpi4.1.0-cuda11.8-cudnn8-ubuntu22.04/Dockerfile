@@ -53,7 +53,7 @@ RUN apt-get update && \
     perl \
     libibverbs-dev &&\
     apt-get clean -y && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* 
 
 
 # Inference
