@@ -137,9 +137,9 @@ ENV CONDA_PACKAGE 23.5.0
 ENV PATH /opt/miniconda/bin:$PATH
 RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
-    conda clean -ay && \
     conda install conda=${CONDA_PACKAGE} -y && \
-    conda install wheel=0.38.1 setuptools=65.5.1 cryptography=41.0.3 requests=2.31.0 -c conda-forge -y && \
+    conda update --all -c conda-forge -y && \
+    conda clean -ay && \
     rm -rf /opt/miniconda/pkgs && \
     rm /tmp/miniconda.sh && \
     find / -type d -name __pycache__ | xargs rm -rf
