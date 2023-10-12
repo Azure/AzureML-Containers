@@ -1,4 +1,16 @@
 
+:20231011.v1
+------------------
+- Released image to mitigate libx11 Vulnerabilities (USN-6407-1)
+
+:20231011.v1
+------------------
+- Upgraded urllib3 to 2.0.6(GHSA-v845-jxx5-vc9f)
+
+:20231011.v1
+------------------
+- [CVE-2023-4911] (https://ubuntu.com/security/notices/USN-6409-1)
+
 :20231002.v1
 -------------------
 - Upgraded cryptography to 41.0.4
