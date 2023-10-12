@@ -3,9 +3,6 @@
 :20231011.v1
 ------------------
 - Released image to mitigate libx11 Vulnerabilities (USN-6407-1)  (https://ubuntu.com/security/notices/USN-6407-1)
-
-:20231011.v1
-------------------
 - Upgraded urllib3 to 2.0.6(GHSA-v845-jxx5-vc9f)   (https://github.com/advisories/GHSA-v845-jxx5-vc9f)
 
 :20231002.v1
