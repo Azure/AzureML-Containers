@@ -1,5 +1,16 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
 
+:20231011.v1
+------------------
+- Released image to mitigate libx11 Vulnerabilities (USN-6407-1)
+
+:20231011.v1
+------------------
+- Upgraded urllib3 to 2.0.6(GHSA-v845-jxx5-vc9f)
+
+:20231011.v1
+------------------
+- Released image to mitigate libXpm Vulnerabilities (USN-6408-1)
 
 :20231002.v1
 -------------------
