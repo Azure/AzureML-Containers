@@ -6,7 +6,7 @@
 
 :20231011.v1
 ------------------
-- Upgraded urllib3 to 2.0.6
+- Upgraded urllib3 to 2.0.6(GHSA-v845-jxx5-vc9f)
 
 :20231002.v1
 -------------------
