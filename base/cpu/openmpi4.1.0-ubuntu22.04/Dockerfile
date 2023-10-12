@@ -25,6 +25,10 @@ RUN apt-get update && \
     libncurses6 \ 
     ncurses-bin \
     ncurses-base \
+    libc6 \
+    libc-dev-bin \
+    libc6-dev \
+    libc-bin \
     libncursesw6 \
     iproute2 && \
     apt-get clean -y && \
