@@ -42,6 +42,10 @@ RUN apt-get update && \
     libsystemd0 \
     libudev1 \
     ncurses-bin \
+    libc6 \
+    libc-dev-bin \
+    libc6-dev \
+    libc-bin \
     ncurses-base \
     libtinfo6 \
     libbinutils \
