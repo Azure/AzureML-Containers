@@ -1,4 +1,8 @@
 
+:20231024.v1
+-----------------
+-Upgraded urllib3 to 2.0.7(GHSA-g4mx-q9vg-27p4) (https://github.com/advisories/GHSA-g4mx-q9vg-27p4)
+
 :20231011.v1
 ------------------
 - Released image to mitigate libx11 Vulnerabilities (USN-6407-1)     (https://ubuntu.com/security/notices/USN-6407-1)
