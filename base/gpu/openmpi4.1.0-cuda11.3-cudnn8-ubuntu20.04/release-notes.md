@@ -1,4 +1,8 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
+:20231030.v1
+-----------------
+- Released image to mitigate Open Secure Sockets Layer (OpenSSL) Vulnerabilities (USN-6435-2) 
+  (https://ubuntu.com/security/notices/USN-6435-2)
 
 :20231024.v1
 -----------------
