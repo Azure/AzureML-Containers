@@ -36,6 +36,12 @@ RUN apt-get update && \
     # nccl-rdma-sharp-plugins dependencies
     apt-get install -y \
     libnuma-dev \
+    procps \
+    libprocps8 \
+    libk5crypto3 \
+    libgssapi-krb5-2 \
+    libkrb5-3 \
+    libkrb5support0 \
     libgnutls30 \
     tar \
     libcap2 \
