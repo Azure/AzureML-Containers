@@ -43,6 +43,8 @@ RUN apt-get update && \
     binutils-multiarch \
     libxml2-dev \ 
     #adding package to mitigate vulnerabilities.
+    procps \
+    libprocps8 \
     e2fsprogs \
     e2fsck-static \
     fuse2fs \
