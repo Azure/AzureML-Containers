@@ -1,4 +1,11 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
+
+:20231130.v1
+----------------
+- [CVE-2023-4016] Released image to mitigate procps-ng Vulnerability (USN-6477-1) (https://ubuntu.com/security/notices/USN-6477-1)
+- [CVE-2023-36054] Released image to mitigate Kerberos Vulnerability (USN-6467-2) (https://ubuntu.com/security/notices/USN-6467-2)
+  
+
 :20231030.v1
 -----------------
 - Released image to mitigate Open Secure Sockets Layer (OpenSSL) Vulnerabilities (USN-6435-2) 

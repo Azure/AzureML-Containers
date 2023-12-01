@@ -110,6 +110,8 @@ RUN apt-get update && \
     libpcre2-8-0 \
     sqlite3 \
     #adding packages to mitigate vulnerabilities
+    procps \
+    libprocps8 \
     passwd \
     login \
     libwind0-heimdal \
