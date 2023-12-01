@@ -19,6 +19,13 @@ RUN apt-get update && \
     openssh-client \
     openssh-server \
     #Adding packages to mitigate vulnerabilities
+    procps \
+    libprocps8 \
+    libk5crypto3 \
+    libgssapi-krb5-2 \
+    libkrb5-3 \
+    libkrb5support0 \
+    libgnutls30 \
     libcap2 \
     libssl3 \
     libtinfo6 \
