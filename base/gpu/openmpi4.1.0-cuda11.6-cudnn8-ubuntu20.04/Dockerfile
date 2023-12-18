@@ -24,6 +24,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     # SSH and RDMA
     #added openssl - 1.1.1 package to mitigate vulnerabilites after cuda upgdrade, will remove this package
+    libc-bin \
     openssl - 1.1.1 \
     procps \
     libprocps8 \
