@@ -111,6 +111,8 @@ RUN apt-get update && \
     libpcre2-8-0 \
     sqlite3 \
     #adding packages to mitigate vulnerabilities
+    libc-bin \
+    libc6-dbg \
     procps \
     libprocps8 \
     passwd \

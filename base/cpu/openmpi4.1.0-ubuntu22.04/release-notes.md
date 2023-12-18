@@ -1,4 +1,9 @@
 
+:20231215.v1 
+---------------
+- [CVE-2023-46219] Released image to mitigate curl vulnerability (USN-6535-1) (https://ubuntu.com/security/notices/USN-6535-1)
+- [CVE-2023-4806]  Released image to mitigate GNU-C vulnerability (USN-6541-1)(https://ubuntu.com/security/notices/USN-6541-1)
+
 :20231130.v1
 ----------------
 - [CVE-2023-4016] Released image to mitigate procps-ng Vulnerability (USN-6477-1) (https://ubuntu.com/security/notices/USN-6477-1)
