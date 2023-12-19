@@ -1,4 +1,7 @@
 
+:20231216.v1 
+--------------
+- [CVE-2023-46219] Released image to mitigate curl vulnerability (USN-6535-1) (https://ubuntu.com/security/notices/USN-6535-1)
 
  :20231215.v1 
 ---------------
