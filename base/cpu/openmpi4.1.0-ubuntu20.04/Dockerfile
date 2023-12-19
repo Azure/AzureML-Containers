@@ -30,6 +30,7 @@ RUN apt-get update && \
     bzip2 \
     libbz2-1.0 \
     systemd \
+    curl \
     git \
     wget \
     cpio \
@@ -43,7 +44,6 @@ RUN apt-get update && \
     binutils-multiarch \
     libxml2-dev \ 
     #adding package to mitigate vulnerabilities.
-    libc-bin \
     procps \
     libprocps8 \
     e2fsprogs \
@@ -71,7 +71,6 @@ RUN apt-get update && \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*  
-
 
 # Inference
 # Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
@@ -112,9 +111,7 @@ RUN mkdir /tmp/openmpi && \
     rm -rf /tmp/openmpi
 
 # Msodbcsql17 installation
-RUN apt-get update && \
-    apt-get install -y curl && \
-    curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
+RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
     curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
     apt-get update && \
     ACCEPT_EULA=Y apt-get install -y msodbcsql17
