@@ -60,6 +60,7 @@ RUN apt-get update && \
     bzip2 \
     libbz2-1.0 \
     systemd \
+    curl \
     git \
     wget \
     cpio \
@@ -111,9 +112,8 @@ RUN apt-get update && \
     libpcre2-8-0 \
     sqlite3 \
     #adding packages to mitigate vulnerabilities
-    libc-bin \
-    libc6-dbg \
     procps \
+    libc-bin \
     libprocps8 \
     passwd \
     login \
@@ -132,6 +132,12 @@ RUN apt-get update && \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*     
+
+# Update to latest redis       
+RUN apt-get update && apt-get install -y lsb-release && \
+    curl -fsSL https://packages.redis.io/gpg | gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg && \
+    echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/redis.list && \
+    apt-get update && apt-get install -y redis
 
 # Inference
 # Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
@@ -183,9 +189,7 @@ RUN mkdir /tmp/openmpi && \
     rm -rf /tmp/openmpi
     	
 # Msodbcsql17 installation
-RUN apt-get update && \
-    apt-get install -y curl && \
-    curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
+RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
     curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
     apt-get update && \
     ACCEPT_EULA=Y apt-get install -y msodbcsql17 unixodbc-dev
