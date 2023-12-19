@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
 
+:20231216.v1 
+--------------
+- [CVE-2023-46219] Released image to mitigate curl vulnerability (USN-6535-1) (https://ubuntu.com/security/notices/USN-6535-1)
+- [CVE-2023-25155] Released image to mitigate Redis vulnerability (USN-6531-1)(https://ubuntu.com/security/notices/USN-6531-1)
 
  :20231215.v1 
 ---------------
