@@ -1,7 +1,11 @@
 - **Note: updated to use cuda 11.6.2 instead of 11.6.1 nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 -   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
-
+:20231216.v1 
+--------------
+- [CVE-2023-46219] Released image to mitigate curl vulnerability (USN-6535-1) (https://ubuntu.com/security/notices/USN-6535-1)
+- [CVE-2023-25155] Released image to mitigate Redis vulnerability (USN-6531-1)(https://ubuntu.com/security/notices/USN-6531-1)
+  
  :20231215.v1 
 ---------------
 - [CVE-2023-46219] Released image to mitigate curl vulnerability (USN-6535-1) (https://ubuntu.com/security/notices/USN-6535-1)
