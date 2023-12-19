@@ -29,6 +29,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends &&\
     # Others
     apt-get install -y \
+    curl \
     libksba8 \
     openssl \
     libssl3 \
@@ -65,8 +66,6 @@ RUN apt-get update && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/* 
     
-
-
 # Inference
 # Copy logging utilities, nginx and rsyslog configuration files, IOT server binary, etc.
 COPY --from=inferencing-assets /artifacts /var/
@@ -116,9 +115,7 @@ RUN mkdir /tmp/openmpi && \
     rm -rf /tmp/openmpi  
     	
 # Msodbcsql17 installation
-RUN apt-get update && \
-    apt-get install -y curl && \
-    curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
+RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
     curl https://packages.microsoft.com/config/ubuntu/22.04/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
     apt-get update && \
     ACCEPT_EULA=Y apt-get install -y msodbcsql17 unixodbc-dev
