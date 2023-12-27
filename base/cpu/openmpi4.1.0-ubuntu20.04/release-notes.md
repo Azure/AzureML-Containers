@@ -1,5 +1,10 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+:20231226.v1
+--------------
+- [CVE-2023-48795] Released image to mitigate OpenSSh Vulnerabilities (USN-6560-1) (https://ubuntu.com/security/notices/USN-6560-1)
+- [CVE-2023-48795] Released image to mitigate libssh Vulnerability (USN-6561-1) (https://ubuntu.com/security/notices/USN-6561-1)
+
 :20231216.v1 
 --------------
 - [CVE-2023-46219] Released image to mitigate curl vulnerability (USN-6535-1) (https://ubuntu.com/security/notices/USN-6535-1)
