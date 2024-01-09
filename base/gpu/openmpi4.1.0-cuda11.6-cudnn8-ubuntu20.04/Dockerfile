@@ -122,6 +122,7 @@ RUN apt-get update && \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*  
+    
 
 # Update to latest redis       
 RUN apt-get update && apt-get install -y lsb-release && \

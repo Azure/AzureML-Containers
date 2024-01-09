@@ -1,4 +1,9 @@
 
+:20240109.v1
+--------------
+- [CVE-2021-41617] Released image to mitigate OpenSSH Vulnerability (USN-6565-1) (https://ubuntu.com/security/notices/USN-6565-1)
+- [CVE-2022-46908] Released image to mitigate SQLite Vulnerability (USN-6566-1) (https://ubuntu.com/security/notices/USN-6566-1)
+
 :20231226.v1
 --------------
 - [CVE-2023-48795] Released image to mitigate OpenSSh Vulnerabilities (USN-6560-1) (https://ubuntu.com/security/notices/USN-6560-1)

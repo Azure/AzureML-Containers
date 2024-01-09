@@ -36,6 +36,7 @@ RUN apt-get update && \
     git && \
     # nccl-rdma-sharp-plugins dependencies
     apt-get install -y \
+    libsqlite3-0 \
     libnuma-dev \
     procps \
     libprocps8 \
