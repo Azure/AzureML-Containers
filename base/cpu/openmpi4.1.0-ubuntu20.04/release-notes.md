@@ -1,4 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
+  
+:20240109.v1
+--------------
+- [CVE-2021-41617] Released image to mitigate OpenSSH Vulnerability (USN-6565-1) (https://ubuntu.com/security/notices/USN-6565-1)
+- [CVE-2022-46908] Released image to mitigate SQLite Vulnerability (USN-6566-1) (https://ubuntu.com/security/notices/USN-6566-1)
 
 :20231226.v1
 --------------
