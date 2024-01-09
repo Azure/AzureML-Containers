@@ -1,6 +1,11 @@
 - **Note: updated to use cuda 11.6.2 instead of 11.6.1 nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 -   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
+:20240109.v1
+--------------
+- [CVE-2021-41617] Released image to mitigate OpenSSH Vulnerability (USN-6565-1) (https://ubuntu.com/security/notices/USN-6565-1)
+- [CVE-2022-46908] Released image to mitigate SQLite Vulnerability (USN-6566-1) (https://ubuntu.com/security/notices/USN-6566-1)
+  
 :20231226.v1
 --------------
 - [CVE-2023-48795] Released image to mitigate OpenSSh Vulnerabilities (USN-6560-1) (https://ubuntu.com/security/notices/USN-6560-1)
