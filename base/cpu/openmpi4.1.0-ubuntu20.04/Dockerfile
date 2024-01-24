@@ -44,6 +44,10 @@ RUN apt-get update && \
     binutils-multiarch \
     libxml2-dev \ 
     #adding package to mitigate vulnerabilities.
+    libpam-runtime \
+    libpam0g \
+    libpam-modules \
+    libpam-modules-bin \
     procps \
     libprocps8 \
     e2fsprogs \
