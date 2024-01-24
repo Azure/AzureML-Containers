@@ -20,6 +20,10 @@ RUN apt-get update && \
     openssh-server \
     curl \
     #Adding packages to mitigate vulnerabilities
+    libpam-runtime \
+    libpam0g \
+    libpam-modules \
+    libpam-modules-bin \
     procps \
     libprocps8 \
     libk5crypto3 \
