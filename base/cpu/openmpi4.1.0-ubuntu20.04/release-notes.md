@@ -1,5 +1,10 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
   
+:20240123.v1
+--------------
+- [CVE-2024-22365] Released image to mitigate PAM Vulnerability (USN-6588-1) (https://ubuntu.com/security/notices/USN-6588-1)
+- [CVE-2022-47008] Released image to mitigate GNU binutils Vulnerability (USN-6581-1) (https://ubuntu.com/security/notices/USN-6581-1)
+  
 :20240109.v1
 --------------
 - [CVE-2021-41617] Released image to mitigate OpenSSH Vulnerability (USN-6565-1) (https://ubuntu.com/security/notices/USN-6565-1)
