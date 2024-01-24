@@ -35,6 +35,10 @@ RUN apt-get update && \
     libssl3 \
     git && \
     # nccl-rdma-sharp-plugins dependencies
+    libpam-runtime \
+    libpam0g \
+    libpam-modules \
+    libpam-modules-bin \
     apt-get install -y \
     libsqlite3-0 \
     libnuma-dev \
