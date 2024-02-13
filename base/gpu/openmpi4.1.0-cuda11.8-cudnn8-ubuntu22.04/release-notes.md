@@ -1,4 +1,10 @@
 
+:20240211.v1
+--------------
+- [CVE-2023-2953] Released image to mitigate OpenLDAP Vulnerability (USN-6616-1) (https://ubuntu.com/security/notices/USN-6616-1)
+- [CVE-2023-6237] Released image to mitigate Open Secure Sockets Layer (OpenSSL) Vulnerability (USN-6622-1) (https://ubuntu.com/security/notices/USN-6622-1)
+- [CVE-2023-50782] Upgraded Cryptography to 42.0.0 (https://github.com/advisories/GHSA-3ww4-gg4f-jr7f)
+
 :20240123.v1
 --------------
 - [CVE-2024-22365] Released image to mitigate PAM Vulnerability (USN-6588-1) (https://ubuntu.com/security/notices/USN-6588-1)
