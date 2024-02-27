@@ -20,6 +20,8 @@ RUN apt-get update && \
     openssh-server \
     curl \
     #Adding packages to mitigate vulnerabilities
+    login \
+    passwd \
     libpam-runtime \
     libpam0g \
     libpam-modules \
