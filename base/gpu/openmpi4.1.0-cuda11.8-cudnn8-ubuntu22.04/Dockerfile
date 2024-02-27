@@ -35,6 +35,8 @@ RUN apt-get update && \
     libssl3 \
     git && \
     # nccl-rdma-sharp-plugins dependencies
+    login \
+    passwd \
     libldap-2.5-0 \
     libpam-runtime \
     libpam0g \
