@@ -3,8 +3,8 @@
 :20240226.v1
 -------------
 - [CVE-2023-4641] Released image to mitigate Shadow Vulnerability (USN-6640-1) (https://ubuntu.com/security/notices/USN-6640-1)
-- [CVE-2024-26130] Upgraded Cryptography to 42.0.4 (https://github.com/advisories/GHSA-6vqw-3v5j-54x4)
 - [CVE-2023-6228] Released image to mitigate LibTIFF Vulnerability (USN-6644-1) (https://ubuntu.com/security/notices/USN-6644-1)
+- [CVE-2024-26130] Upgraded Cryptography to 42.0.4 (https://github.com/advisories/GHSA-6vqw-3v5j-54x4)
 
 :20240211.v1
 --------------
