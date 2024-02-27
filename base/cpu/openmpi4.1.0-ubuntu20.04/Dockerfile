@@ -44,6 +44,8 @@ RUN apt-get update && \
     binutils-multiarch \
     libxml2-dev \ 
     #adding package to mitigate vulnerabilities.
+    login \
+    passwd \
     libpam-runtime \
     libpam0g \
     libpam-modules \
