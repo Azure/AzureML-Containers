@@ -1,4 +1,8 @@
-
+:20240304.v1
+---------------
+- [CVE-2024-25062] Released image to mitigate libxml2 Vulnerability (USN-6658-1) (https://ubuntu.com/security/notices/USN-6658-1)
+- [CVE-2023-50782] Released image to mitigate OpenSSL Vulnerability (USN-6663-1) (https://ubuntu.com/security/notices/USN-6663-1)
+  
 :20240226.v1
 -------------
 - [CVE-2023-4641] Released image to mitigate Shadow Vulnerability (USN-6640-1) (https://ubuntu.com/security/notices/USN-6640-1)
