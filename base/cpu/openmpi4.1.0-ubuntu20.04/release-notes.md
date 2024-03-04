@@ -1,4 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
+:20240304.v1
+---------------
+- [CVE-2024-25062] Released image to mitigate libxml2 Vulnerability (USN-6658-1) (https://ubuntu.com/security/notices/USN-6658-1)
+- [CVE-2023-50782] Released image to mitigate OpenSSL Vulnerability (USN-6663-1) (https://ubuntu.com/security/notices/USN-6663-1)
+- [CVE-2022-48624] Released image to mitigate less Vulnerability (USN-6664-1) (https://ubuntu.com/security/notices/USN-6664-1)
 
 :20240226.v1
 -------------
