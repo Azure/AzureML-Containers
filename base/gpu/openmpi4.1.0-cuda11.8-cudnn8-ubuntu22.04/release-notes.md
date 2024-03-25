@@ -1,3 +1,8 @@
+
+:20240322.v1
+---------------
+- [CVE-2024-28757] Released image to mitigate Expat Vulnerabilities (USN-6694-1) (https://ubuntu.com/security/notices/USN-6694-1)
+
 :20240304.v1
 ---------------
 - [CVE-2024-25062] Released image to mitigate libxml2 Vulnerability (USN-6658-1) (https://ubuntu.com/security/notices/USN-6658-1)
