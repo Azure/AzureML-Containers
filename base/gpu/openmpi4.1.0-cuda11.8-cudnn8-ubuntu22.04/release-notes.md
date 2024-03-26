@@ -1,4 +1,7 @@
-
+:20240325.v1
+--------------
+- [CVE-2022-3715] Released image to mitigate Bash Vulnerability (USN-6697-1) (https://ubuntu.com/security/notices/USN-6697-1)
+  
 :20240322.v1
 ---------------
 - [CVE-2024-28757] Released image to mitigate Expat Vulnerabilities (USN-6694-1) (https://ubuntu.com/security/notices/USN-6694-1)
