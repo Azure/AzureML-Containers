@@ -1,3 +1,7 @@
+:20240325.v1
+--------------
+- [CVE-2022-3715] Released image to mitigate Bash Vulnerability (USN-6697-1) (https://ubuntu.com/security/notices/USN-6697-1)
+
 :20240304.v1
 ---------------
 - [CVE-2024-25062] Released image to mitigate libxml2 Vulnerability (USN-6658-1) (https://ubuntu.com/security/notices/USN-6658-1)
