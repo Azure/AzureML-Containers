@@ -1,6 +1,11 @@
 - **Note: updated to use cuda 11.6.2 instead of 11.6.1 nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 -   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
+:20240415.v1
+-------------
+-[CVE-2024-28085] Released image to mitigate util-linux Vulnerability (USN-6719-2) (https://ubuntu.com/security/notices/USN-6719-2)
+-[CVE-2024-28906] Released image to mitigate Microsoft SQL Server ODBC and OLE DB Driver for SQL Server Multiple Vulnerabilities (https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-28906)
+
 :20240403.v1
 --------------
 -[CVE-2024-2004] Released image to mitigate curl Vulnerability (USN-6718-1) (https://ubuntu.com/security/notices/USN-6718-1)
