@@ -35,6 +35,12 @@ RUN apt-get update && \
     libssl3 \
     git && \
     # nccl-rdma-sharp-plugins dependencies
+    libuuid1 \
+    libblkid1 \
+    util-linux \
+    mount \
+    libmount1 \
+    libsmartcols1 \
     bash \
     login \
     passwd \
