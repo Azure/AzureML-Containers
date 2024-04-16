@@ -20,6 +20,12 @@ RUN apt-get update && \
     openssh-server \
     curl \
     #Adding packages to mitigate vulnerabilities
+    libuuid1 \
+    libblkid1 \
+    util-linux \
+    mount \
+    libmount1 \
+    libsmartcols1 \
     bash \
     login \
     passwd \
