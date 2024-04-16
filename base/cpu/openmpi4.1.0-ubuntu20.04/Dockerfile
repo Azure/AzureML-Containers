@@ -44,6 +44,14 @@ RUN apt-get update && \
     binutils-multiarch \
     libxml2-dev \ 
     #adding package to mitigate vulnerabilities.
+    libuuid1 \
+    libblkid1 \
+    util-linux \
+    fdisk \
+    libfdisk1 \
+    mount \
+    libmount1 \
+    libsmartcols1 \ 
     login \
     passwd \
     libpam-runtime \
