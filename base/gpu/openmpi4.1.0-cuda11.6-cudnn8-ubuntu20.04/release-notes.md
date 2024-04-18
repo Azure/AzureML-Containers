@@ -1,6 +1,10 @@
 - **Note: updated to use cuda 11.6.2 instead of 11.6.1 nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 -   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
+:20240418.v1
+-------------
+-[CVE-2024-3651] Upgraded idna(pip) to 3.7 (https://github.com/advisories/GHSA-jjg7-2v4v-x38h)
+
 :20240415.v1
 -------------
 -[CVE-2024-28085] Released image to mitigate util-linux Vulnerability (USN-6719-2) (https://ubuntu.com/security/notices/USN-6719-2)
