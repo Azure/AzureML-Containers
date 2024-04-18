@@ -19,6 +19,7 @@ RUN apt-get update && \
     openssh-client \
     openssh-server \
     curl \
+    git \
     #Adding packages to mitigate vulnerabilities
     libuuid1 \
     libblkid1 \
