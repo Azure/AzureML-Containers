@@ -1,3 +1,7 @@
+:20240418.v1
+-------------
+-[CVE-2024-3651] Upgraded idna(pip) to 3.7 (https://github.com/advisories/GHSA-jjg7-2v4v-x38h)
+
 :20240415.v1
 -------------
 -[CVE-2024-28085] Released image to mitigate util-linux Vulnerability (USN-6719-2) (https://ubuntu.com/security/notices/USN-6719-2)
