@@ -44,6 +44,7 @@ RUN apt-get update && \
     binutils-multiarch \
     libxml2-dev \ 
     #adding package to mitigate vulnerabilities.
+    libc-bin \
     libuuid1 \
     libblkid1 \
     util-linux \
