@@ -1,3 +1,8 @@
+
+:20240429.v1
+------------
+-[CVE-2024-2961] Released image to mitigate GNU C Library Vulnerability (USN-6737-1) (https://ubuntu.com/security/notices/USN-6737-1)
+
 :20240415.v1
 -------------
 -[CVE-2024-28085] Released image to mitigate util-linux Vulnerability (USN-6719-2) (https://ubuntu.com/security/notices/USN-6719-2)
