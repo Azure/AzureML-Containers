@@ -108,4 +108,3 @@ RUN apt-get update && \
     apt-get update && \
     ACCEPT_EULA=Y apt-get install -y msodbcsql17
 
-
