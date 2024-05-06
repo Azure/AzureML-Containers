@@ -1,5 +1,10 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.1-cudnn8-ubuntu20.04 :
 
+:20240429.v1
+------------
+-[CVE-2024-2961] Released image to mitigate GNU C Library Vulnerability (USN-6737-1) (https://ubuntu.com/security/notices/USN-6737-1)
+-[CVE-2024-28219] Released image to mitigate Pillow Vulnerability (USN-6744-1) (https://ubuntu.com/security/notices/USN-6744-1)
+
 :20240418.v1
 -------------
 -[CVE-2024-3651] Upgraded idna(pip) to 3.7 (https://github.com/advisories/GHSA-jjg7-2v4v-x38h)

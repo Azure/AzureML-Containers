@@ -18,7 +18,11 @@ RUN apt-get update && \
     # SSH and RDMA
     openssh-client \
     openssh-server \
+    build-essential \
+    gcc \
+    gnupg \
     curl \
+    git \
     #Adding packages to mitigate vulnerabilities
     libuuid1 \
     libblkid1 \
@@ -107,5 +111,4 @@ RUN apt-get update && \
     curl https://packages.microsoft.com/config/ubuntu/22.04/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
     apt-get update && \
     ACCEPT_EULA=Y apt-get install -y msodbcsql17
-
 
