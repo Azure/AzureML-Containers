@@ -18,7 +18,11 @@ RUN apt-get update && \
     # SSH and RDMA
     openssh-client \
     openssh-server \
+    build-essential \
+    gcc \
+    gnupg \
     curl \
+    git \
     #Adding packages to mitigate vulnerabilities
     libuuid1 \
     libblkid1 \
