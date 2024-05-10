@@ -1,4 +1,8 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
+  
+:20240510.v1
+-------------
+-[CVE-2024-34062] Upgraded tqdm to 4.66.3 (https://github.com/advisories/GHSA-g7vv-2v7x-gj9p)
 
 :20240429.v1
 ------------
