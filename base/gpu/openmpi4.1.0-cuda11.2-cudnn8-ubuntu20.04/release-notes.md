@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04 :
 
+  :20240510.v1
+-------------
+-[CVE-2024-34062] Upgraded tqdm to 4.66.3 (https://github.com/advisories/GHSA-g7vv-2v7x-gj9p)
+
 :20240429.v1
 ------------
 -[CVE-2024-2961] Released image to mitigate GNU C Library Vulnerability (USN-6737-1) (https://ubuntu.com/security/notices/USN-6737-1)
