@@ -1,4 +1,8 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
+
+:20240528.v1
+-------------
+-[CVE-2024-35195] Upgraded Requests to 2.32.0 (https://github.com/advisories/GHSA-9wx4-h78v-vm56)
   
 :20240510.v1
 -------------

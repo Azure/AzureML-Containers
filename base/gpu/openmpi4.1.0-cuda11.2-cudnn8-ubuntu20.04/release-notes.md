@@ -1,6 +1,10 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04 :
 
-  :20240510.v1
+:20240528.v1
+-------------
+-[CVE-2024-35195] Upgraded Requests to 2.32.0 (https://github.com/advisories/GHSA-9wx4-h78v-vm56)
+
+:20240510.v1
 -------------
 -[CVE-2024-34062] Upgraded tqdm to 4.66.3 (https://github.com/advisories/GHSA-g7vv-2v7x-gj9p)
 
