@@ -1,6 +1,10 @@
 - **Note: updated to use cuda 11.6.2 instead of 11.6.1 nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 -   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
+:20240528.v1
+-------------
+-[CVE-2024-35195] Upgraded Requests to 2.32.0 (https://github.com/advisories/GHSA-9wx4-h78v-vm56)
+
 :20240510.v1
 -------------
 -[CVE-2024-34062] Upgraded tqdm to 4.66.3 (https://github.com/advisories/GHSA-g7vv-2v7x-gj9p)
