@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
 
+:20240603.v1 
+------------
+-[CVE-2024-32021] Released image to mitigate Git Vulnerabilities (USN-6793-1) (https://ubuntu.com/security/notices/USN-6793-1)
+
 :20240528.v1
 -------------
 -[CVE-2024-35195] Upgraded Requests to 2.32.0 (https://github.com/advisories/GHSA-9wx4-h78v-vm56)
