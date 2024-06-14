@@ -12,8 +12,8 @@ FROM nvidia/cuda:11.2.2-cudnn8-devel-ubuntu20.04
 
 USER root:root
 
-ENV com.nvidia.cuda.version $CUDA_VERSION
-ENV com.nvidia.volumes.needed nvidia_driver
+LABEL com.nvidia.cuda.version $CUDA_VERSION
+LABEL com.nvidia.volumes.needed nvidia_driver
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64
