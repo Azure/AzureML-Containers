@@ -1,4 +1,8 @@
 
+:20240614.v1
+------------
+-[CVE-2024-26256] Released image to mitigate libarchive Vulnerability (USN-6805-1) (https://ubuntu.com/security/notices/USN-6805-1)
+
 :20240603.v1 
 ------------
 -[CVE-2024-32021] Released image to mitigate Git Vulnerabilities (USN-6793-1) (https://ubuntu.com/security/notices/USN-6793-1)
