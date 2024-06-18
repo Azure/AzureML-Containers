@@ -81,7 +81,7 @@ RUN if [ "$BUILD_NUMBER" != "None" ] && [ "$IMAGE_NAME" != "None" ]; then echo "
 # Conda Environment
 ENV MINICONDA_VERSION py38_23.3.1-0
 ENV PATH /opt/miniconda/bin:$PATH
-ENV CONDA_PACKAGE 23.5.0
+ENV CONDA_PACKAGE 23.5.0
 RUN wget -qO /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-${MINICONDA_VERSION}-Linux-x86_64.sh && \
     bash /tmp/miniconda.sh -bf -p /opt/miniconda && \
     conda install conda=${CONDA_PACKAGE} -y && \
