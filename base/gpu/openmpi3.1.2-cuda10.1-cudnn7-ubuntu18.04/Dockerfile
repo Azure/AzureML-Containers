@@ -33,7 +33,7 @@ RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/machi
 # Install Common Dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    apt-offline
+    apt-offline \
     # SSH and RDMA
     libmlx4-1 \
     libmlx5-1 \
@@ -67,7 +67,7 @@ RUN apt-get update && \
     binutils-multiarch \
     nginx \
     libxml2-dev \
-    linssl1.1 \
+    libssl1.1 \
     fuse && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
