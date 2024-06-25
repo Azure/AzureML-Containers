@@ -1,4 +1,8 @@
 
+:20240624.v1
+------------
+-[CVE-2024-37891] Upgraded urllib3 to 2.2.2 (https://github.com/advisories/GHSA-34jh-p97f-mpxf)
+
 :20240603.v1 
 ------------
 -[CVE-2024-32021] Released image to mitigate Git Vulnerabilities (USN-6793-1) (https://ubuntu.com/security/notices/USN-6793-1)
