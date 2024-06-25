@@ -1,6 +1,11 @@
 - **Note: updated to use cuda 11.6.2 instead of 11.6.1 nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 -   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
+:20240624.v1
+------------
+-[CVE-2024-37891] Upgraded urllib3 to 2.2.2 (https://github.com/advisories/GHSA-34jh-p97f-mpxf)
+-[CVE-2024-32002] Released image to mitigate Git Vulnerabilities (USN-6793-2) (https://ubuntu.com/security/notices/USN-6793-2)
+
 :20240603.v1 
 ------------
 -[CVE-2024-32021] Released image to mitigate Git Vulnerabilities (USN-6793-1) (https://ubuntu.com/security/notices/USN-6793-1)

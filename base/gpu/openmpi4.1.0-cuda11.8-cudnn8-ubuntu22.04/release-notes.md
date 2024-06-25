@@ -1,4 +1,8 @@
 
+:20240624.v1
+------------
+-[CVE-2024-37891] Upgraded urllib3 to 2.2.2 (https://github.com/advisories/GHSA-34jh-p97f-mpxf)
+
 :20240614.v1
 ------------
 -[CVE-2024-26256] Released image to mitigate libarchive Vulnerability (USN-6805-1) (https://ubuntu.com/security/notices/USN-6805-1)
