@@ -1,4 +1,8 @@
 
+:20240701.v1
+-----------
+-[CVE-2024-38428] Released image to mitigate Wget Vulnerability (USN-6852-1) (https://ubuntu.com/security/notices/USN-6852-1)
+
 :20240624.v1
 ------------
 -[CVE-2024-37891] Upgraded urllib3 to 2.2.2 (https://github.com/advisories/GHSA-34jh-p97f-mpxf)
