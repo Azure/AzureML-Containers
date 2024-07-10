@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+:20240709.v1
+------------
+-[CVE-2024-39689] Upgraded Certifi to 2024.07.04 (https://github.com/advisories/GHSA-248v-346w-9cwc)
+
 :20240701.v1
 -----------
 -[CVE-2024-38428] Released image to mitigate Wget Vulnerability (USN-6852-1) (https://ubuntu.com/security/notices/USN-6852-1)
