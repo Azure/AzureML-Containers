@@ -1,4 +1,10 @@
 
+:20240709.v1
+------------
+-[CVE-2024-6387] Released image to mitigate OpenSSH Vulnerability (USN-6859-1) (https://ubuntu.com/security/notices/USN-6859-1)
+-[CVE-2024-39689] Upgraded Certifi to 2024.07.04 (https://github.com/advisories/GHSA-248v-346w-9cwc)
+-Released image to mitigate OpenSSH Remote Unauthenticated Code Execution Vulnerability (regreSSHion)  (https://www.openssh.com/txt/release-9.8)
+
 :20240701.v1
 -----------
 -[CVE-2024-38428] Released image to mitigate Wget Vulnerability (USN-6852-1) (https://ubuntu.com/security/notices/USN-6852-1)
