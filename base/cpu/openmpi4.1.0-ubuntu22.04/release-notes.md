@@ -1,4 +1,8 @@
 
+:20240807.1 
+-----------
+-[CVE-2024-4741] Released image to mitigate Open SSL Vulnerabilities (USN-6937-1) (https://ubuntu.com/security/notices/USN-6937-1)
+
 :20240709.v1
 ------------
 -[CVE-2024-6387] Released image to mitigate OpenSSH Vulnerability (USN-6859-1) (https://ubuntu.com/security/notices/USN-6859-1)

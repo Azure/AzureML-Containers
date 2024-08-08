@@ -1,6 +1,10 @@
 - **Note: updated to use cuda 11.6.2 instead of 11.6.1 nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 -   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
+:20240807.1 
+-----------
+-[CVE-2024-0397] Released image to mitigate Python Vulnerabilities (USN-6928-1) (https://ubuntu.com/security/notices/USN-6928-1)
+
 :20240701.v1
 -----------
 -[CVE-2024-38428] Released image to mitigate Wget Vulnerability (USN-6852-1) (https://ubuntu.com/security/notices/USN-6852-1)
