@@ -1,3 +1,7 @@
+:20240807.1 
+-----------
+-[CVE-2024-0397] Released image to mitigate Python Vulnerabilities (USN-6928-1) (https://ubuntu.com/security/notices/USN-6928-1)
+-[CVE-2024-4741] Released image to mitigate Open SSL Vulnerabilities (USN-6937-1) (https://ubuntu.com/security/notices/USN-6937-1)
 
 :20240701.v1
 -----------
