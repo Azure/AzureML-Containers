@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04 :
 
+:20240820.1 
+----------
+-[CVE-2024-37371] Released image to mitigate Kerberos Vulnerabilities (USN-6947-1) (https://ubuntu.com/security/notices/USN-6947-1)
+
 :20240807.1 
 -----------
 -[CVE-2024-0397] Released image to mitigate Python Vulnerabilities (USN-6928-1) (https://ubuntu.com/security/notices/USN-6928-1)
