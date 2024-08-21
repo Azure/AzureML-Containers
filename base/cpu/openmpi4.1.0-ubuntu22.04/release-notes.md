@@ -1,4 +1,8 @@
 
+:20240820.1 
+----------
+-[CVE-2024-37371] Released image to mitigate Kerberos Vulnerabilities (USN-6947-1) (https://ubuntu.com/security/notices/USN-6947-1)
+
 :20240807.1 
 -----------
 -[CVE-2024-4741] Released image to mitigate Open SSL Vulnerabilities (USN-6937-1) (https://ubuntu.com/security/notices/USN-6937-1)
