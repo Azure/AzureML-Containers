@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
 
+:20240909.1
+-----------
+- Upgraded Cryptography to 43.0.1 (https://github.com/advisories/GHSA-h4gh-qq45-vh27)
+
 :20240820.1 
 ----------
 -[CVE-2024-37371] Released image to mitigate Kerberos Vulnerabilities (USN-6947-1) (https://ubuntu.com/security/notices/USN-6947-1)
