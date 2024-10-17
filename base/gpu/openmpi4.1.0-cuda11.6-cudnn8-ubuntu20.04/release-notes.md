@@ -1,20 +1,20 @@
 - **Note: updated to use cuda 11.6.2 instead of 11.6.1 nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 -   **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04 :
 
-:20240919.1 
+:20240918.v1 
 ----------
 -[CVE-2024-6345] Released image to mitigate Set-uptools Vulnerability (USN-7002-1) (https://ubuntu.com/security/notices/USN-7002-1)
 -[CVE-2024-7006] Released image to mitigate LibTIFF Vulnerability (USN-6997-1) (https://ubuntu.com/security/notices/USN-6997-1)
 
-:20240909.1
+:20240908.v1
 -----------
 - Upgraded Cryptography to 43.0.1 (https://github.com/advisories/GHSA-h4gh-qq45-vh27)
 
-:20240820.1 
+:20240818.v1 
 ----------
 -[CVE-2024-37371] Released image to mitigate Kerberos Vulnerabilities (USN-6947-1) (https://ubuntu.com/security/notices/USN-6947-1)
 
-:20240807.1 
+:20240806.v1 
 -----------
 -[CVE-2024-0397] Released image to mitigate Python Vulnerabilities (USN-6928-1) (https://ubuntu.com/security/notices/USN-6928-1)
 

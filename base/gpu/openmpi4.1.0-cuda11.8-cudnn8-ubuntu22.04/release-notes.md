@@ -1,14 +1,14 @@
 
-:20240909.1
+:20240908.v1
 -----------
 -[CVE-2024-6119] Released image to mitigate Open Secure Sockets Layer (OpenSSL) Vulnerability (USN-6986-1) (https://ubuntu.com/security/notices/USN-6986-1)
 - Upgraded Cryptography to 43.0.1 (https://github.com/advisories/GHSA-h4gh-qq45-vh27)
 
-:20240820.1 
+:20240818.v1 
 ----------
 -[CVE-2024-37371] Released image to mitigate Kerberos Vulnerabilities (USN-6947-1) (https://ubuntu.com/security/notices/USN-6947-1)
 
-:20240807.1 
+:20240806.v1 
 -----------
 -[CVE-2024-0397] Released image to mitigate Python Vulnerabilities (USN-6928-1) (https://ubuntu.com/security/notices/USN-6928-1)
 -[CVE-2024-4741] Released image to mitigate Open SSL Vulnerabilities (USN-6937-1) (https://ubuntu.com/security/notices/USN-6937-1)
