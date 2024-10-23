@@ -1,4 +1,8 @@
 
+:20241020.v1
+----------
+-[CVE-2024-48958] Released image to mitigate libarchive Vulnerability (USN-7070-1) (https://ubuntu.com/security/notices/USN-7070-1)
+
 :20240908.v1
 -----------
 -[CVE-2024-6119] Released image to mitigate Open Secure Sockets Layer (OpenSSL) Vulnerability (USN-6986-1) (https://ubuntu.com/security/notices/USN-6986-1)
