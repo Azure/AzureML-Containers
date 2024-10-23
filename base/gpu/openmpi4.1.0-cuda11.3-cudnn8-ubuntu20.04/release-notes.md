@@ -1,5 +1,9 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
 
+:20241020.v1
+----------
+-[CVE-2024-48958] Released image to mitigate libarchive Vulnerability (USN-7070-1) (https://ubuntu.com/security/notices/USN-7070-1)
+
 :20240918.v1 
 ----------
 -[CVE-2024-6345] Released image to mitigate Set-uptools Vulnerability (USN-7002-1) (https://ubuntu.com/security/notices/USN-7002-1)
