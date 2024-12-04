@@ -1,3 +1,7 @@
+:20241202.v1
+-----------
+-[CVE-2024-9681] Released image to mitigate Curl Vulnerability (USN-7104-1) (https://ubuntu.com/security/notices/USN-7104-1)
+-[CVE-2024-52533] Released image to mitigate GLib Vulnerability (USN-7114-1) (https://ubuntu.com/security/notices/USN-7114-1)
 
 :20240908.v1
 -----------

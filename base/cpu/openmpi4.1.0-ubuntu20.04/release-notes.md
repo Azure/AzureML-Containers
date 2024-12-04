@@ -1,5 +1,10 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04 :
 
+:20241202.v1
+-----------
+-[CVE-2024-52533] Released image to mitigate GLib Vulnerability (USN-7114-1) (https://ubuntu.com/security/notices/USN-7114-1)
+-[CVE-2024-9287] Released image to mitigate Python Vulnerability (USN-7116-1) (https://ubuntu.com/security/notices/USN-7116-1)
+
 :20240908.v1
 -----------
 - Upgraded Cryptography to 43.0.1 (https://github.com/advisories/GHSA-h4gh-qq45-vh27)
