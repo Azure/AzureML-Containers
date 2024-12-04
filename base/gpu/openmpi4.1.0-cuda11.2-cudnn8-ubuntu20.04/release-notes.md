@@ -1,6 +1,6 @@
 -  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04 :
 
-:20241201.v1
+:20241202.v1
 -----------
 -[CVE-2021-40812] Released image to mitigate GD Graphics Library Vulnerability (USN-7112-1) (https://ubuntu.com/security/notices/USN-7112-1)
 -[CVE-2024-52533] Released image to mitigate GLib Vulnerability (USN-7114-1) (https://ubuntu.com/security/notices/USN-7114-1)
