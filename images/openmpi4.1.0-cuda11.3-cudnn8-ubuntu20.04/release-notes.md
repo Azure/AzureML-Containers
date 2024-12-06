@@ -1,4 +1,7 @@
--  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04 :
+**Note: Support for Ubuntu 20.04 images will be dropped starting January 2025**
+
+
+`docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.3-cudnn8-ubuntu20.04`
 
 :20241202.v1
 -----------
