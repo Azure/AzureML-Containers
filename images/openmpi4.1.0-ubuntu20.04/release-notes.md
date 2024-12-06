@@ -1,30 +1,19 @@
--  **Image Name**: docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.1-cudnn8-ubuntu20.04 :
+**Note: Support for Ubuntu 20.04 images will be dropped starting January 2025**
+
+
+`docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04`
 
 :20241202.v1
 -----------
--[CVE-2021-40812] Released image to mitigate GD Graphics Library Vulnerability (USN-7112-1) (https://ubuntu.com/security/notices/USN-7112-1)
 -[CVE-2024-52533] Released image to mitigate GLib Vulnerability (USN-7114-1) (https://ubuntu.com/security/notices/USN-7114-1)
 -[CVE-2024-9287] Released image to mitigate Python Vulnerability (USN-7116-1) (https://ubuntu.com/security/notices/USN-7116-1)
-
-:20241111.v1 
----------
--[CVE-2024-20696] Released image to mitigate libarchive Vulnerability (USN-7087-1) (https://ubuntu.com/security/notices/USN-7087-1)
-
-:20241020.v1
-----------
--[CVE-2024-48958] Released image to mitigate libarchive Vulnerability (USN-7070-1) (https://ubuntu.com/security/notices/USN-7070-1)
-
-:20240918.v1 
-----------
--[CVE-2024-6345] Released image to mitigate Set-uptools Vulnerability (USN-7002-1) (https://ubuntu.com/security/notices/USN-7002-1)
--[CVE-2024-7006] Released image to mitigate LibTIFF Vulnerability (USN-6997-1) (https://ubuntu.com/security/notices/USN-6997-1)
 
 :20240908.v1
 -----------
 - Upgraded Cryptography to 43.0.1 (https://github.com/advisories/GHSA-h4gh-qq45-vh27)
 
 :20240818.v1 
-----------
+-----------
 -[CVE-2024-37371] Released image to mitigate Kerberos Vulnerabilities (USN-6947-1) (https://ubuntu.com/security/notices/USN-6947-1)
 
 :20240806.v1 
@@ -52,15 +41,14 @@
 :20240528.v1
 -------------
 -[CVE-2024-35195] Upgraded Requests to 2.32.0 (https://github.com/advisories/GHSA-9wx4-h78v-vm56)
-
-  :20240510.v1
+  
+:20240510.v1
 -------------
 -[CVE-2024-34062] Upgraded tqdm to 4.66.3 (https://github.com/advisories/GHSA-g7vv-2v7x-gj9p)
 
 :20240429.v1
 ------------
 -[CVE-2024-2961] Released image to mitigate GNU C Library Vulnerability (USN-6737-1) (https://ubuntu.com/security/notices/USN-6737-1)
--[CVE-2024-28219] Released image to mitigate Pillow Vulnerability (USN-6744-1) (https://ubuntu.com/security/notices/USN-6744-1)
 
 :20240418.v1
 -------------
@@ -72,7 +60,7 @@
 -[CVE-2024-28906] Released image to mitigate Microsoft SQL Server ODBC and OLE DB Driver for SQL Server Multiple Vulnerabilities (https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-28906)
 
 :20240403.v1
---------------
+----------------
 -[CVE-2024-2004] Released image to mitigate curl Vulnerability (USN-6718-1) (https://ubuntu.com/security/notices/USN-6718-1)
 
 :20240304.v1
@@ -80,12 +68,10 @@
 - [CVE-2024-25062] Released image to mitigate libxml2 Vulnerability (USN-6658-1) (https://ubuntu.com/security/notices/USN-6658-1)
 - [CVE-2023-50782] Released image to mitigate OpenSSL Vulnerability (USN-6663-1) (https://ubuntu.com/security/notices/USN-6663-1)
 - [CVE-2022-48624] Released image to mitigate less Vulnerability (USN-6664-1) (https://ubuntu.com/security/notices/USN-6664-1)
-- [CVE-2024-24806] Released image to mitigate libuv Vulnerability (USN-6666-1) (https://ubuntu.com/security/notices/USN-6666-1)
-  
+
 :20240226.v1
 -------------
 - [CVE-2023-4641] Released image to mitigate Shadow Vulnerability (USN-6640-1) (https://ubuntu.com/security/notices/USN-6640-1)
-- [CVE-2023-6228] Released image to mitigate LibTIFF Vulnerability (USN-6644-1) (https://ubuntu.com/security/notices/USN-6644-1)
 - [CVE-2024-26130] Upgraded Cryptography to 42.0.4 (https://github.com/advisories/GHSA-6vqw-3v5j-54x4)
 
 :20240211.v1
@@ -93,18 +79,17 @@
 - [CVE-2023-2953] Released image to mitigate OpenLDAP Vulnerability (USN-6616-1) (https://ubuntu.com/security/notices/USN-6616-1)
 - [CVE-2023-6237] Released image to mitigate Open Secure Sockets Layer (OpenSSL) Vulnerability (USN-6622-1) (https://ubuntu.com/security/notices/USN-6622-1)
 - [CVE-2023-50782] Upgraded Cryptography to 42.0.0 (https://github.com/advisories/GHSA-3ww4-gg4f-jr7f)
-- [CVE-2023-44271] Released image to mitigate Pillow Vulnerability (USN-6618-1) (https://ubuntu.com/security/notices/USN-6618-1)
-
+  
 :20240123.v1
 --------------
 - [CVE-2024-22365] Released image to mitigate PAM Vulnerability (USN-6588-1) (https://ubuntu.com/security/notices/USN-6588-1)
 - [CVE-2022-47008] Released image to mitigate GNU binutils Vulnerability (USN-6581-1) (https://ubuntu.com/security/notices/USN-6581-1)
-
+  
 :20240109.v1
 --------------
 - [CVE-2021-41617] Released image to mitigate OpenSSH Vulnerability (USN-6565-1) (https://ubuntu.com/security/notices/USN-6565-1)
 - [CVE-2022-46908] Released image to mitigate SQLite Vulnerability (USN-6566-1) (https://ubuntu.com/security/notices/USN-6566-1)
-  
+
 :20231226.v1
 --------------
 - [CVE-2023-48795] Released image to mitigate OpenSSh Vulnerabilities (USN-6560-1) (https://ubuntu.com/security/notices/USN-6560-1)
@@ -113,20 +98,17 @@
 :20231216.v1 
 --------------
 - [CVE-2023-46219] Released image to mitigate curl vulnerability (USN-6535-1) (https://ubuntu.com/security/notices/USN-6535-1)
-- [CVE-2023-25155] Released image to mitigate Redis vulnerability (USN-6531-1)(https://ubuntu.com/security/notices/USN-6531-1)
 
- :20231215.v1 
+:20231215.v1 
 ---------------
 - [CVE-2023-46219] Released image to mitigate curl vulnerability (USN-6535-1) (https://ubuntu.com/security/notices/USN-6535-1)
 - [CVE-2023-4806]  Released image to mitigate GNU-C vulnerability (USN-6541-1)(https://ubuntu.com/security/notices/USN-6541-1)
-- [CVE-2023-39804] Released image to mitigate GNU Tar vulnerability(USN-6542-1)(https://ubuntu.com/security/notices/USN-6543-1)
 
 :20231130.v1
 ----------------
 - [CVE-2023-4016] Released image to mitigate procps-ng Vulnerability (USN-6477-1) (https://ubuntu.com/security/notices/USN-6477-1)
 - [CVE-2023-36054] Released image to mitigate Kerberos Vulnerability (USN-6467-2) (https://ubuntu.com/security/notices/USN-6467-2)
   
-
 :20231030.v1
 -----------------
 - Released image to mitigate Open Secure Sockets Layer (OpenSSL) Vulnerabilities (USN-6435-2) 
@@ -138,24 +120,21 @@
 
 :20231011.v1
 ------------------
-- Released image to mitigate libx11 Vulnerabilities (USN-6407-1)   (https://ubuntu.com/security/notices/USN-6407-1)
-- Upgraded urllib3 to 2.0.6(GHSA-v845-jxx5-vc9f)                   (https://github.com/advisories/GHSA-v845-jxx5-vc9f)
-- Released image to mitigate libXpm Vulnerabilities (USN-6408-1)   (https://ubuntu.com/security/notices/USN-6408-1)
-  
-:20231002.v1
-------------------
-- Upgraded cryptography to 41.0.4
+- Released image to mitigate libx11 Vulnerabilities (USN-6407-1)  (https://ubuntu.com/security/notices/USN-6407-1)
+- Upgraded urllib3 to 2.0.6(GHSA-v845-jxx5-vc9f)   (https://github.com/advisories/GHSA-v845-jxx5-vc9f)
 
+:20231002.v1
+-------------------
+- Upgraded cryptography to 41.0.4
 =======
-  
 :20230907.v1
 -------------------
 - Released image to mitigate openssh vulnerability - USN-6322-1
-  
 
+  
 :20230822.v1
 -------------------
-- Released image to mitigate openssh and libtiff5 vulnerabilities
+- Released image to mitigate openssh vulnerability - USN-6279-1
 
 :20230808.v1
 -------------------
@@ -164,7 +143,7 @@
 :20230727.v1
 -------------------
 - Upgraded cryptography to 41.0.2
-  
+
 :20230628.v1
 -------------------
 - Released image to mitigate vulnerabilities.
@@ -176,7 +155,6 @@ Upgraded miniconda and conda packages to resolve issues with broken conda
 :20230615.v1
 ------------------- 
 -  [CVE-2023-2650](https://github.com/advisories/GHSA-5cpq-8wj7-hf2v)
--  [CVE-2023-31484](https://ubuntu.com/security/notices/USN-6112-2)
 
 :20230608.v1
 ------------------- 
@@ -188,7 +166,7 @@ Upgraded miniconda and conda packages to resolve issues with broken conda
 
 :20230524.v1
 ------------------- 
-- [CVE-2023-2004](https://ubuntu.com/security/notices/USN-6062-1)
+-   released images to mitigate vulnerabilities.
 
 :20230509.v1
 ------------------- 
@@ -200,11 +178,12 @@ Upgraded miniconda and conda packages to resolve issues with broken conda
 
 :20230412.v1
 ------------------- 
-- [CVE-2022-31772](https://www.ibm.com/support/pages/node/6833806)
+- Released image to mitigate Vulnerabilities
 
 :20230324.v1
 ------------------- 
 -   [CVE-2021-36222](https://ubuntu.com/security/notices/USN-5959-1)
+-   [CVE-2022-3821](https://ubuntu.com/security/notices/USN-5928-1)
 
 :20230309.v1
 ------------------- 
@@ -212,9 +191,8 @@ Upgraded miniconda and conda packages to resolve issues with broken conda
 -   [CVE-2023-0361](https://ubuntu.com/security/notices/USN-5901-1)
 
 :20230227.v1
--------------------
--   **Dependencies** :
--	  [GHSA-5crp-9r3c-p9vr](https://github.com/advisories/GHSA-5crp-9r3c-p9vr)
+------------------- 
+-   [GHSA-5crp-9r3c-p9vr](https://github.com/advisories/GHSA-5crp-9r3c-p9vr)
 -   [CVE-2019-0657](https://github.com/advisories/GHSA-x5qj-9vmx-7g6g)
 -   [CVE-2019-0980](https://github.com/advisories/GHSA-xhfc-gr8f-ffwc)
 -   [CVE-2019-0981](https://github.com/advisories/GHSA-5f2m-466j-3848)
@@ -226,37 +204,26 @@ Upgraded miniconda and conda packages to resolve issues with broken conda
 
 
 :20230207.v1
--------------------
--   **Dependencies** :
--	  [CVE-2022-40897](https://ubuntu.com/security/notices/USN-5817-1)
+------------------- 
 -   [CVE-2022-41903](https://github.com/git/git/security/advisories/GHSA-475x-2q3q-hvwq)
 -   [CVE-2022-28321]( https://ubuntu.com/security/notices/USN-5825-1)
 -   [CVE-2022-42898](https://ubuntu.com/security/notices/USN-5828-1)
 
 
+
 :20230120.v1
 ------------------- 
 -   **Dependencies** :
+-   [CVE-2022-41916](https://ubuntu.com/security/notices/USN-5766-1)
 -   [CVE-2022-47629](https://ubuntu.com/security/notices/USN-5787-1)
 
 - Upgraded wheel and setuptools  
-- released images to mitigate Libksba vulnerability.
+- released images to mitigate heimdal and vulnerabilities.
 
-:20230103.v1
-------------------- 
--   **Dependencies** :
--    [CVE-2022-38533](https://ubuntu.com/security/notices/USN-5762-1)
--    [CVE-2022-41916](https://ubuntu.com/security/notices/USN-5766-1)
 
-- released images to mitigate GNU binutils and heimdal vulnerabilities.
-
-:20221222.v1
-------------------- 
--   **Dependencies** :
--   [CVE-2013-4235](https://ubuntu.com/security/notices/USN-5745-1)
--   [CVE-2022-38533](https://ubuntu.com/security/notices/USN-5762-1)
-
--   released image to mitigate passwd, login, uidmap, and libwind0-heimdal vunerabilities.
+20221222.v1
+-------------------
+-   released images to mitigate vulnerabilities.
 
 :20221214.v2
 ------------------- 
@@ -266,33 +233,31 @@ Upgraded miniconda and conda packages to resolve issues with broken conda
   
 - released images to mitigate uidmap, and certifi(pip) vulnerabilities.
 
-:20221129.v1
+
+20221129.v1
 ------------------- 
 -   **Dependencies** :
 -   [CVE-2022-43680]( https://ubuntu.com/security/notices/USN-5638-3) 
 -   [CVE-2022-40674]( https://ubuntu.com/security/notices/USN-5638-2)
 -   [CVE-2022-41741]( https://ubuntu.com/security/notices/USN-5722-1)
 -   [CVE-2022-35737]( https://ubuntu.com/security/notices/USN-5716-1)
--   [CVE-2022-2869](https://ubuntu.com/security/notices/USN-5714-1)
--   [CVE-2017-9937](https://ubuntu.com/security/notices/USN-5742-1)
 
-- released images to mitigate expat, sqlite, ngnix, libtiff, jbig-kit vulnerabilities
-
+- released images to mitigate expat, sqlite and ngnix vulnerabilities
 
 :20221101.v1
 ------------------- 
-- released images to mitigate vulnerabilities.
+-   **Dependencies** :
+-   [CVE-2021-43618](https://ubuntu.com/security/notices/USN-5672-1) 
+
+- released images to mitigate GMP vulnerabilities.
 
 :20221010.v1
 ------------------- 
--   **Dependencies** :
--  [CVE-2021-20223](https://ubuntu.com/security/notices/USN-5615-1)
--  [CVE-2022-1586](https://ubuntu.com/security/notices/USN-5627-1) 
-
-- released images to mitigate sqlite3, libpcre2-8-0 vulnerabilities.
+- released images to mitigate libpcre2-8-0 vulnerabilities.
 
 :20220930.v1
 ------------------- 
+
 - released images to mitigate vulnerabilities and conda upgrade with 4.12.0 version.
 
 :20220915.v1
@@ -307,57 +272,53 @@ Upgraded miniconda and conda packages to resolve issues with broken conda
 
 :20220815.v1
 ------------------- 
--   **Dependencies** :
+-   **Dependencies** : 
+-   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
+-   [CVE-2016-3709](https://ubuntu.com/security/notices/USN-5548-1)
 
--  [CVE-2016-3709](https://ubuntu.com/security/notices/USN-5548-1)
-
-- released images to mitigate libgnutls30 Vulnerability
+- released images to mitigate libgnutls30, e2fsck-static, fuse2fs and E2fsprogs Vulnerabilities.
 
 :20220729.v1
 ------------------- 
--   **Dependencies** :
+-   **Dependencies** : 
+-   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1)  
 
--   [CVE-2019-20838](https://ubuntu.com/security/notices/USN-5425-1) 
--   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5446-1)
--   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
--   [CVE-2022-2068](https://ubuntu.com/security/notices/USN-5488-1) 
--   [CVE-2022-32208](https://ubuntu.com/security/notices/USN-5495-1)
-
-- released images to mitigate GnuPG, PCRE, dpkg, OpenSSL,curl, libcurl3-nss, e2fsck-static, e2fsck-static, gnupg2, gnupg, libdpkg-perl, gpg, libpcre3, and E2fsprogs Vulnerabilities
+- released images to mitigate e2fsck-static, fuse2fs and E2fsprogs Vulnerabilities.
 
 :20220714.v1
 ------------------- 
 -   **Dependencies** :
-
 -   [CVE-2019-20838](https://ubuntu.com/security/notices/USN-5425-1) 
--   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5446-1)
+-   [CVE-2022-1664](https://ubuntu.com/security/noties/USN-5446-1) 
 -   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
 -   [CVE-2022-2068](https://ubuntu.com/security/notices/USN-5488-1) 
--   [CVE-2022-32208](https://ubuntu.com/security/notices/USN-5495-1)
+-   [CVE-2022-32208](https://ubuntu.com/security/notices/USN-5495-1)  
 
-- released images to mitigate GnuPG, PCRE, dpkg, OpenSSL,curl, libcurl3-nss, e2fsck-static, e2fsck-static, gnupg2, gnupg, libdpkg-perl, gpg, libpcre3, and E2fsprogs Vulnerabilities
+- released images to mitigate OpenSSL, PCRE, CURL, dpkg, e2fsck-static, fuse2fs and E2fsprogs Vulnerabilities.
 
 :20220708.v1
 ------------------- 
 -   **Dependencies** :
-
 -   [CVE-2019-20838](https://ubuntu.com/security/notices/USN-5425-1) 
--   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5446-1)
+-   [CVE-2022-1664](https://ubuntu.com/security/noties/USN-5446-1) 
 -   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
 -   [CVE-2022-2068](https://ubuntu.com/security/notices/USN-5488-1) 
--   [CVE-2022-32208](https://ubuntu.com/security/notices/USN-5495-1)
+-   [CVE-2022-32208](https://ubuntu.com/security/notices/USN-5495-1)  
 
-- released images to mitigate PCRE, dpkg, OpenSSL, CURL and E2fsprogs Vulnerabilities.
+- released images to mitigate OpenSSL, PCRE, CURL, dpkg and E2fsprogs Vulnerabilities.
+
 
 :20220616.v1
 ------------------- 
 -   **Dependencies** :
 
+-   [CVE-2022-29824](https://ubuntu.com/security/notices/USN-5422-1) 
 -   [CVE-2020-14155](https://ubuntu.com/security/notices/USN-5425-1) 
--   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5464-1)
--   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1) 
+-   [CVE-2022-29155](https://ubuntu.com/security/notices/USN-5424-1) 
+-   [CVE-2022-1664](https://ubuntu.com/security/notices/USN-5464-1) 
+-   [CVE-2022-1304](https://ubuntu.com/security/notices/USN-5464-1)  
 
-- released images to mitigate PCRE, dpkg and E2fsprogs Vulnerabilities.
+- released images to mitigate libxml2,PCRE, OpenLDAP dpkg and E2fsprogs Vulnerabilities.
 
 :20220601.v1
 ------------------- 
@@ -376,41 +337,40 @@ Upgraded miniconda and conda packages to resolve issues with broken conda
 ------------------- 
 
 -   **Dependencies** :
-
--   [CVE-2018-25032](https://ubuntu.com/security/notices/USN-5355-1)
+  
 -   [CVE-2022-24765](https://ubuntu.com/security/notices/USN-5376-1)
 -   [CVE-2022-1271](https://ubuntu.com/security/notices/USN-5378-1)
 -   [CVE-2022-1271](https://ubuntu.com/security/notic[es/USN-5378-2)
--   [CVE-2019-18276](https://ubuntu.com/security/notices/USN-5380-1)  
+-   [CVE-2019-18276](https://ubuntu.com/security/notices/USN-5380-1) 
+    
+     - released images to mitigate latest versions of Git, Gzip, Xz utils, and Bash Vulnerabilities.
 
-     - released images to mitigate latest versions of Zlib, Git, Gzip, Xz utils, Bash Vulnerabilities.
+:20220418.v1
+------------------- 
 
-:20220412.v1  
+- released image with new python assets chnages.
 
--------------------  
--   **Dependencies** :
-
--   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1)
--   [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1)
--   [CVE-2018-25032](https://ubuntu.com/security/notices/USN-5355-1)
--   [CVE-2022-23218](https://ubuntu.com/security/notices/USN-5310-1)
--   [CVE-2022-24407](https://ubuntu.com/security/notices/USN-5301-1)
--   [CVE-2022-25310](https://ubuntu.com/security/notices/USN-5366-1)
- 
-     - released images to mitigate latest versions of tar,openssl,zlib,gnu,cyrus and fribidi Vulnerabilities.
-
-:20220329.v1
+:20220412.v1 
 ------------------- 
 
 -   **Dependencies** :
+  
+-   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1) 
+-   [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1)
+-   [CVE-2022-0391](https://ubuntu.com/security/notices/USN-5342-1)
+-   [CVE-2018-25032](https://ubuntu.com/security/notices/USN-5355-1)
+    
+     - released images to mitigate latest versions of tar ,openssl, pythonlib and zlib Vulnerabilities.
 
--  [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1)
--  [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1)
--  [CVE-2022-23218](https://ubuntu.com/security/notices/USN-5310-1)
--  [CVE-2022-23219](https://ubuntu.com/security/notices/USN-5332-1)
--  [CVE-2022-24407](https://ubuntu.com/security/notices/USN-5332-1) 
+:20220329.v1 
+------------------- 
 
-     - released images to mitigate latest versions of tar,openssl,GNU,Bind and Cyrus SASL Vulnerabilities.
+-   **Dependencies** :
+  
+-   [CVE-2021-20193](https://ubuntu.com/security/notices/USN-5329-1) 
+-   [CVE-2022-0778](https://ubuntu.com/security/notices/USN-5328-1) 
+
+     - released images to mitigate latest versions of tar and openssl Vulnerabilities.
 
 :20220314.v1
 -------------------
@@ -420,17 +380,17 @@ Upgraded miniconda and conda packages to resolve issues with broken conda
  -   [CVE-2020-6096](https://ubuntu.com/security/notices/USN-5310-1)
 
      - released images to mitigate GNU C Library vulnerabilities.
-
+ 
 :20220303.v1
 -------------------
 
 -   **Dependencies** : 
 
- -   [CVE-2018-7169](https://ubuntu.com/security/notices/USN-5254-1)
  -   [CVE-2022-24407](https://ubuntu.com/security/notices/USN-5301-1)
+ -   [CVE-2021-45960](https://ubuntu.com/security/notices/USN-5288-1)
 
-     - released images to mitigate shadow  - cyrus sasl  vulnerabilities.
- 
+     - released images to expat shadow and cyrus sasl  - system login tools vulnerabilities.
+
 :20220218.v1
 -------------------
 
@@ -482,9 +442,9 @@ Upgraded miniconda and conda packages to resolve issues with broken conda
  -   **Dependencies** : 
 
  -   [CVE-2020-21913](https://ubuntu.com/security/notices/USN-5133-1)
- -   
+
      - released images to mitigate ICU vulnerabilities.
-     - 
+
 :20211124.v1
 -------------------
 
@@ -536,13 +496,10 @@ Upgraded miniconda and conda packages to resolve issues with broken conda
  -   [CVE-2021-22945](https://ubuntu.com/security/notices/USN-5079-3)
  -   [CVE-2021-22946](https://ubuntu.com/security/notices/USN-5079-3)
  -   [CVE-2021-22947](https://ubuntu.com/security/notices/USN-5079-3)
- -   [CVE-2021-33560](https://ubuntu.com/security/notices/USN-5080-1)
- -   [CVE-2021-40528](https://ubuntu.com/security/notices/USN-5080-1)
   
-     - Added libcurl3-nss,libgcrypt20 and libgd3 packages in dockerfile to mitigate vulnerabilities.
+     - Added libcurl3-nss and libgd3 packages in dockerfile to mitigate vulnerabilities.
 
 : 20211001.v1
 -------------------
 
-- Released Ubuntu20.04 GPU image.
-  
+- Released ubuntu20.04 CPU image.
