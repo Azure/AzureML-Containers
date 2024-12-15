@@ -1,3 +1,5 @@
+`docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu22.04`
+
 :20241202.v1
 -----------
 -[CVE-2024-9681] Released image to mitigate Curl Vulnerability (USN-7104-1) (https://ubuntu.com/security/notices/USN-7104-1)
