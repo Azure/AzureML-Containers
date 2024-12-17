@@ -2,6 +2,10 @@
 
 `docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.6-cudnn8-ubuntu20.04`
 
+:20241215.v1
+-----------
+-[CVE-2024-50602] Released image to mitigate Expat vulnerability (USN-7145-1) (https://ubuntu.com/security/notices/USN-7145-1)
+
 :20241202.v1
 -----------
 -[CVE-2021-40812] Released image to mitigate GD Graphics Library Vulnerability (USN-7112-1) (https://ubuntu.com/security/notices/USN-7112-1)
