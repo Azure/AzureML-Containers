@@ -1,7 +1,10 @@
 **Note: Support for Ubuntu 20.04 images will be dropped starting January 2025**
 
-
 `docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04`
+
+:20241215.v1
+-----------
+-[CVE-2024-50602] Released image to mitigate Expat vulnerability (USN-7145-1) (https://ubuntu.com/security/notices/USN-7145-1)
 
 :20241202.v1
 -----------
