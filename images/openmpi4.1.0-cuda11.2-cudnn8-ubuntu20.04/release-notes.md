@@ -1,4 +1,4 @@
-**Note: Support for Ubuntu 20.04 images will be dropped starting January 2025**
+**Note: Deprecated**
 
 `docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.2-cudnn8-ubuntu20.04`
 
