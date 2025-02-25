@@ -1,5 +1,10 @@
 `docker pull mcr.microsoft.com/azureml/openmpi5.0-cuda12.5-ubuntu22.04`
 
+:20250224.v1 
+-----------
+-[CVE-2025-26465] Released image to mitigate OpenSSH Vulnerabilities (USN-7270-1) (https://ubuntu.com/security/notices/USN-7270-1)
+-[CVE-2024-12133] Released image to mitigate libtasn Vulnerability (USN-7275-1) (https://ubuntu.com/security/notices/USN-7275-1)
+
 :20250217.v1
 ----------
 -[CVE-2024-12797] Upgraded Cryptography to 44.0.1 (https://github.com/advisories/GHSA-79v4-65xg-pq4g)
