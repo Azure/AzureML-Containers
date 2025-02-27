@@ -1,5 +1,9 @@
 `docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu22.04`
 
+:20250225.v1
+-----------
+-[CVE-2024-12133] Released image to mitigate libtasn Vulnerability (USN-7275-1) (https://ubuntu.com/security/notices/USN-7275-1)
+
 :20250224.v1 
 -----------
 -[CVE-2025-26465] Released image to mitigate OpenSSH Vulnerabilities (USN-7270-1) (https://ubuntu.com/security/notices/USN-7270-1)
