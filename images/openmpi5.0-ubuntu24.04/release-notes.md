@@ -1,5 +1,11 @@
 `docker pull mcr.microsoft.com/azureml/openmpi5.0-ubuntu24.04`
 
+:20250303.v1
+----------
+-[CVE-2025-0840] Released image to mitigate GNU binutils Vulnerabilities (USN-7306-1) (https://ubuntu.com/security/notices/USN-7306-1)
+-[CVE-2024-12243] Released image to mitigate GnuTLS Vulnerability (USN-7281-1) (https://ubuntu.com/security/notices/USN-7281-1)
+-[CVE-2024-12133] Released image to mitigate Libtasn1 Vulnerability (USN-7275-2) (https://ubuntu.com/security/notices/USN-7275-2)
+
 :20250217.v1
 ----------
 -[CVE-2024-12797] Upgraded Cryptography to 44.0.1 (https://github.com/advisories/GHSA-79v4-65xg-pq4g)
