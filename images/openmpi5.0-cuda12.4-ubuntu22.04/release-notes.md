@@ -1,5 +1,9 @@
 `docker pull mcr.microsoft.com/azureml/openmpi5.0-cuda12.4-ubuntu22.04`
 
+:20250303.v1
+----------
+-[CVE-2025-0840] Released image to mitigate GNU binutils Vulnerabilities (USN-7306-1) (https://ubuntu.com/security/notices/USN-7306-1)
+
 :20250224.v1 
 -----------
 -[CVE-2025-26465] Released image to mitigate OpenSSH Vulnerabilities (USN-7270-1) (https://ubuntu.com/security/notices/USN-7270-1)
