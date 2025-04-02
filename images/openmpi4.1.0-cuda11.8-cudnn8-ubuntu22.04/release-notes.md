@@ -1,5 +1,9 @@
 `docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu22.04`
 
+:20250331.v1
+----------
+-[CVE-2025-1365] Released image to mitigate elfutils Vulnerability (USN-7369-1) (https://ubuntu.com/security/notices/USN-7369-1)
+
 :20250303.v1
 ----------
 -[CVE-2025-0840] Released image to mitigate GNU binutils Vulnerabilities (USN-7306-1) (https://ubuntu.com/security/notices/USN-7306-1)
