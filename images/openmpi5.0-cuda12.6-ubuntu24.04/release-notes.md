@@ -1,5 +1,9 @@
 `docker pull mcr.microsoft.com/azureml/openmpi5.0-cuda12.6-ubuntu24.04`
 
+:20250407.v1
+----------
+-[CVE-2025-23419] Released image to mitigate nginx Vulnerability (USN-7285-2) (https://ubuntu.com/security/notices/USN-7285-2)
+
 :20250331.v1
 ----------
 -[CVE-2025-1365] Released image to mitigate elfutils Vulnerability (USN-7369-1) (https://ubuntu.com/security/notices/USN-7369-1)
