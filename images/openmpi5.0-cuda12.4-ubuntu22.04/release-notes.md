@@ -1,5 +1,9 @@
 `docker pull mcr.microsoft.com/azureml/openmpi5.0-cuda12.4-ubuntu22.04`
 
+:20250414.v1
+----------
+-[CVE-2024-8176] Released image to mitigate Expat Vulnerability (USN-7424-1) (https://ubuntu.com/security/notices/USN-7424-1)
+
 :20250331.v1
 ----------
 -[CVE-2025-1365] Released image to mitigate elfutils Vulnerability (USN-7369-1) (https://ubuntu.com/security/notices/USN-7369-1)
