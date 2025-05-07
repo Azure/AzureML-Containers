@@ -1,5 +1,9 @@
 `docker pull mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu22.04`
 
+:20250505.v1
+----------
+-[CVE-2025-32415] Released image to mitigate libxml2 Vulnerability (USN-7467-1) (https://ubuntu.com/security/notices/USN-7467-1)
+
 :20250414.v1
 ----------
 -[CVE-2024-8176] Released image to mitigate Expat Vulnerability (USN-7424-1) (https://ubuntu.com/security/notices/USN-7424-1)
