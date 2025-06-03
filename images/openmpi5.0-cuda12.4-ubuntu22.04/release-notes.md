@@ -1,5 +1,10 @@
 `docker pull mcr.microsoft.com/azureml/openmpi5.0-cuda12.4-ubuntu22.04`
 
+:20250601.v1
+---------
+-[CVE-2025-4802] Released image to mitigate GNU C Library Vulnerability (USN-7541-1) (https://ubuntu.com/security/notices/USN-7541-1)
+-[CVE-2025-3576] Released image to mitigate Kerberos Vulnerability (USN-7542-1) (https://ubuntu.com/security/notices/USN-7542-1)
+
 :20250527.v1
 ----------
 -[CVE-2025-3277] Released image to mitigate SQLite Vulnerabilities (USN-7528-1) (https://ubuntu.com/security/notices/USN-7528-1)
