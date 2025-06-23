@@ -1,5 +1,10 @@
 `docker pull mcr.microsoft.com/azureml/openmpi5.0-cuda12.5-ubuntu22.04`
 
+:20250619.v1
+---------
+-[CVE-2025-4598] Released image to mitigate Systemd Vulnerability (USN-7559-1) (https://ubuntu.com/security/notices/USN-7559-1)
+-[CVE-2024-47081] Upgraded Requests to 2.32.4 (https://github.com/advisories/GHSA-9hjg-9r4m-mvj7)
+
 :20250601.v1
 ---------
 -[CVE-2025-4802] Released image to mitigate GNU C Library Vulnerability (USN-7541-1) (https://ubuntu.com/security/notices/USN-7541-1)
