@@ -1,5 +1,9 @@
 `docker pull mcr.microsoft.com/azureml/openmpi5.0-ubuntu24.04`
 
+:20250624.v1
+---------
+-[CVE-2025-6020] Released image to mitigate PAM Vulnerability (USN-7580-1) (https://ubuntu.com/security/notices/USN-7580-1)
+
 :20250619.v1
 ---------
 -[CVE-2025-4598] Released image to mitigate Systemd Vulnerability (USN-7559-1) (https://ubuntu.com/security/notices/USN-7559-1)
