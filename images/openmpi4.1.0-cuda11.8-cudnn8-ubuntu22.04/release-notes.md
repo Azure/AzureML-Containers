@@ -1,5 +1,9 @@
 `docker pull mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu22.04`
 
+:20250701.v1
+---------
+-[CVE-2025-5914] Released new build to mitigate libarchive vulnerability (USN-7601-1) (https://ubuntu.com/security/notices/USN-7601-1)
+
 :20250619.v1
 ---------
 -[CVE-2025-4598] Released image to mitigate Systemd Vulnerability (USN-7559-1) (https://ubuntu.com/security/notices/USN-7559-1)
