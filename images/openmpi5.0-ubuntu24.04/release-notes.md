@@ -1,5 +1,10 @@
 `docker pull mcr.microsoft.com/azureml/openmpi5.0-ubuntu24.04`
 
+
+:20250701.v1
+---------
+-[CVE-2025-5914] Released new build to mitigate libarchive vulnerability (USN-7601-1) (https://ubuntu.com/security/notices/USN-7601-1)
+
 :20250624.v1
 ---------
 -[CVE-2025-6020] Released image to mitigate PAM Vulnerability (USN-7580-1) (https://ubuntu.com/security/notices/USN-7580-1)
