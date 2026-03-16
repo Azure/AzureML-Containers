@@ -12,5 +12,17 @@ Base images are published to the Microsoft Container Registry (MCR) under the az
 ## Compatibility and Support
 AzureML does not guarantee backward compatibility. Images are provided “as-is” with a minimal set of installed packages to support most AzureML scenarios. AzureML images can be deprecated at any time without notice for security or compliance reasons. All released image versions remain available after the deprecation date, but no new versions will be released. Typically, images are supported until the corresponding Ubuntu end-of-life.
 
+## Supported Images
+
+| Image | Ubuntu | Capabilities |
+|-------|--------|-------------|
+| openmpi4.1.0-ubuntu22.04 | 22.04 | OpenMPI 4.1.0, Miniconda (py310), msodbcsql17 |
+| openmpi5.0-ubuntu24.04 | 24.04 | OpenMPI 5.0.6, Miniconda (py310) |
+| openmpi5.0-cuda12.4-ubuntu22.04 | 22.04 | OpenMPI 5.0.6, CUDA 12.4.1, cuDNN, Miniconda (py310) |
+| openmpi5.0-cuda12.5-ubuntu22.04 | 22.04 | OpenMPI 5.0.6, CUDA 12.5.1, cuDNN, Miniconda (py310) |
+| openmpi5.0-cuda12.6-ubuntu24.04 | 24.04 | OpenMPI 5.0.6, CUDA 12.6.3, cuDNN, Miniconda (py310) |
+| openmpi5.0-cuda12.8-ubuntu24.04 | 24.04 | OpenMPI 5.0.6, CUDA 12.8.1, cuDNN, Miniconda (py310) |
+| openmpi5.0-cuda13.1-ubuntu24.04 | 24.04 | OpenMPI 5.0.6, CUDA 13.1.1, cuDNN, Miniconda (py310) |
+
 ## Custom Containers
 Users are not limited to using AzureML base images. Most AzureML scenarios support custom containers, allowing for greater flexibility and customization.
